@@ -131,16 +131,16 @@ input[type=checkbox]:checked ~ .custom-checkbox{
   }
 }
 .error{
-  color: $color-danger;
+  color: $color-error;
     textarea,
     input[type='text'],
     input[type='email'],
     input[type='url'],
     input[type='password']{
-    border: 1px solid $color-danger;
-    color: $color-danger;
+    border: 1px solid $color-error;
+    color: $color-error;
   }
   .input-prefix{
-  background-color: $color-danger;
+  background-color: $color-error;
   }
 }

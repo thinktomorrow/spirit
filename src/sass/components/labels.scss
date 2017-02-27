@@ -1,0 +1,67 @@
+$dot-size: 5px;
+
+.label{
+    padding: 0.25rem 0.5rem;
+    display: inline-block;
+    font-size: smaller;
+    position: relative;
+    border-radius: $dot-size;
+    &::before{
+      border-style: solid;
+      border-width: $dot-size*2 $dot-size*2 $dot-size*2 0;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &::after{
+      position: absolute;
+      width: $dot-size;
+      height: $dot-size;
+      border-radius: 50%;
+      background-color: $color-white;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+}
+.label--right{
+  &::before{
+    content:'';
+    left: -($dot-size*2);
+  }
+  &::after{
+    content:'';
+    left: -($dot-size - 1px);
+  }
+}
+.label--left{
+  &::before{
+    content:'';
+    right: -($dot-size*2);
+    transform: translateY(-50%) scale(-1);
+  }
+  &::after{
+    content:'';
+    right: -($dot-size - 1px);
+  }
+}
+.label ~ .label{
+  margin-left: 1rem;
+}
+
+
+$label-name: primary secundary success warning error information;
+$colors: $color-primary $color-secundary $color-success $color-warning $color-error $color-information;;
+
+@each $label in $label-name{
+  $i: index($label-name, $label);
+  // GET YOUR COLOR FROM THE nth-PLACE ON THE LIST
+    $color: nth($colors, $i);
+    .label--#{$label}{
+      background-color: $color;
+      color: $color-white;
+      border: 1px solid $color;
+      &::before{
+        border-color: transparent $color transparent transparent;
+      }
+    }
+}

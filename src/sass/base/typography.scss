@@ -1,9 +1,11 @@
 h1,h2,h3,h4,h5{
   font-family: $font-family-serif;
+  color: $color-heading
 }
 body,
 p{
   font-family: $font-family-sans-serif;
+  color: $color-body
 }
 ol li{
   list-style: inherit;

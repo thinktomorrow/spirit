@@ -4,27 +4,30 @@
   <h2>Brand colors</h2>
   <div class="row gutter">
     <div class="column color-block box">
-      <div class="primary inset-l"></div>
+      <div class="bg-primary inset-l"></div>
       <div class="content inset">
+        <label class="font-xs subtle">SCSS</label>
         <span>$paint-primary<span>
+        <label class="font-xs subtle">HEX</label>
         <span>#fdce04</span>
-        <span>rgb(84, 158, 255)</span>
       </div>
     </div>
     <div class="column color-block box">
-      <div class="secundary inset-l"></div>
+      <div class="bg-secundary inset-l"></div>
       <div class="content inset">
+        <label class="font-xs subtle">SCSS</label>
         <span>$paint-secundary</span>
+        <label class="font-xs subtle">HEX</label>
         <span>#39323a</span>
-        <span>rgb(84, 158, 255)</span>
       </div>
     </div>
     <div class="column color-block box">
-      <div class="tertiary inset-l"></div>
+      <div class="bg-tertiary inset-l"></div>
       <div class="content inset">
+        <label class="font-xs subtle">SCSS</label>
         <span>$paint-tertiary</span>
+        <label class="font-xs subtle">HEX</label>
         <span>#ec3853</span>
-        <span>rgb(86, 35, 130)</span>
       </div>
     </div>
   </div>
@@ -32,21 +35,30 @@
   <h2>Typography colors</h2>
   <div class="row gutter">
     <div class="column color-block box">
-      <div class="heading inset-l"></div>
+      <div class="bg-heading inset-l"></div>
       <div class="content inset">
-        $heading
+        <label class="font-xs subtle">SCSS</label>
+          <span>$heading</span>
+          <label class="font-xs subtle">HEX</label>
+          <span>#aeaze</span>
       </div>
     </div>
     <div class="column color-block box">
-      <div class="body inset-l"></div>
+      <div class="bg-body inset-l"></div>
       <div class="content inset">
-        $body
+        <label class="font-xs subtle">SCSS</label>
+          <span>$body</span>
+          <label class="font-xs subtle">HEX</label>
+          <span>#aeaze</span>
       </div>
     </div>
     <div class="column color-block box">
-      <div class="border inset-l"></div>
+      <div class="bg-border inset-l"></div>
       <div class="content inset">
-        $border
+        <label class="font-xs subtle">SCSS</label>
+          <span>$border</span>
+          <label class="font-xs subtle">HEX</label>
+          <span>#aeaze</span>
       </div>
     </div>
   </div>
@@ -54,36 +66,80 @@
   <h2>Neutral colors</h2>
   <div class="row gutter">
       <div class="column color-block box">
-        <div class="subtle inset-l"></div>
+        <div class="bg-subtle inset-l"></div>
         <div class="content inset">
-          $subtle
+          <label class="font-xs subtle">SCSS</label>
+            <span>$subtle</span>
+            <label class="font-xs subtle">HEX</label>
+            <span>#aeaze</span>
         </div>
         </div>
       <div class="column color-block box">
-        <div class="dark inset-l"></div>
+        <div class="bg-dark inset-l"></div>
         <div class="content inset">
-          $dark
+          <label class="font-xs subtle">SCSS</label>
+            <span>$dark</span>
+            <label class="font-xs subtle">HEX</label>
+            <span>#aeaze</span>
         </div>
         </div>
       <div class="column color-block box">
-        <div class="white inset-l"></div>
+        <div class="bg-white inset-l"></div>
         <div class="content inset">
-          $white
+          <label class="font-xs subtle">SCSS</label>
+            <span>$white</span>
+            <label class="font-xs subtle">HEX</label>
+            <span>#aeaze</span>
         </div>
         </div>
       <div class="column color-block box">
-        <div class="black inset-l"></div>
+        <div class="bg-black inset-l"></div>
         <div class="content inset">
-          $black
+          <label class="font-xs subtle">SCSS</label>
+            <span>$black</span>
+            <label class="font-xs subtle">HEX</label>
+            <span>#aeaze</span>
         </div>
         </div>
   </div>
 
   <h2>Message colors</h2>
-  <div class="row">
-    <div class="column inset color-block success">$succes</div>
-    <div class="column inset color-block warning">$warning</div>
-    <div class="column inset color-block danger">$danger</div>
-    <div class="column inset color-block information">$information</div>
+  <div class="row gutter">
+    <div class="column color-block box">
+      <div class="bg-success inset-l"></div>
+      <div class="content inset">
+        <label class="font-xs subtle">SCSS</label>
+        <span>$succes</span>
+        <label class="font-xs subtle">HEX</label>
+        <span>#aeaze</span>
+    </div>
+    </div>
+    <div class="column color-block box">
+      <div class="bg-warning inset-l"></div>
+      <div class="content inset">
+        <label class="font-xs subtle">SCSS</label>
+        <span>$warning</span>
+        <label class="font-xs subtle">HEX</label>
+        <span>#aeaze</span>
+    </div>
+    </div>
+    <div class="column color-block box">
+      <div class="bg-error inset-l"></div>
+      <div class="content inset">
+        <label class="font-xs subtle">SCSS</label>
+        <span>$error</span>
+        <label class="font-xs subtle">HEX</label>
+        <span>#aeaze</span>
+    </div>
+    </div>
+    <div class="column color-block box">
+      <div class="bg-information inset-l"></div>
+      <div class="content inset">
+        <label class="font-xs subtle">SCSS</label>
+        <span>$information</span>
+        <label class="font-xs subtle">HEX</label>
+        <span>#aeaze</span>
+    </div>
+    </div>
   </div>
 </section>

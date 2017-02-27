@@ -17,27 +17,33 @@
 
   <h2>Labels</h2>
   <hr>
-  <span class="label label--success">Collaborator</span>
-  <span class="label label--warning">Connection timeout</span>
-  <span class="label label--danger">Error</span>
-  <span class="label label--information">Information</span>
-  <span class="label label--primary">Primary</span>
-
-  <h2>Labels</h2>
+  <div>
+    <label class="label label--success">Collaborator label</label>
+    <label class="label label--warning">Connection timeout label</label>
+    <label class="label label--error">Error label</label>
+    <label class="label label--information">Information label</label>
+    <label class="label label--primary">Primary label</label>
+  </div>
+  <div>
+    <p>Position of the label</p>
+    <label class="label label--right label--primary">Right label</label>
+    <label class="label label--left label--primary">Left label</label>
+  </div>
+  <h2>Notifications</h2>
   <hr>
-  <div class="alert alert--success">
+  <div class="alert stack alert--success">
     <span class="alert__copy">Success</span>
   </div>
-  <div class="alert alert--warning">
+  <div class="alert stack alert--warning">
     <span class="alert__copy">Warning</span>
   </div>
-  <div class="alert alert--danger">
+  <div class="alert stack alert--error">
     <span class="alert__copy">Danger</span>
   </div>
-  <div class="alert alert--information">
+  <div class="alert stack alert--information">
     <span class="alert__copy">You are awesome</span>
   </div>
-  <div class="alert alert--primary">
+  <div class="alert stack alert--primary">
     <span class="alert__copy">Yes, yes, you are!</span>
   </div>
 

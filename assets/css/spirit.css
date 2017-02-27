@@ -32,11 +32,13 @@ code.sans-serif:after {
 
 h1, h2, h3, h4, h5 {
   font-family: "Droid Serif";
+  color: #323b43;
 }
 
 body,
 p {
   font-family: "Montserrat";
+  color: #59626a;
 }
 
 ol li {
@@ -115,6 +117,160 @@ a.btn {
   background-color: #562382 !important;
   color: white;
   border: 1px solid #562382;
+}
+
+.label {
+  padding: 0.25rem 0.5rem;
+  display: inline-block;
+  font-size: smaller;
+  position: relative;
+  border-radius: 5px;
+}
+
+.label::before {
+  border-style: solid;
+  border-width: 10px 10px 10px 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.label::after {
+  position: absolute;
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.label--right::before {
+  content: '';
+  left: -10px;
+}
+
+.label--right::after {
+  content: '';
+  left: -4px;
+}
+
+.label--left::before {
+  content: '';
+  right: -10px;
+  -webkit-transform: translateY(-50%) scale(-1);
+  transform: translateY(-50%) scale(-1);
+}
+
+.label--left::after {
+  content: '';
+  right: -4px;
+}
+
+.label ~ .label {
+  margin-left: 1rem;
+}
+
+.label--primary {
+  background-color: #fdce04;
+  color: #ffffff;
+  border: 1px solid #fdce04;
+}
+
+.label--primary::before {
+  border-color: transparent #fdce04 transparent transparent;
+}
+
+.label--secundary {
+  background-color: #562382;
+  color: #ffffff;
+  border: 1px solid #562382;
+}
+
+.label--secundary::before {
+  border-color: transparent #562382 transparent transparent;
+}
+
+.label--success {
+  background-color: #27ae60;
+  color: #ffffff;
+  border: 1px solid #27ae60;
+}
+
+.label--success::before {
+  border-color: transparent #27ae60 transparent transparent;
+}
+
+.label--warning {
+  background-color: #f39c12;
+  color: #ffffff;
+  border: 1px solid #f39c12;
+}
+
+.label--warning::before {
+  border-color: transparent #f39c12 transparent transparent;
+}
+
+.label--error {
+  background-color: #c0392b;
+  color: #ffffff;
+  border: 1px solid #c0392b;
+}
+
+.label--error::before {
+  border-color: transparent #c0392b transparent transparent;
+}
+
+.label--information {
+  background-color: #34495e;
+  color: #ffffff;
+  border: 1px solid #34495e;
+}
+
+.label--information::before {
+  border-color: transparent #34495e transparent transparent;
+}
+
+.alert {
+  padding: 1rem;
+  display: block;
+  border-radius: 5px;
+}
+
+.alert.alert__copy {
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.alert--primary {
+  background-color: rgba(253, 206, 4, 0.3);
+  border: 1px solid #fdce04;
+}
+
+.alert--secundary {
+  background-color: rgba(86, 35, 130, 0.3);
+  border: 1px solid #562382;
+}
+
+.alert--success {
+  background-color: rgba(39, 174, 96, 0.3);
+  border: 1px solid #27ae60;
+}
+
+.alert--warning {
+  background-color: rgba(243, 156, 18, 0.3);
+  border: 1px solid #f39c12;
+}
+
+.alert--error {
+  background-color: rgba(192, 57, 43, 0.3);
+  border: 1px solid #c0392b;
+}
+
+.alert--information {
+  background-color: rgba(52, 73, 94, 0.3);
+  border: 1px solid #34495e;
 }
 
 textarea,
@@ -307,60 +463,116 @@ input[type=checkbox]:checked ~ .custom-checkbox:after {
   display: block;
 }
 
-.primary {
+.bg-primary {
   background-color: #fdce04;
 }
 
-.secundary {
+.bg-secundary {
   background-color: #562382;
 }
 
-.tertiary {
+.bg-tertiary {
   background-color: #ec3853;
 }
 
-.dark {
+.bg-dark {
   background-color: #231f20;
 }
 
-.white {
+.bg-white {
   background-color: #ffffff;
 }
 
-.black {
+.bg-black {
   background-color: #000000;
 }
 
-.border {
+.bg-border {
   background-color: #ced7df;
 }
 
-.heading {
+.bg-heading {
   background-color: #323b43;
 }
 
-.body {
+.bg-body {
   background-color: #59626a;
 }
 
-.subtle {
+.bg-subtle {
   background-color: #a0a098;
 }
 
-.success {
+.bg-success {
   background-color: #27ae60;
 }
 
-.warning {
+.bg-warning {
   background-color: #f39c12;
 }
 
-.danger {
+.bg-error {
   background-color: #c0392b;
 }
 
-.information {
+.bg-information {
   background-color: #34495e;
+}
+
+.primary {
+  color: #fdce04;
+}
+
+.secundary {
+  color: #562382;
+}
+
+.tertiary {
+  color: #ec3853;
+}
+
+.dark {
+  color: #231f20;
+}
+
+.white {
+  color: #ffffff;
+}
+
+.black {
+  color: #000000;
+}
+
+.border {
+  color: #ced7df;
+}
+
+.heading {
+  color: #323b43;
+}
+
+.body {
+  color: #59626a;
+}
+
+.subtle {
+  color: #a0a098;
+}
+
+.success {
+  color: #27ae60;
+}
+
+.warning {
+  color: #f39c12;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.information {
+  color: #34495e;
 }
 
 /* Mobile means everything smaller than desktop */
