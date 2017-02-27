@@ -107,6 +107,18 @@ a.btn {
   border: 1px solid #fdce04;
 }
 
+.btn-o-primary {
+  background-color: #fdce04;
+  color: #ffffff;
+  border: 1px solid #fdce04;
+}
+
+.btn-o-primary:hover, .btn-o-primary:focus, .btn-o-primary:active, .btn-o-primary.active {
+  background-color: transparent !important;
+  color: #fdce04;
+  border: 1px solid #fdce04;
+}
+
 .btn-secundary {
   background-color: transparent;
   color: #562382;
@@ -116,6 +128,18 @@ a.btn {
 .btn-secundary:hover, .btn-secundary:focus, .btn-secundary:active, .btn-secundary.active {
   background-color: #562382 !important;
   color: white;
+  border: 1px solid #562382;
+}
+
+.btn-o-secundary {
+  background-color: #562382;
+  color: #ffffff;
+  border: 1px solid #562382;
+}
+
+.btn-o-secundary:hover, .btn-o-secundary:focus, .btn-o-secundary:active, .btn-o-secundary.active {
+  background-color: transparent !important;
+  color: #562382;
   border: 1px solid #562382;
 }
 
@@ -183,6 +207,12 @@ a.btn {
   border-color: transparent #fdce04 transparent transparent;
 }
 
+.label-o--primary {
+  background-color: transparent;
+  color: #fdce04;
+  border: 1px solid #fdce04;
+}
+
 .label--secundary {
   background-color: #562382;
   color: #ffffff;
@@ -191,6 +221,12 @@ a.btn {
 
 .label--secundary::before {
   border-color: transparent #562382 transparent transparent;
+}
+
+.label-o--secundary {
+  background-color: transparent;
+  color: #562382;
+  border: 1px solid #562382;
 }
 
 .label--success {
@@ -203,6 +239,12 @@ a.btn {
   border-color: transparent #27ae60 transparent transparent;
 }
 
+.label-o--success {
+  background-color: transparent;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+
 .label--warning {
   background-color: #f39c12;
   color: #ffffff;
@@ -211,6 +253,12 @@ a.btn {
 
 .label--warning::before {
   border-color: transparent #f39c12 transparent transparent;
+}
+
+.label-o--warning {
+  background-color: transparent;
+  color: #f39c12;
+  border: 1px solid #f39c12;
 }
 
 .label--error {
@@ -223,6 +271,12 @@ a.btn {
   border-color: transparent #c0392b transparent transparent;
 }
 
+.label-o--error {
+  background-color: transparent;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+}
+
 .label--information {
   background-color: #34495e;
   color: #ffffff;
@@ -231,6 +285,12 @@ a.btn {
 
 .label--information::before {
   border-color: transparent #34495e transparent transparent;
+}
+
+.label-o--information {
+  background-color: transparent;
+  color: #34495e;
+  border: 1px solid #34495e;
 }
 
 .alert {

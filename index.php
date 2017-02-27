@@ -31,6 +31,7 @@
   <?php include('views/colorscheme.php') ?>
   <?php include('views/typography.php') ?>
   <?php include('views/components.php') ?>
+  <?php include('views/iconography.php') ?>
   <?php // include('views/forms.php') ?>
 
   <footer class="inset">

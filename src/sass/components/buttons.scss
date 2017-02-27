@@ -18,6 +18,7 @@ a.btn{
 .btn ~ .btn{
   margin-left: 1rem;
 }
+
 .btn-link{
   color: $color-primary;
   &:hover{
@@ -40,6 +41,16 @@ $colors: $color-primary $color-secundary;
         &:hover, &:focus, &:active, &.active{
           background-color: $color!important;
           color: white;
+          border: 1px solid $color;
+        }
+    }
+    .btn-o-#{$button}{
+      background-color: $color;
+      color: $color-white;
+      border: 1px solid $color;
+        &:hover, &:focus, &:active, &.active{
+          background-color: transparent!important;
+          color: $color;
           border: 1px solid $color;
         }
     }
