@@ -1,0 +1,50 @@
+aside{
+  width: 200px;
+  position: fixed;
+  bottom: 0; top: 0; left:0;
+  border-right: 1px solid #ccc;
+}
+main{
+  margin-left: 200px;
+}
+aside header{
+  width: 100%;
+  background-color: #ccc;
+  height: 150px;
+  position: relative;
+}
+aside header img {
+  width: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  opacity: 0.3;
+}
+.box{
+  border: 1px solid #ccc;
+}
+hr{
+  border: 0;
+  height: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.nav__item{
+  border-bottom: 1px solid #ccc;
+}
+footer{
+  text-align: center;
+}
+::selection{
+  background-color: #ccc;
+  color: #FFF;
+}
+code{
+  background-color: #ececec;
+  padding: 1px 5px;
+}
+code:after{
+  content: '';
+  display: inline-block;
+}

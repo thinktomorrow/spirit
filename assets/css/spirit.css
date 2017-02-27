@@ -1,0 +1,368 @@
+@charset "UTF-8";
+/*
+ | ----------------------------------------------------------------
+ | Base settings
+ | ----------------------------------------------------------------
+ |
+ | Afhankelijk van de fonts die je kiest kan je hieronder de font-size definiëren.
+ | Zo ben je zeker van een deftige font-rendering.
+ |
+ */
+@import "https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat:300";
+body {
+  font-size: 16px;
+}
+
+/*
+  | ----------------------------------------------------------------
+  | Typography
+  | ----------------------------------------------------------------
+  |
+  | Met google fonts kan je twee fonts inladen.
+  | Best is dat je een serif en sans-serif font kiest.
+  |
+  */
+code.serif:after {
+  content: "Droid Serif";
+}
+
+code.sans-serif:after {
+  content: "Montserrat";
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Droid Serif";
+}
+
+body,
+p {
+  font-family: "Montserrat";
+}
+
+ol li {
+  list-style: inherit;
+}
+
+blockquote {
+  padding: 1.2em;
+  background: #e9e9e8;
+  border-left: 2px solid #a368d6;
+}
+
+code {
+  display: inline-block;
+  background: #e9e9e8;
+  border: 1px solid #ced7df;
+  padding: 1rem;
+}
+
+a {
+  color: #fdce04;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+.btn {
+  padding: 1rem 2rem;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+
+.btn.btn-s {
+  padding: 0.5rem 1rem;
+}
+
+.btn.btn-lg {
+  padding: 2rem 4rem;
+}
+
+.btn ~ .btn {
+  margin-left: 1rem;
+}
+
+.btn-link {
+  color: #fdce04;
+}
+
+.btn-link:hover {
+  color: #fdce04;
+  text-decoration: underline;
+}
+
+.btn-primary {
+  background-color: transparent;
+  color: #fdce04;
+  border: 1px solid #fdce04;
+}
+
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active {
+  background-color: #fdce04 !important;
+  color: white;
+  border: 1px solid #fdce04;
+}
+
+.btn-secundary {
+  background-color: transparent;
+  color: #562382;
+  border: 1px solid #562382;
+}
+
+.btn-secundary:hover, .btn-secundary:focus, .btn-secundary:active, .btn-secundary.active {
+  background-color: #562382 !important;
+  color: white;
+  border: 1px solid #562382;
+}
+
+textarea,
+select,
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='number'],
+input[type='search'],
+input[type='phone'],
+input[type='password'],
+input[type='file'],
+.custom-file-input {
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+}
+
+textarea:focus,
+select:focus,
+input[type='text']:focus,
+input[type='email']:focus,
+input[type='url']:focus,
+input[type='number']:focus,
+input[type='search']:focus,
+input[type='phone']:focus,
+input[type='password']:focus,
+input[type='file']:focus,
+.custom-file-input:focus {
+  box-shadow: 0 0 5px #a0a098;
+  border: 1px solid #a0a098;
+  outline: none;
+}
+
+select {
+  padding: 0.75rem;
+  height: 2.5em;
+  background-color: white;
+}
+
+.custom-file {
+  position: relative;
+}
+
+input[type='file'] {
+  opacity: 0;
+}
+
+.custom-file-input {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 0.75rem 0.25rem;
+}
+
+.custom-file-input::before {
+  content: 'Kies uw bestand';
+}
+
+.custom-file-input::after {
+  content: 'Browse';
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  padding: 0.75rem;
+  border-left: 1px solid #a0a098;
+  background-color: #e9e9e8;
+}
+
+.input-group-prefix {
+  position: relative;
+}
+
+.input-group-prefix .input-prefix {
+  position: absolute;
+  height: 100%;
+  color: #ffffff;
+  text-align: center;
+  background-color: #a0a098;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 0.75rem;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+
+.input-group-prefix input {
+  padding-left: calc(0.75rem * 4);
+}
+
+input[type=radio],
+input[type=checkbox] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+
+input[type=radio]:checked ~ .custom-radiobutton,
+input[type=checkbox]:checked ~ .custom-checkbox {
+  background-color: #fdce04;
+  border: 2px solid #fdce04;
+  box-shadow: inset 0 0 0 2px white;
+}
+
+input[type=radio]:checked ~ .custom-radiobutton:after,
+input[type=checkbox]:checked ~ .custom-checkbox:after {
+  background: white;
+}
+
+.custom-checkbox,
+.custom-radiobutton {
+  display: block;
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+  pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+}
+
+.custom-checkbox::after,
+.custom-radiobutton::after {
+  content: '';
+  display: block;
+  width: 25%;
+  height: 25%;
+  background: transparent;
+  margin: 50% 0 0 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.custom-radiobutton {
+  border-radius: 50%;
+}
+
+.custom-radiobutton::after {
+  border-radius: 50%;
+}
+
+.valid {
+  color: #27ae60;
+}
+
+.valid textarea,
+.valid input[type='text'],
+.valid input[type='email'],
+.valid input[type='url'],
+.valid input[type='password'] {
+  border: 1px solid #27ae60;
+  color: #27ae60;
+}
+
+.valid .input-prefix {
+  background-color: #27ae60;
+}
+
+.error {
+  color: #c0392b;
+}
+
+.error textarea,
+.error input[type='text'],
+.error input[type='email'],
+.error input[type='url'],
+.error input[type='password'] {
+  border: 1px solid #c0392b;
+  color: #c0392b;
+}
+
+.error .input-prefix {
+  background-color: #c0392b;
+}
+
+.color-scheme .color-block {
+  color: #231f20;
+}
+
+.color-scheme .color-block span {
+  display: block;
+}
+
+.primary {
+  background-color: #fdce04;
+}
+
+.secundary {
+  background-color: #562382;
+}
+
+.tertiary {
+  background-color: #ec3853;
+}
+
+.dark {
+  background-color: #231f20;
+}
+
+.white {
+  background-color: #ffffff;
+}
+
+.black {
+  background-color: #000000;
+}
+
+.border {
+  background-color: #ced7df;
+}
+
+.heading {
+  background-color: #323b43;
+}
+
+.body {
+  background-color: #59626a;
+}
+
+.subtle {
+  background-color: #a0a098;
+}
+
+.success {
+  background-color: #27ae60;
+}
+
+.warning {
+  background-color: #f39c12;
+}
+
+.danger {
+  background-color: #c0392b;
+}
+
+.information {
+  background-color: #34495e;
+}
+
+/* Mobile means everything smaller than desktop */
+
+/*# sourceMappingURL=spirit.css.map */

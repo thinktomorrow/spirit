@@ -1,0 +1,46 @@
+
+a.btn{
+    text-decoration: none;
+}
+.btn{
+    padding: 1rem 2rem;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    cursor: pointer;
+    &.btn-s{
+      padding: 0.5rem 1rem;
+    }
+    &.btn-lg{
+      padding: 2rem 4rem;
+    }
+}
+
+.btn ~ .btn{
+  margin-left: 1rem;
+}
+.btn-link{
+  color: $color-primary;
+  &:hover{
+    color: $color-primary;
+    text-decoration: underline;
+  }
+}
+
+$button-name: primary secundary;
+$colors: $color-primary $color-secundary;
+
+@each $button in $button-name{
+  $i: index($button-name, $button);
+  // GET YOUR COLOR FROM THE nth-PLACE ON THE LIST
+    $color: nth($colors, $i);
+    .btn-#{$button}{
+      background-color: transparent;
+      color: $color;
+      border: 1px solid $color;
+        &:hover, &:focus, &:active, &.active{
+          background-color: $color!important;
+          color: white;
+          border: 1px solid $color;
+        }
+    }
+}

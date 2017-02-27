@@ -1,0 +1,146 @@
+textarea,
+select,
+input[type='text'],
+input[type='email'],
+input[type='url'],
+input[type='number'],
+input[type='search'],
+input[type='phone'],
+input[type='password'],
+input[type='file'],
+.custom-file-input{
+  width: 100%;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+  &:focus{
+    box-shadow: 0 0 5px $color-subtle;
+    border: 1px solid $color-subtle;
+    outline: none;
+  }
+}
+select{
+  padding: 0.75rem;
+  height: 2.5em;
+  background-color: white;
+}
+
+.custom-file{
+  position: relative;
+}
+input[type='file']{
+  opacity: 0;
+}
+.custom-file-input{
+  position: absolute;
+  width: 100%;
+  top: 0;
+  padding: 0.75rem 0.25rem;
+  &::before{
+    content: 'Kies uw bestand';
+  }
+  &::after{
+    content: 'Browse';
+    position: absolute;
+    right: 0; top: 0;
+    height: 100%;
+    padding: 0.75rem;
+    border-left: 1px solid $color-subtle;
+    background-color: lighten($color-subtle, 30%);
+  }
+}
+
+.input-group-prefix{
+  position: relative;
+  .input-prefix{
+    position: absolute;
+    height: 100%;
+    color: $color-white;
+    text-align: center;
+    background-color: $color-subtle;
+    display: flex;
+    align-items: center;
+    padding: 0.75rem;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+  }
+  input{
+    padding-left: calc(0.75rem * 4);
+  }
+}
+
+// RADIOS AND CHECKBOXES
+
+input[type=radio],
+input[type=checkbox]{
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+}
+input[type=radio]:checked ~ .custom-radiobutton,
+input[type=checkbox]:checked ~ .custom-checkbox{
+  background-color: $color-primary;
+  border: 2px solid $color-primary;
+  box-shadow: inset 0 0 0 2px white;
+  &:after{
+    background: white;
+  }
+}
+.custom-checkbox,
+.custom-radiobutton{
+  display: block;
+  float: left;
+  width: 1rem;
+  height: 1rem;
+  margin-right: 0.25rem;
+  pointer-events: none;
+  user-select: none;
+  background-color: #ddd;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50% 50%;
+  &::after{
+    content: '';
+    display: block;
+    width: 25%;
+    height: 25%;
+    background: transparent;
+    margin: 50% 0 0 50%;
+    transform: translate(-50%,-50%);
+  }
+}
+.custom-radiobutton{
+  border-radius: 50%;
+  &::after{
+    border-radius: 50%;
+  }
+}
+
+// ERRORS AND VALIDS
+.valid{
+  color: $color-success;
+    textarea,
+    input[type='text'],
+    input[type='email'],
+    input[type='url'],
+    input[type='password']{
+    border: 1px solid $color-success;
+    color: $color-success;
+  }
+  .input-prefix{
+  background-color: $color-success;
+  }
+}
+.error{
+  color: $color-danger;
+    textarea,
+    input[type='text'],
+    input[type='email'],
+    input[type='url'],
+    input[type='password']{
+    border: 1px solid $color-danger;
+    color: $color-danger;
+  }
+  .input-prefix{
+  background-color: $color-danger;
+  }
+}
