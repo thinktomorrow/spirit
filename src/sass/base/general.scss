@@ -2,3 +2,12 @@ a{
   color: $color-primary;
 }
 
+header{
+  background: $color-primary;
+  width: 100%;
+}
+
+::selection{
+  background-color: $color-secundary;
+  color: $color-white;
+}

@@ -62,6 +62,21 @@ a {
   color: #fdce04;
 }
 
+header {
+  background: #fdce04;
+  width: 100%;
+}
+
+::-moz-selection {
+  background-color: #562382;
+  color: #ffffff;
+}
+
+::selection {
+  background-color: #562382;
+  color: #ffffff;
+}
+
 a.btn {
   text-decoration: none;
 }

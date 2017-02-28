@@ -13,12 +13,19 @@
     <link rel="stylesheet" href="assets/vendor/warpaint.css">
 
 </head>
+<!-- - buffer.com/style-guide#buttons
+- initiele opzet met designers
+- presentatie klant -->
 <body>
-  - buffer.com/style-guide#buttons
-  - initiele opzet met designers
-  - presentatie klant
-  <aside>
-    <header><img src="assets/svg/logo.svg" alt="Spirit"></header>
+  <div class="row text-center">
+    <header class="squished-xl">
+      <img src="assets/svg/logo.svg" alt="Spirit">
+      <h1 class="first">Spirit</h1>
+      <p class="first">your frontend toolkit</p>
+    </header>
+  </div>
+<div class="container row">
+  <aside class="column-3">
     <div class="nav__item inset"> Colors </div>
     <div class="nav__item inset"> Typography </div>
     <div class="nav__item inset"> Components </div> <!-- Buttons and Labels -->
@@ -26,7 +33,7 @@
     <div class="nav__item inset"> Notifications </div> <!-- pusher.github.io/chameleon -->
     <div class="nav__item inset"> Iconography </div>
   </aside>
-  <main>
+  <main class="column-9">
 
   <?php include('views/colorscheme.php') ?>
   <?php include('views/typography.php') ?>
@@ -38,5 +45,6 @@
     &copy; <?php print(date('Y')) ?> - Spirit
   </footer>
 </main>
+</div>
 </body>
 </html>
