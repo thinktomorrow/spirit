@@ -1,4 +1,7 @@
-<section class="container stack-l forms">
+<section class="stack-l forms">
+  <h1>Form elements</h1>
+  <hr>
+
   <h2>Input fields</h2>
   <div class="input-group stack">
     <label for="text">Text Input</label>
@@ -19,7 +22,7 @@
   <div class="input-group stack">
     <label for="text">Text Input</label>
     <div class="input-group-prefix">
-      <span class="input-prefix">@</span>
+      <span class="input-prefix"><i class="icon icon-mail"></i></span>
       <input id="text" class="input inset-s" placeholder="Text input" type="email" required>
     </div>
     <small class="caption">Note about this field</small>
@@ -27,7 +30,7 @@
   <div class="input-group stack valid">
     <label for="text">Valid Text Input</label>
     <div class="input-group-prefix ">
-      <span class="input-prefix">@</span>
+      <span class="input-prefix"><i class="icon icon-mail"></i></span>
       <input id="text" class="input inset-s" placeholder="Text input" type="email" required>
     </div>
     <small class="caption">Note about this field</small>
@@ -35,7 +38,7 @@
   <div class="input-group stack error">
     <label for="text">Error Text Input</label>
     <div class="input-group-prefix">
-      <span class="input-prefix">@</span>
+      <span class="input-prefix"><i class="icon icon-mail"></i></span>
       <input id="text" class="input inset-s" placeholder="Text input" type="email" required>
     </div>
     <small class="caption">Note about this field</small>

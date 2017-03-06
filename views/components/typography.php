@@ -1,4 +1,4 @@
-<section class="container stack-l typography">
+<section class="stack-l typography">
   <h1>Typography</h1>
   <hr>
   <p>Er zijn twee core fonts: <code class="sans-serif"></code> en <code class="serif"></code> </p>

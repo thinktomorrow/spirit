@@ -2,13 +2,16 @@
 Your branding style guide.
 
 - color schemes https://marvelapp.com/styleguide/design/color-scheme
-- Typography
-- Form Elements
+- Typography: ok
+- Form Elements: ok
+- Panels/cards: ok
 - Tables
-- Panels/cards
 - Dialogs/modals
 - Helper Classes
 
+- buffer.com/style-guide#buttons
+- initiele opzet met designers
+- presentatie klant
 
 
 ## Quick start
