@@ -1,7 +1,7 @@
 // PANELS
 .panel{
   border:1px solid transparent;
-  border-radius: 5px;
+  border-radius: $border-radius;
 }
 
 $panel-name: default primary secundary success warning error information;

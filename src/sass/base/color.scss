@@ -2,9 +2,9 @@ $color-primary:       #fdce04 !default;
 $color-secundary:     #562382 !default;
 $color-tertiary:      #ec3853 !default;
 
-$color-heading:       #323b43 !default;
-$color-body:          #59626a !default;
-$color-border:        #ced7df !default;
+$color-heading:       #323b43 !default; // Used for titles
+$color-body:          #59626a !default; // Used for paragraph text
+$color-border:        #ced7df !default; // Used for borders
 
 $color-subtle:        #a0a098 !default;
 $color-dark:          #231f20 !default;

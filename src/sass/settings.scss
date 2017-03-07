@@ -24,10 +24,11 @@ body{
 $font-family-serif:        "Droid Serif";
 $font-family-sans-serif:   "Montserrat";
 
-
 code.serif:after{
   content:$font-family-serif;
 }
 code.sans-serif:after{
   content:$font-family-sans-serif;
 }
+
+$border-radius: 5px;
