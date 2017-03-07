@@ -1,16 +1,29 @@
+// FOR THE STYLEGUIDE
+code.serif:after{
+  content:$font-family-serif;
+}
+code.sans-serif:after{
+  content:$font-family-sans-serif;
+}
+
+// LINK COLORS
 a{
   color: $color-primary;
 }
+
 
 header{
   background: $color-primary;
   width: 100%;
 }
 
+// SELECTION COLORS
 ::selection{
   background-color: $color-secundary;
   color: $color-white;
 }
+
+// THUMBNAILS
 .thumbnail{
   display: block;
   padding: 4px;
