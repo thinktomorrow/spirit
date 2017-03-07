@@ -85,6 +85,11 @@ header {
   border-radius: 5px;
 }
 
+.raised,
+.--raised {
+  box-shadow: 0 16px 38px -12px rgba(35, 31, 32, 0.36), 0 4px 25px 0px rgba(35, 31, 32, 0.08), 0 8px 10px -5px rgba(35, 31, 32, 0.08);
+}
+
 a.btn {
   text-decoration: none;
 }
@@ -869,6 +874,11 @@ input[type=checkbox]:checked ~ .custom-checkbox:after {
 
 .information {
   color: #34495e;
+}
+
+.raised,
+.--raised {
+  box-shadow: 0 16px 38px -12px rgba(35, 31, 32, 0.36), 0 4px 25px 0px rgba(35, 31, 32, 0.08), 0 8px 10px -5px rgba(35, 31, 32, 0.08);
 }
 
 /* Mobile means everything smaller than desktop */

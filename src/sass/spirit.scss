@@ -4,6 +4,7 @@
 @import "base/typography.scss";
 @import "base/general.scss";
 
+@import "elements/utilities.scss";
 @import "components/buttons.scss";
 @import "components/labels.scss";
 @import "components/badges.scss";
@@ -13,5 +14,6 @@
 @import "forms/input-fields.scss";
 
 @import "elements/color-scheme.scss";
+@import "elements/utilities.scss";
 
 @import "mixins/mediaqueries.scss";

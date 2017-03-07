@@ -10,11 +10,12 @@
   <div class="nav__item inset"> Thumbnails </div>
 </aside>
 <article class="column-9">
-  <?php include('views/components/colorscheme.php') ?>
-  <?php include('views/components/typography.php') ?>
-  <?php nclude('views/components/components.php') ?>
-  <?php include('views/components/iconography.php') ?>
-  <?php include('views/components/forms.php') ?>
-  <?php include('views/components/panels.php') ?>
-  <?php include('views/components/thumbnails.php') ?>
+  <?php // include('views/components/colorscheme.php') ?>
+  <?php // include('views/components/typography.php') ?>
+  <?php //include('views/components/components.php') ?>
+  <?php // include('views/components/iconography.php') ?>
+  <?php // include('views/components/forms.php') ?>
+  <?php // include('views/components/panels.php') ?>
+  <?php //include('views/components/thumbnails.php') ?>
+  <?php include('views/components/tables.php') ?>
 </article>
