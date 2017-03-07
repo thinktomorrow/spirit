@@ -75,15 +75,14 @@
     <span class="alert__btn">Ok, got it</span>
   </div>
 
-
-    <h2>Badges</h2>
-    <div class="stack">
-      <p class="label label--primary"><span class="badge badge-left">4</span>Label with badge</p>
-      <p class="label label--primary">Label with badge <span class="badge badge-right">4</span></p>
-    </div>
-    <div class="stack">
-      <a class="btn btn-o-primary"><span class="badge badge-left">4</span>Button with badge</a>
-      <a class="btn btn-o-secundary">Button with badge<span class="badge badge-right">4</span></a>
-    </div>
+  <h2>Badges</h2>
+  <div class="stack">
+    <p class="label label--primary"><span class="badge badge-left">4</span>Label with badge</p>
+    <p class="label label--primary">Label with badge <span class="badge badge-right">4</span></p>
+  </div>
+  <div class="stack">
+    <a class="btn btn-o-primary"><span class="badge badge-left">4</span>Button with badge</a>
+    <a class="btn btn-o-secundary">Button with badge<span class="badge badge-right">4</span></a>
+  </div>
 
 </section>

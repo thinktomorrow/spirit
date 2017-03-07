@@ -1,0 +1,24 @@
+.navbar{
+  ul,ol{
+  float: left;
+  li{
+    float: left;
+    list-style: none;
+    }
+  }
+}
+
+.nav-pills-primary li{
+  background-color: $color-primary;
+  border-radius: $border-radius;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  a{
+    color: $color-white;
+    text-decoration: none;
+  }
+  &:hover{
+    background-color: darken($color-primary, 5%);
+    @extend .raised;
+  }
+}
