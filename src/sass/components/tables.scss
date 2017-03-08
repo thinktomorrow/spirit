@@ -7,13 +7,17 @@ thead{
   text-align: left;
  tr{
   background-color: transparent!important;
+  color: $color-body!important;
+  }
 }
+tr:hover{
+  background-color: $color-table;
 }
 th,
 td{
   padding: 0.375rem 0.75rem; //same padding as squished
   text-align: left;
-  border-bottom: 1px solid $color-black;
+  border-bottom: 1px solid $color-table;
  }
 }
 
@@ -27,7 +31,15 @@ td{
    .table-striped-#{$table}{
      //border: 1px solid $color;
      tr:nth-child(odd){
-       background-color: rgba($color, 0.5);
+       background-color: rgba($color, 0.25);
+       color: darken($color,20%);
+     }
+     tr:nth-child(even){
+       color: darken($color,20%);
+     }
+     tr:hover{
+       background-color: $color;
+       color: $color-white;
      }
      th,
      td{

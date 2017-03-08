@@ -1,4 +1,13 @@
 @charset "UTF-8";
+@import "https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat:300";
+.navbar .inline-xs:first-child,
+.navbar .inline-s:first-child,
+.navbar .inline-m, .navbar .inline:first-child,
+.navbar .inline-l:first-child,
+.navbar .inline-x:first-child {
+  margin-left: 0;
+}
+
 /*
  | ----------------------------------------------------------------
  | Base settings
@@ -8,7 +17,6 @@
  | Zo ben je zeker van een deftige font-rendering.
  |
  */
-@import "https://fonts.googleapis.com/css?family=Droid+Serif|Montserrat:300";
 body {
   font-size: 16px;
 }
@@ -78,6 +86,7 @@ header {
 }
 
 .raised, .nav-pills-primary li:hover,
+.nav-pills-secundary li:hover, .dropdown-menu li a:hover,
 .--raised {
   box-shadow: 0 16px 38px -12px rgba(35, 31, 32, 0.36), 0 4px 25px 0px rgba(35, 31, 32, 0.08), 0 8px 10px -5px rgba(35, 31, 32, 0.08);
 }
@@ -597,17 +606,32 @@ table thead {
 
 table thead tr {
   background-color: transparent !important;
+  color: #59626a !important;
+}
+
+table tr:hover {
+  background-color: #dddddd;
 }
 
 table th,
 table td {
   padding: 0.375rem 0.75rem;
   text-align: left;
-  border-bottom: 1px solid #000000;
+  border-bottom: 1px solid #dddddd;
 }
 
 .table-striped-default tr:nth-child(odd) {
-  background-color: rgba(221, 221, 221, 0.5);
+  background-color: rgba(221, 221, 221, 0.25);
+  color: #aaaaaa;
+}
+
+.table-striped-default tr:nth-child(even) {
+  color: #aaaaaa;
+}
+
+.table-striped-default tr:hover {
+  background-color: #dddddd;
+  color: #ffffff;
 }
 
 .table-striped-default th,
@@ -616,7 +640,17 @@ table td {
 }
 
 .table-striped-primary tr:nth-child(odd) {
-  background-color: rgba(253, 206, 4, 0.5);
+  background-color: rgba(253, 206, 4, 0.25);
+  color: #9a7d01;
+}
+
+.table-striped-primary tr:nth-child(even) {
+  color: #9a7d01;
+}
+
+.table-striped-primary tr:hover {
+  background-color: #fdce04;
+  color: #ffffff;
 }
 
 .table-striped-primary th,
@@ -625,7 +659,17 @@ table td {
 }
 
 .table-striped-secundary tr:nth-child(odd) {
-  background-color: rgba(86, 35, 130, 0.5);
+  background-color: rgba(86, 35, 130, 0.25);
+  color: #210d32;
+}
+
+.table-striped-secundary tr:nth-child(even) {
+  color: #210d32;
+}
+
+.table-striped-secundary tr:hover {
+  background-color: #562382;
+  color: #ffffff;
 }
 
 .table-striped-secundary th,
@@ -642,21 +686,118 @@ table td {
   list-style: none;
 }
 
+.nav-pills {
+  text-align: center;
+}
+
 .nav-pills-primary li {
   background-color: #fdce04;
+}
+
+.nav-pills-primary li:hover {
+  background-color: #fdd31d;
+}
+
+.nav-pills-secundary li {
+  background-color: #562382;
+}
+
+.nav-pills-secundary li:hover {
+  background-color: #632896;
+}
+
+.nav-pills-primary li,
+.nav-pills-secundary li {
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
 }
 
-.nav-pills-primary li a {
+.nav-pills-primary li a,
+.nav-pills-secundary li a {
   color: #ffffff;
   text-decoration: none;
 }
 
-.nav-pills-primary li:hover {
-  background-color: #e6bb02;
+.nav-pills .icon {
+  display: block;
+  font-size: 2em;
+  padding: 1rem 0;
+}
+
+.dropdown {
+  position: relative;
+  z-index: 1;
+}
+
+.dropdown .dropdown-menu {
+  -webkit-transition: all 150ms linear;
+  transition: all 150ms linear;
+  margin-top: -20px;
+  opacity: 0;
+  visibility: hidden;
+  display: block;
+}
+
+.dropdown .dropdown-menu.open {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 1px;
+}
+
+.dropdown:hover .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+  margin-top: 1px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 2;
+  padding-left: 0;
+  float: left;
+  min-width: 160px;
+  -webkit-background-clip: padding-box;
+  border: 1px solid #ced7df;
+  border-radius: 5px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.dropdown-menu li {
+  width: 100%;
+}
+
+.dropdown-menu li.dropdown-header {
+  color: #a0a098;
+  font-size: 0.750em;
+  padding: 0.75em 2em;
+}
+
+.dropdown-menu li a {
+  display: block;
+  font-size: 0.875em;
+  text-decoration: none;
+  padding: 0.75em 2em;
+  margin: 0 0.25em;
+  line-height: 1.5;
+  color: #333;
+  white-space: nowrap;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #fdce04;
+  color: #9a7d01;
+  border-radius: 5px;
+}
+
+.dropdown-menu li.divider {
+  margin: 5px 0;
+  border-top: 1px dotted #a0a098;
+  width: 100%;
 }
 
 textarea,
