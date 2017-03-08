@@ -31,7 +31,7 @@
     </tr>
   </tbody>
 </table>
-<table class="stack table table-default">
+<table class="stack table table-striped-default">
   <thead>
     <tr>
       <th>#</th>
@@ -62,7 +62,7 @@
   </tbody>
 </table>
 
-<table class="stack table table-primary">
+<table class="stack table table-striped-primary">
   <thead>
     <tr>
       <th>#</th>
@@ -93,7 +93,7 @@
   </tbody>
 </table>
 
-<table class="stack table table-secundary">
+<table class="stack table table-striped-secundary">
   <thead>
     <tr>
       <th>#</th>

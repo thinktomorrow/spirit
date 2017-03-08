@@ -3,16 +3,19 @@ table{
   border-radius: $border-radius;
   border-collapse: separate;
   border-spacing: 0;
-}
 thead{
   text-align: left;
+ tr{
+  background-color: transparent!important;
+}
 }
 th,
 td{
   padding: 0.375rem 0.75rem; //same padding as squished
   text-align: left;
-  border-bottom: 1px solid $color-subtle;
+  border-bottom: 1px solid $color-black;
  }
+}
 
  $table-name: default primary secundary;
  $colors: $color-table $color-primary $color-secundary;
@@ -21,19 +24,14 @@ td{
  $i: index($table-name, $table);
  // GET YOUR COLOR FROM THE nth-PLACE ON THE LIST
    $color: nth($colors, $i);
-   .table-#{$table}{
-     border: 1px solid $color;
-     thead{
-       background-color: $color;
-       color: $color-white;
-     }
-     tr:nth-child(even){
-       background-color: lighten($color, 10%);
-       color: $color-white;
+   .table-striped-#{$table}{
+     //border: 1px solid $color;
+     tr:nth-child(odd){
+       background-color: rgba($color, 0.5);
      }
      th,
      td{
-       border: none;
+       border-bottom: 1px solid $color;
       }
   }
 }
