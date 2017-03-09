@@ -1,7 +1,6 @@
 <section class="stack-l components">
-  <h1>Components</h1>
+  <h1>Buttons</h1>
   <hr>
-
   <h2>Buttons</h2>
   <div class="stack">
     <a class="btn btn-primary">Button primary</a>
@@ -16,7 +15,7 @@
   <div class="stack">
     <a class="btn btn-s btn-primary">Button default</a>
     <a class="btn btn-s btn-primary btn-round">Button round</a>
-    <a class="btn btn-primary btn-circle">&#9825;</a>
+    <a class="btn btn-primary btn-circle"><i class="icon icon-heart"></i></a>
   </div>
 
   <h2>Super Large Buttons</h2>
@@ -32,7 +31,54 @@
   <a class="btn btn-link">Button link</a>
   <a class="btn btn-link btn-secondary">Button link</a>
 
-  <h2>Labels</h2>
+  <h2>Icon buttons</h2>
+  <div class="stack">
+    <a class="btn btn-action">
+      <i class="icon icon-pen"></i>
+    </a>
+    <a class="btn btn-primary btn-action">
+      <i class="icon icon-eye"></i>
+    </a>
+    <a class="btn btn-secundary btn-action">
+      <i class="icon icon-pen"></i>
+    </a>
+    <a class="btn btn-warning btn-action">
+      <i class="icon icon-eye"></i>
+    </a>
+    <a class="btn btn-success btn-action">
+      <i class="icon icon-pen"></i>
+    </a>
+    <a class="btn btn-error btn-action">
+      <i class="icon icon-eye"></i>
+    </a>
+    <a class="btn btn-information btn-action">
+      <i class="icon icon-pen"></i>
+    </a>
+  </div>
+  <div class="stack">
+    <a class="btn btn-action btn-circle">
+      <i class="icon icon-pen"></i>
+    </a>
+    <a class="btn btn-primary btn-action btn-circle">
+      <i class="icon icon-eye"></i>
+    </a>
+    <a class="btn btn-secundary btn-action btn-circle">
+      <i class="icon icon-pen"></i>
+    </a>
+    <a class="btn btn-warning btn-action btn-circle">
+      <i class="icon icon-eye"></i>
+    </a>
+    <a class="btn btn-success btn-action btn-circle">
+      <i class="icon icon-pen"></i>
+    </a>
+    <a class="btn btn-error btn-action btn-circle">
+      <i class="icon icon-eye"></i>
+    </a>
+    <a class="btn btn-information btn-action btn-circle">
+      <i class="icon icon-pen"></i>
+    </a>
+  </div>
+  <h1>Labels</h1>
   <hr>
   <div class="stack">
     <label class="label label--success">Collaborator label</label>
@@ -52,7 +98,7 @@
     <label class="label label--right label--primary">Right label</label>
     <label class="label label--left label--primary">Left label</label>
   </div>
-  <h2>Notifications</h2>
+  <h1>Notifications</h1>
   <hr>
   <div class="alert stack-s alert--success">
     <span class="alert__copy column-9">Succes: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
@@ -75,7 +121,7 @@
     <span class="alert__btn">Ok, got it</span>
   </div>
 
-  <h2>Badges</h2>
+  <h1>Badges</h1>
   <div class="stack">
     <p class="label label--primary"><span class="badge badge-left">4</span>Label with badge</p>
     <p class="label label--primary">Label with badge <span class="badge badge-right">4</span></p>

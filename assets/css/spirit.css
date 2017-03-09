@@ -111,6 +111,13 @@ a.btn {
   padding: 2rem 4rem;
 }
 
+.btn-action {
+  padding: 0.25em 0.5em;
+  line-height: .5em;
+  font-size: 1rem;
+  border-radius: 5px;
+}
+
 .btn ~ .btn {
   margin-left: 1rem;
 }
@@ -134,7 +141,11 @@ a.btn {
   width: 2rem;
   padding: 0;
   border-radius: 50px;
-  line-height: 2rem;
+}
+
+.btn-circle i {
+  line-height: 2.2rem;
+  font-size: 1rem;
 }
 
 .btn-primary {
@@ -187,6 +198,110 @@ a.btn {
   color: #562382;
   border: 1px solid #562382;
   box-shadow: 0 14px 26px -12px rgba(86, 35, 130, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(86, 35, 130, 0.2);
+}
+
+.btn-success {
+  background-color: transparent;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+}
+
+.btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active {
+  background-color: #27ae60 !important;
+  color: white;
+  border: 1px solid #27ae60;
+  box-shadow: 0 14px 26px -12px rgba(39, 174, 96, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(39, 174, 96, 0.2);
+}
+
+.btn-o-success {
+  background-color: #27ae60;
+  color: #ffffff;
+  border: 1px solid #27ae60;
+}
+
+.btn-o-success:hover, .btn-o-success:focus, .btn-o-success:active, .btn-o-success.active {
+  background-color: transparent !important;
+  color: #27ae60;
+  border: 1px solid #27ae60;
+  box-shadow: 0 14px 26px -12px rgba(39, 174, 96, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(39, 174, 96, 0.2);
+}
+
+.btn-error {
+  background-color: transparent;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+}
+
+.btn-error:hover, .btn-error:focus, .btn-error:active, .btn-error.active {
+  background-color: #c0392b !important;
+  color: white;
+  border: 1px solid #c0392b;
+  box-shadow: 0 14px 26px -12px rgba(192, 57, 43, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(192, 57, 43, 0.2);
+}
+
+.btn-o-error {
+  background-color: #c0392b;
+  color: #ffffff;
+  border: 1px solid #c0392b;
+}
+
+.btn-o-error:hover, .btn-o-error:focus, .btn-o-error:active, .btn-o-error.active {
+  background-color: transparent !important;
+  color: #c0392b;
+  border: 1px solid #c0392b;
+  box-shadow: 0 14px 26px -12px rgba(192, 57, 43, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(192, 57, 43, 0.2);
+}
+
+.btn-warning {
+  background-color: transparent;
+  color: #f39c12;
+  border: 1px solid #f39c12;
+}
+
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active {
+  background-color: #f39c12 !important;
+  color: white;
+  border: 1px solid #f39c12;
+  box-shadow: 0 14px 26px -12px rgba(243, 156, 18, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(243, 156, 18, 0.2);
+}
+
+.btn-o-warning {
+  background-color: #f39c12;
+  color: #ffffff;
+  border: 1px solid #f39c12;
+}
+
+.btn-o-warning:hover, .btn-o-warning:focus, .btn-o-warning:active, .btn-o-warning.active {
+  background-color: transparent !important;
+  color: #f39c12;
+  border: 1px solid #f39c12;
+  box-shadow: 0 14px 26px -12px rgba(243, 156, 18, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(243, 156, 18, 0.2);
+}
+
+.btn-information {
+  background-color: transparent;
+  color: #34495e;
+  border: 1px solid #34495e;
+}
+
+.btn-information:hover, .btn-information:focus, .btn-information:active, .btn-information.active {
+  background-color: #34495e !important;
+  color: white;
+  border: 1px solid #34495e;
+  box-shadow: 0 14px 26px -12px rgba(52, 73, 94, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(52, 73, 94, 0.2);
+}
+
+.btn-o-information {
+  background-color: #34495e;
+  color: #ffffff;
+  border: 1px solid #34495e;
+}
+
+.btn-o-information:hover, .btn-o-information:focus, .btn-o-information:active, .btn-o-information.active {
+  background-color: transparent !important;
+  color: #34495e;
+  border: 1px solid #34495e;
+  box-shadow: 0 14px 26px -12px rgba(52, 73, 94, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(52, 73, 94, 0.2);
 }
 
 .label {
