@@ -1,4 +1,4 @@
-<section class="stack-l iconography">
+<section class="stack-l iconography" id="iconography">
   <h1>Iconography</h1>
   <hr>
   <h2>Fontawesome font</h2>

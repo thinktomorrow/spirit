@@ -1,4 +1,4 @@
-<section class="stack-l typography">
+<section class="stack-l tables" id="tables">
 <h1>Tables</h1>
 <hr>
 <table class="stack table">

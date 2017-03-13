@@ -15,7 +15,7 @@
 
 </head>
 <body>
-  <div class="row text-center">
+  <div class="row text-center" id="top">
     <header class="squished-xl">
       <div class="stack-xl">
         <a href="?page=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>

@@ -1,4 +1,4 @@
-<section class="stack-l color-scheme">
+<section class="stack-l color-scheme" id="colorscheme">
   <h1>Color Scheme</h1>
   <hr>
   <h2>Brand colors</h2>

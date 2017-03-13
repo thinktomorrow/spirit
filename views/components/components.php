@@ -1,4 +1,4 @@
-<section class="stack-l components">
+<section class="stack-l components" id="buttons">
   <h1>Buttons</h1>
   <hr>
   <h2>Buttons</h2>
@@ -78,7 +78,7 @@
       <i class="icon icon-pen"></i>
     </a>
   </div>
-  <h1>Labels</h1>
+  <h1 id="labels">Labels</h1>
   <hr>
   <div class="stack">
     <label class="label label--success">Collaborator label</label>
@@ -98,7 +98,7 @@
     <label class="label label--right label--primary">Right label</label>
     <label class="label label--left label--primary">Left label</label>
   </div>
-  <h1>Notifications</h1>
+  <h1 id="notifications">Notifications</h1>
   <hr>
   <div class="alert stack-s alert--success">
     <span class="alert__copy column-9">Succes: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
@@ -121,7 +121,7 @@
     <span class="alert__btn">Ok, got it</span>
   </div>
 
-  <h1>Badges</h1>
+  <h1 id="badges">>Badges</h1>
   <div class="stack">
     <p class="label label--primary"><span class="badge badge-left">4</span>Label with badge</p>
     <p class="label label--primary">Label with badge <span class="badge badge-right">4</span></p>

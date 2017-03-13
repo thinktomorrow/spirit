@@ -1,4 +1,4 @@
-<section class="stack-l forms">
+<section class="stack-l forms" id="forms">
   <h1>Form elements</h1>
   <hr>
 

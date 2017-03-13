@@ -1,4 +1,4 @@
-<section class="stack-l iconography">
+<section class="stack-l navbar" id="navbar">
   <h1>Navigation</h1>
   <hr>
   <h2>Navigation pills</h2>
@@ -119,5 +119,5 @@
     </div>
 
     <div class="row code-box squished">
-      
+
     </div>
