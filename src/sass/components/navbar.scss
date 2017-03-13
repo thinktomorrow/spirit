@@ -1,9 +1,9 @@
 .navbar{
   ul,ol{
-  float: left;
-  li{
     float: left;
-    list-style: none;
+    li{
+      float: left;
+      list-style: none;
     }
   }
 }
@@ -38,9 +38,9 @@
 }
 
 .nav-pills .icon {
-    display: block;
-    font-size: 2em;
-    padding: 1rem 0;
+  display: block;
+  font-size: 2em;
+  padding: 1rem 0;
 }
 
 .dropdown{
@@ -109,6 +109,46 @@
       border-top: 1px dotted $color-subtle;
       width: 100%;
     }
-
   }
 }
+
+.pagination{
+  li{
+    list-style: none outside none;
+    display: inline-block;
+    text-align: center;
+    height: 2rem;
+    width: 2rem;
+    border-radius: $border-radius;
+    line-height: 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all .3s;
+    a{
+      text-decoration: none;
+    }
+  }
+}
+
+$pagination-name: default primary secundary;
+$colors: $color-subtle $color-primary $color-secundary;
+
+@each $pagination in $pagination-name{
+  $i: index($pagination-name, $pagination);
+  // GET YOUR COLOR FROM THE nth-PLACE ON THE LIST
+    $color: nth($colors, $i);
+    .pagination-#{$pagination}{
+      li{
+        a{
+          color: $color;
+        }
+        &:hover,
+        &.active{
+          background: $color;
+          a{
+            color: $color-white;
+          }
+        }
+      }
+    }
+  }

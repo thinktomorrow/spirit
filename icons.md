@@ -1,6 +1,6 @@
 # ICONS
 [Standard Icons] (https://icons8.com/web-app/category/Very-Basic)
-
+https://fortawesome.com/sets/black-tie-light
 ### CRUD Actions
 - [ ] Add (plus)
 - [ ] Edit (pencil)
@@ -9,6 +9,8 @@
 - [ ] Cancel (forbidden)
 - [ ] Delete ()
 - [ ] Draft
+- [ ] Attachment
+- [ ] Link
 - [ ] Settings
 
 ### Message elements
@@ -58,6 +60,8 @@
 - [ ] Instagram
 - [ ] Snapchat
 - [ ] Dribbble
+
+### Ecommerce icons
 
 ### Fun icons
 - [ ] Pizza

@@ -915,6 +915,60 @@ table td {
   width: 100%;
 }
 
+.pagination li {
+  list-style: none outside none;
+  display: inline-block;
+  text-align: center;
+  height: 2rem;
+  width: 2rem;
+  border-radius: 5px;
+  line-height: 2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.pagination li a {
+  text-decoration: none;
+}
+
+.pagination-default li a {
+  color: #a0a098;
+}
+
+.pagination-default li:hover, .pagination-default li.active {
+  background: #a0a098;
+}
+
+.pagination-default li:hover a, .pagination-default li.active a {
+  color: #ffffff;
+}
+
+.pagination-primary li a {
+  color: #fdce04;
+}
+
+.pagination-primary li:hover, .pagination-primary li.active {
+  background: #fdce04;
+}
+
+.pagination-primary li:hover a, .pagination-primary li.active a {
+  color: #ffffff;
+}
+
+.pagination-secundary li a {
+  color: #562382;
+}
+
+.pagination-secundary li:hover, .pagination-secundary li.active {
+  background: #562382;
+}
+
+.pagination-secundary li:hover a, .pagination-secundary li.active a {
+  color: #ffffff;
+}
+
 textarea,
 select,
 input[type='text'],
@@ -1012,6 +1066,11 @@ input[type=checkbox] {
   position: absolute;
   z-index: -1;
   opacity: 0;
+}
+
+.custom-indicators.disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
 }
 
 input[type=radio]:checked ~ .custom-radiobutton,

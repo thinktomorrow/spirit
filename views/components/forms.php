@@ -66,29 +66,6 @@
     <textarea rows="8" cols="80" id="message" class="input inset-s" required></textarea>
   </div>
 
-  <div class="input-group stack row">
-    <label class="column custom-indicators" for="check-one">
-      <input value="checkbox" id="check-one" type="checkbox">
-      <span class="custom-checkbox"></span>
-      Checkbox
-    </label>
-    <label class="column custom-indicators" for="check-two">
-      <input value="checkbox" id="check-two" type="checkbox" checked>
-      <span class="custom-checkbox"></span>
-      Checkbox checked
-    </label>
-    <label class="column custom-indicators" for="check-three">
-      <input value="radio" name="radio" id="check-three" type="radio">
-      <span class="custom-radiobutton"></span>
-      Radio
-    </label>
-    <label class="column custom-indicators" for="check-four">
-      <input value="radio" name="radio" id="check-four" type="radio" checked>
-      <span class="custom-radiobutton"></span>
-      Radio selected
-    </label>
-  </div>
-
   <div class="input-group stack">
     <select>
       <option selected>Open this select menu</option>
@@ -103,6 +80,4 @@
       <span class="custom-file-input"></span>
     </label>
   </div>
-
-
 </section>

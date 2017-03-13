@@ -76,6 +76,11 @@ input[type=checkbox]{
   z-index: -1;
   opacity: 0;
 }
+
+.custom-indicators.disabled{
+  cursor: not-allowed;
+  opacity: 0.5;
+}
 input[type=radio]:checked ~ .custom-radiobutton,
 input[type=checkbox]:checked ~ .custom-checkbox{
   background-color: $color-primary;

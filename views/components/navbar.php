@@ -1,6 +1,7 @@
 <section class="stack-l iconography">
-  <h1>Navigation pills</h1>
+  <h1>Navigation</h1>
   <hr>
+  <h2>Navigation pills</h2>
   <div class="row">
   <nav class="navbar nav-pills nav-pills-primary">
     <ul>
@@ -54,8 +55,8 @@
 </div>
 
 
-  <h1>Dropdown</h1>
-  <hr>
+  <h2>Dropdown</h2>
+  <div class="row">
   <nav class="navbar navbar-default">
     <ul class="nav navbar-nav">
       <li class="inline-xs"><a href="#" class="btn btn-s btn-primary btn-round">Link</a></li>
@@ -75,3 +76,48 @@
         </li>
       </ul>
     </nav>
+</div>
+    <h2>Pagination</h2>
+    <div class="row">
+      <ul class="pagination pagination-default">
+				<li><a href="#">1</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li class="active"><a href="#">7</a></li>
+				<li><a href="#">8</a></li>
+				<li><a href="#">9</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">12</a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <ul class="pagination pagination-primary">
+				<li><a href="#">1</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li class="active"><a href="#">7</a></li>
+				<li><a href="#">8</a></li>
+				<li><a href="#">9</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">12</a></li>
+      </ul>
+    </div>
+    <div class="row">
+      <ul class="pagination pagination-secundary">
+				<li><a href="#">1</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">6</a></li>
+				<li class="active"><a href="#">7</a></li>
+				<li><a href="#">8</a></li>
+				<li><a href="#">9</a></li>
+				<li><a href="#">...</a></li>
+				<li><a href="#">12</a></li>
+      </ul>
+    </div>
+
+    <div class="row code-box squished">
+      
+    </div>
