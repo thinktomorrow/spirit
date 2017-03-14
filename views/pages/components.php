@@ -38,16 +38,16 @@
 </aside>
 <article class="column-10">
   <?php
-  include('views/components/colorscheme.php');
-  include('views/components/typography.php');
-  include('views/components/components.php');
-  include('views/components/iconography.php');
+  // include('views/components/colorscheme.php');
+  // include('views/components/typography.php');
+  // include('views/components/components.php');
+  // include('views/components/iconography.php');
   include('views/components/forms.php');
-  include('views/components/checkboxes.php');
-  include('views/components/panels.php');
-  include('views/components/thumbnails.php');
-  include('views/components/tables.php');
-  include('views/components/navbar.php');
+  // include('views/components/checkboxes.php');
+  // include('views/components/panels.php');
+  // include('views/components/thumbnails.php');
+  // include('views/components/tables.php');
+  // include('views/components/navbar.php');
   ?>
 </article>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>

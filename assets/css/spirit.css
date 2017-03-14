@@ -1045,7 +1045,7 @@ input[type='file'] {
   position: absolute;
   height: 100%;
   color: rgba(35, 31, 32, 0.5);
-  background-color: #a0a098;
+  color: #a0a098;
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
@@ -1137,7 +1137,7 @@ input[type=checkbox]:checked ~ .custom-checkbox:after {
 }
 
 .valid .input-prefix {
-  background-color: #27ae60;
+  color: #27ae60;
 }
 
 .error {
@@ -1154,7 +1154,7 @@ input[type=checkbox]:checked ~ .custom-checkbox:after {
 }
 
 .error .input-prefix {
-  background-color: #c0392b;
+  color: #c0392b;
 }
 
 .color-scheme .color-block {
