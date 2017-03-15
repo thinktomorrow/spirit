@@ -24,14 +24,14 @@
     <ul>
       <li class="squished inline-s">
         <a href="#">
-          <i class="icon icon-pen"></i>
-          Action
+          <i class="fa fa-pencil"></i>
+          <span>Action</span>
         </a>
       </li>
       <li class="squished inline-s">
         <a href="#">
-          <i class="icon icon-lock"></i>
-          Action
+          <i class="fa fa-lock"></i>
+          <span>Action</span>
         </a>
       </li>
     </ul>
@@ -40,14 +40,14 @@
     <ul>
       <li class="squished inline-s">
         <a href="#">
-          <i class="icon icon-pen"></i>
-          Action
+          <i class="fa fa-pencil"></i>
+          <span>Action</span>
         </a>
       </li>
       <li class="squished inline-s">
         <a href="#">
-          <i class="icon icon-lock"></i>
-          Action
+          <i class="fa fa-lock"></i>
+          <span>Action</span>
         </a>
       </li>
     </ul>

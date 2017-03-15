@@ -15,7 +15,7 @@
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
-      <td>@mdo</td>
+      <td>Jean</td>
     </tr>
     <tr>
       <th scope="row">2</th>
@@ -37,7 +37,7 @@
       <th>#</th>
       <th>First Name</th>
       <th>Last Name</th>
-      <th>Username</th>
+      <th>Actions</th>
     </tr>
   </thead>
   <tbody>
@@ -45,19 +45,49 @@
       <th scope="row">1</th>
       <td>Mark</td>
       <td>Otto</td>
-      <td>@mdo</td>
+      <td>
+              <a class="btn btn-default btn-action btn-circle">
+                <i class="fa fa-eye"></i>
+              </a>
+              <a class="btn btn-primary btn-action btn-circle">
+                <i class="fa fa-pencil"></i>
+              </a>
+              <a class="btn btn-error btn-action btn-circle">
+                <i class="fa fa-check"></i>
+              </a>
+    </td>
     </tr>
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
       <td>Thornton</td>
-      <td>@fat</td>
+      <td>
+              <a class="btn btn-default btn-action btn-circle">
+                <i class="fa fa-eye"></i>
+              </a>
+              <a class="btn btn-primary btn-action btn-circle">
+                <i class="fa fa-pencil"></i>
+              </a>
+              <a class="btn btn-error btn-action btn-circle">
+                <i class="fa fa-check"></i>
+              </a>
+    </td>
     </tr>
     <tr>
       <th scope="row">3</th>
       <td>Larry</td>
       <td>the Bird</td>
-      <td>@twitter</td>
+      <td>
+              <a class="btn btn-default btn-action btn-circle">
+                <i class="fa fa-eye"></i>
+              </a>
+              <a class="btn btn-primary btn-action btn-circle">
+                <i class="fa fa-pencil"></i>
+              </a>
+              <a class="btn btn-error btn-action btn-circle">
+                <i class="fa fa-check"></i>
+              </a>
+    </td>
     </tr>
   </tbody>
 </table>

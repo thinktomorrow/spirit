@@ -15,7 +15,7 @@
   <div class="stack">
     <a class="btn btn-s btn-primary">Button default</a>
     <a class="btn btn-s btn-primary btn-round">Button round</a>
-    <a class="btn btn-primary btn-circle"><i class="icon icon-heart"></i></a>
+    <a class="btn btn-primary btn-circle"><i class="fa fa-heart"></i></a>
   </div>
 
   <h2>Super Large Buttons</h2>
@@ -34,48 +34,48 @@
   <h2>Icon buttons</h2>
   <div class="stack">
     <a class="btn btn-action">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
     <a class="btn btn-primary btn-action">
-      <i class="icon icon-eye"></i>
+      <i class="fa fa-eye"></i>
     </a>
     <a class="btn btn-secundary btn-action">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
     <a class="btn btn-warning btn-action">
-      <i class="icon icon-eye"></i>
+      <i class="fa fa-eye"></i>
     </a>
     <a class="btn btn-success btn-action">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
     <a class="btn btn-error btn-action">
-      <i class="icon icon-eye"></i>
+      <i class="fa fa-eye"></i>
     </a>
     <a class="btn btn-information btn-action">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
   </div>
   <div class="stack">
     <a class="btn btn-action btn-circle">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
     <a class="btn btn-primary btn-action btn-circle">
-      <i class="icon icon-eye"></i>
+      <i class="fa fa-eye"></i>
     </a>
     <a class="btn btn-secundary btn-action btn-circle">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
     <a class="btn btn-warning btn-action btn-circle">
-      <i class="icon icon-eye"></i>
+      <i class="fa fa-eye"></i>
     </a>
     <a class="btn btn-success btn-action btn-circle">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
     <a class="btn btn-error btn-action btn-circle">
-      <i class="icon icon-eye"></i>
+      <i class="fa fa-eye"></i>
     </a>
     <a class="btn btn-information btn-action btn-circle">
-      <i class="icon icon-pen"></i>
+      <i class="fa fa-pen"></i>
     </a>
   </div>
   <h1 id="labels">Labels</h1>

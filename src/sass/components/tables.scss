@@ -19,6 +19,12 @@ td{
   text-align: left;
   border-bottom: 1px solid $color-table;
  }
+ a.btn{
+  transform: scale(0.75);
+ }
+ .btn~.btn{
+   margin-left: 0;
+ }
 }
 
  $table-name: default primary secundary;
@@ -31,14 +37,15 @@ td{
    .table-striped-#{$table}{
      //border: 1px solid $color;
      tr:nth-child(odd){
-       background-color: rgba($color, 0.25);
+       background-color: rgba($color, 0.20);
        color: darken($color,20%);
      }
      tr:nth-child(even){
        color: darken($color,20%);
      }
      tr:hover{
-       background-color: $color;
+       background-color: rgba($color, 0.25);
+       
        color: $color-white;
      }
      th,

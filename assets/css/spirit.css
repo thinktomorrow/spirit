@@ -735,8 +735,17 @@ table td {
   border-bottom: 1px solid #dddddd;
 }
 
+table a.btn {
+  -webkit-transform: scale(0.75);
+  transform: scale(0.75);
+}
+
+table .btn ~ .btn {
+  margin-left: 0;
+}
+
 .table-striped-default tr:nth-child(odd) {
-  background-color: rgba(221, 221, 221, 0.25);
+  background-color: rgba(221, 221, 221, 0.2);
   color: #aaaaaa;
 }
 
@@ -745,7 +754,7 @@ table td {
 }
 
 .table-striped-default tr:hover {
-  background-color: #dddddd;
+  background-color: rgba(221, 221, 221, 0.25);
   color: #ffffff;
 }
 
@@ -755,7 +764,7 @@ table td {
 }
 
 .table-striped-primary tr:nth-child(odd) {
-  background-color: rgba(253, 206, 4, 0.25);
+  background-color: rgba(253, 206, 4, 0.2);
   color: #9a7d01;
 }
 
@@ -764,7 +773,7 @@ table td {
 }
 
 .table-striped-primary tr:hover {
-  background-color: #fdce04;
+  background-color: rgba(253, 206, 4, 0.25);
   color: #ffffff;
 }
 
@@ -774,7 +783,7 @@ table td {
 }
 
 .table-striped-secundary tr:nth-child(odd) {
-  background-color: rgba(86, 35, 130, 0.25);
+  background-color: rgba(86, 35, 130, 0.2);
   color: #210d32;
 }
 
@@ -783,7 +792,7 @@ table td {
 }
 
 .table-striped-secundary tr:hover {
-  background-color: #562382;
+  background-color: rgba(86, 35, 130, 0.25);
   color: #ffffff;
 }
 
