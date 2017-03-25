@@ -5,7 +5,7 @@ Your branding style guide.
 - Typography: ok
 - Form Elements: ok
 - Panels/cards: ok
-- Tables
+- Tables ok
 - Dialogs/modals
 - Helper Classes
 
@@ -33,7 +33,7 @@ Spirit/
 ```
 
 ## Customize
-You can customize Warpaint by editing the `src/sass/settings.scss` file.
+You can customize Spirit by editing the `src/sass/settings.scss` file.
 
 
 ## Contribute
