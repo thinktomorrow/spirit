@@ -1,42 +1,42 @@
-<aside class="sticky sidebar">
-  <div class="nav__item squished">
+<nav class="nav-bar-top row center">
+  <div class="column nav__item inline-s">
     <a href="#top">Overview</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#colorscheme">Colors</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#typography">Typography</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#buttons">Buttons</a>
   </div> <!-- Buttons and Labels -->
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#labels">Labels</a>
   </div> <!-- Buttons and Labels -->
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#notifications">Notifications</a>
   </div> <!-- pusher.github.io/chameleon -->
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#iconography">Iconography</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#forms">Forms/inputs</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#panels">Panels</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#thumbnails">Thumbnails</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#tables">Tables</a>
   </div>
-  <div class="nav__item squished">
+  <div class="column nav__item inline-s">
     <a href="#navbar">Navbar</a>
   </div>
-</aside>
-<article class="column-10">
+</nav>
+<article class="column-8 center">
   <?php
   include('views/components/colorscheme.php');
   include('views/components/typography.php');
@@ -46,11 +46,11 @@
   include('views/components/checkboxes.php');
   include('views/components/panels.php');
   include('views/components/thumbnails.php');
-   include('views/components/tables.php');
-   include('views/components/navbar.php');
+  include('views/components/tables.php');
+  include('views/components/navbar.php');
   ?>
 </article>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script>
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
@@ -65,5 +65,15 @@ $(function() {
       }
     }
   });
+});
+// STICKY
+var stickable = $(".nav-bar-top");
+
+$(document).on( 'scroll', function(){
+    if ($(this).scrollTop() > 500) {
+        stickable.addClass("sticky");
+    } else {
+        stickable.removeClass("sticky");
+    }
 });
 </script>
