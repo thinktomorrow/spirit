@@ -5,11 +5,14 @@
   <div class="stack">
     <a class="btn btn-primary">Button primary</a>
     <a class="btn btn-secundary">Button secundary</a>
+    <a class="btn btn-tertiary">Button tertiary</a>
   </div>
   <div class="stack">
     <a class="btn btn-o-primary">Button primary</a>
     <a class="btn btn-o-secundary">Button secundary</a>
+    <a class="btn btn-o-tertiary">Button tertiary</a>
   </div>
+
 
   <h2>Buttons styles</h2>
   <div class="stack">

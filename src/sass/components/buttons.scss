@@ -44,8 +44,8 @@ a.btn{
     font-size: 1rem;
   }
 }
-$button-name: primary secundary success error warning information;
-$colors: $color-primary $color-secundary $color-success $color-error $color-warning $color-information;
+$button-name: primary secundary tertiary success error warning information;
+$colors: $color-primary $color-secundary $color-tertiary $color-success $color-error $color-warning $color-information;
 
 @each $button in $button-name{
   $i: index($button-name, $button);
