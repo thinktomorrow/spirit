@@ -36,7 +36,7 @@
     <a href="#navbar">Navigation</a>
   </div>
 </nav>
-<article class="column-8 center">
+<article class="s-column-12 m-column-10 l-column-12 center">
   <?php
   include('views/components/colorscheme.php');
   include('views/components/typography.php');

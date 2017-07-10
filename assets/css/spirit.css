@@ -41,6 +41,10 @@ p {
   color: #59626a;
 }
 
+ul, ol {
+  word-break: break-word;
+}
+
 ol li {
   list-style: inherit;
 }
