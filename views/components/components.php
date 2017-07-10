@@ -124,7 +124,7 @@
     <span class="alert__btn">Ok, got it</span>
   </div>
 
-  <h1 id="badges">>Badges</h1>
+  <h1 id="badges">Badges</h1>
   <div class="stack">
     <p class="label label--primary"><span class="badge badge-left">4</span>Label with badge</p>
     <p class="label label--primary">Label with badge <span class="badge badge-right">4</span></p>

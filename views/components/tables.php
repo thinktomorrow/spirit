@@ -31,7 +31,7 @@
     </tr>
   </tbody>
 </table>
-<table class="stack table table-striped-default">
+<table class="stack table table-striped-default table-hover">
   <thead>
     <tr>
       <th>#</th>
@@ -92,7 +92,7 @@
   </tbody>
 </table>
 
-<table class="stack table table-striped-primary">
+<table class="stack table table-striped-primary table-hover">
   <thead>
     <tr>
       <th>#</th>
@@ -123,7 +123,7 @@
   </tbody>
 </table>
 
-<table class="stack table table-striped-secundary">
+<table class="stack table table-striped-secundary table-hover">
   <thead>
     <tr>
       <th>#</th>
