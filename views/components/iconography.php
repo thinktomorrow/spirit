@@ -4,142 +4,142 @@
   <h2>Fontawesome font</h2>
   <ul class="row glyphs css-mapping">
       <li>
-        <i class="fa fa-500px"></i>
+        <i class="icon icon-500px"></i>
       </li>
       <li>
-        <i class="fa fa-adjust"></i>
+        <i class="icon icon-adjust"></i>
       </li>
       <li>
-        <i class="fa fa-adn"></i>
+        <i class="icon icon-adn"></i>
       </li>
       <li>
-        <i class="fa fa-align-center"></i>
+        <i class="icon icon-align-center"></i>
       </li>
       <li>
-        <i class="fa fa-align-justify"></i>
+        <i class="icon icon-align-justify"></i>
       </li>
       <li>
-        <i class="fa fa-align-left"></i>
+        <i class="icon icon-align-left"></i>
       </li>
       <li>
-        <i class="fa fa-align-right"></i>
+        <i class="icon icon-align-right"></i>
       </li>
       <li>
-        <i class="fa fa-amazon"></i>
+        <i class="icon icon-amazon"></i>
       </li>
       <li>
-        <i class="fa fa-ambulance"></i>
+        <i class="icon icon-ambulance"></i>
       </li>
       <li>
-        <i class="fa fa-anchor"></i>
+        <i class="icon icon-anchor"></i>
       </li>
       <li>
-        <i class="fa fa-android"></i>
+        <i class="icon icon-android"></i>
       </li>
       <li>
-        <i class="fa fa-angellist"></i>
+        <i class="icon icon-angellist"></i>
       </li>
       <li>
-        <i class="fa fa-angle-double-down"></i>
+        <i class="icon icon-angle-double-down"></i>
       </li>
       <li>
-        <i class="fa fa-angle-double-left"></i>
+        <i class="icon icon-angle-double-left"></i>
       </li>
       <li>
-        <i class="fa fa-angle-double-right"></i>
+        <i class="icon icon-angle-double-right"></i>
       </li>
       <li>
-        <i class="fa fa-angle-double-up"></i>
+        <i class="icon icon-angle-double-up"></i>
       </li>
       <li>
-        <i class="fa fa-angle-down"></i>
+        <i class="icon icon-angle-down"></i>
       </li>
       <li>
-        <i class="fa fa-angle-left"></i>
+        <i class="icon icon-angle-left"></i>
       </li>
       <li>
-        <i class="fa fa-angle-right"></i>
+        <i class="icon icon-angle-right"></i>
       </li>
       <li>
-        <i class="fa fa-angle-up"></i>
+        <i class="icon icon-angle-up"></i>
       </li>
       <li>
-        <i class="fa fa-apple"></i>
+        <i class="icon icon-apple"></i>
       </li>
       <li>
-        <i class="fa fa-archive"></i>
+        <i class="icon icon-archive"></i>
       </li>
       <li>
-        <i class="fa fa-area-chart"></i>
+        <i class="icon icon-area-chart"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-down"></i>
+        <i class="icon icon-arrow-circle-down"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-left"></i>
+        <i class="icon icon-arrow-circle-left"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-o-down"></i>
+        <i class="icon icon-arrow-circle-o-down"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-o-left"></i>
+        <i class="icon icon-arrow-circle-o-left"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-o-right"></i>
+        <i class="icon icon-arrow-circle-o-right"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-o-up"></i>
+        <i class="icon icon-arrow-circle-o-up"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-right"></i>
+        <i class="icon icon-arrow-circle-right"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-circle-up"></i>
+        <i class="icon icon-arrow-circle-up"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-down"></i>
+        <i class="icon icon-arrow-down"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-left"></i>
+        <i class="icon icon-arrow-left"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-right"></i>
+        <i class="icon icon-arrow-right"></i>
       </li>
       <li>
-        <i class="fa fa-arrow-up"></i>
+        <i class="icon icon-arrow-up"></i>
       </li>
       <li>
-        <i class="fa fa-arrows"></i>
+        <i class="icon icon-arrows"></i>
       </li>
       <li>
-        <i class="fa fa-arrows-alt"></i>
+        <i class="icon icon-arrows-alt"></i>
       </li>
       <li>
-        <i class="fa fa-arrows-h"></i>
+        <i class="icon icon-arrows-h"></i>
       </li>
       <li>
-        <i class="fa fa-arrows-v"></i>
+        <i class="icon icon-arrows-v"></i>
       </li>
       <li>
-        <i class="fa fa-asterisk"></i>
+        <i class="icon icon-asterisk"></i>
       </li>
       <li>
-        <i class="fa fa-at"></i>
+        <i class="icon icon-at"></i>
       </li>
       <li>
-        <i class="fa fa-backward"></i>
+        <i class="icon icon-backward"></i>
       </li>
       <li>
-        <i class="fa fa-balance-scale"></i>
+        <i class="icon icon-balance-scale"></i>
       </li>
       <li>
-        <i class="fa fa-ban"></i>
+        <i class="icon icon-ban"></i>
       </li>
       <li>
-        <i class="fa fa-ellipsis-h"></i>
+        <i class="icon icon-ellipsis-h"></i>
       </li>
     </ul>
     <div class="row center-center">
-      <a href="http://fontawesome.io/fas/" class="row btn btn-s btn-secundary btn-round" target="_blank">More fonts at Font Awesome</a>
+      <a href="http://fontawesome.io/icons/" class="row btn btn-s btn-secundary btn-round" target="_blank">More fonts at Font Awesome</a>
     </div>
   </section>

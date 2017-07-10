@@ -16,10 +16,10 @@
 </head>
 <body>
   <div class="row text-center" id="top">
-    <header class="squished-xl">
-      <div class="stack-xl">
+    <header>
+      <div class="absolute-center">
         <a href="?page=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
-        <h1 class="first">Spirit</h1>
+        <h1 class="title">SPIRIT</h1>
         <p class="first">your frontend toolkit</p>
       </div>
     </header>

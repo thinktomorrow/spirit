@@ -8,12 +8,14 @@ code.sans-serif:after{
 
 // LINK COLORS
 a{
-  color: $color-primary;
+  color: $color-link;
+  &:hover{
+    
+  }
 }
 
 header{
   background: $color-primary;
-  width: 100%;
 }
 
 // SELECTION COLORS

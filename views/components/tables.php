@@ -47,13 +47,13 @@
       <td>Otto</td>
       <td>
               <a class="btn btn-default btn-action btn-circle">
-                <i class="fa fa-eye"></i>
+                <i class="icon icon-eye"></i>
               </a>
               <a class="btn btn-primary btn-action btn-circle">
-                <i class="fa fa-pencil"></i>
+                <i class="icon icon-pencil"></i>
               </a>
               <a class="btn btn-error btn-action btn-circle">
-                <i class="fa fa-check"></i>
+                <i class="icon icon-check"></i>
               </a>
     </td>
     </tr>
@@ -63,13 +63,13 @@
       <td>Thornton</td>
       <td>
               <a class="btn btn-default btn-action btn-circle">
-                <i class="fa fa-eye"></i>
+                <i class="icon icon-eye"></i>
               </a>
               <a class="btn btn-primary btn-action btn-circle">
-                <i class="fa fa-pencil"></i>
+                <i class="icon icon-pencil"></i>
               </a>
               <a class="btn btn-error btn-action btn-circle">
-                <i class="fa fa-check"></i>
+                <i class="icon icon-check"></i>
               </a>
     </td>
     </tr>
@@ -79,13 +79,13 @@
       <td>the Bird</td>
       <td>
               <a class="btn btn-default btn-action btn-circle">
-                <i class="fa fa-eye"></i>
+                <i class="icon icon-eye"></i>
               </a>
               <a class="btn btn-primary btn-action btn-circle">
-                <i class="fa fa-pencil"></i>
+                <i class="icon icon-pencil"></i>
               </a>
               <a class="btn btn-error btn-action btn-circle">
-                <i class="fa fa-check"></i>
+                <i class="icon icon-check"></i>
               </a>
     </td>
     </tr>

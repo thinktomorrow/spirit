@@ -30,6 +30,14 @@ body {
   | Best is dat je een serif en sans-serif font kiest.
   |
   */
+/*
+ | ----------------------------------------------------------------
+ | Border Radius
+ | ----------------------------------------------------------------
+ |
+ | ...
+ |
+ */
 h1, h2, h3, h4, h5 {
   font-family: "Droid Serif";
   color: #323b43;
@@ -71,12 +79,11 @@ code.sans-serif:after {
 }
 
 a {
-  color: #fdce04;
+  color: #562382;
 }
 
 header {
   background: #fdce04;
-  width: 100%;
 }
 
 ::-moz-selection {
@@ -95,23 +102,31 @@ header {
   box-shadow: 0 16px 38px -12px rgba(35, 31, 32, 0.36), 0 4px 25px 0px rgba(35, 31, 32, 0.08), 0 8px 10px -5px rgba(35, 31, 32, 0.08);
 }
 
+.pull-right {
+  float: right;
+}
+
+.pull-left {
+  float: left;
+}
+
 a.btn {
   text-decoration: none;
 }
 
 .btn {
-  padding: 1rem 2rem;
+  padding: 0.5rem 1rem;
   display: inline-block;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
 
-.btn.btn-s {
-  padding: 0.5rem 1rem;
+.btn.btn-lg {
+  padding: 1rem 2rem;
 }
 
-.btn.btn-lg {
+.btn.btn-xl {
   padding: 2rem 4rem;
 }
 
@@ -364,7 +379,7 @@ a.btn {
 
 .label--right::before {
   content: '';
-  left: -10px;
+  left: -7.5px;
 }
 
 .label--right::after {
@@ -374,7 +389,7 @@ a.btn {
 
 .label--left::before {
   content: '';
-  right: -10px;
+  right: -7.5px;
   -webkit-transform: translateY(-50%) scale(-1);
   transform: translateY(-50%) scale(-1);
 }
@@ -508,7 +523,7 @@ a.btn {
 }
 
 .alert {
-  padding: 1rem;
+  padding: 0.5rem 1rem;
   display: inline-block;
   border-radius: 5px;
   position: relative;
@@ -717,6 +732,25 @@ a.btn {
 
 .panel-information.panel--raised {
   box-shadow: 0 16px 26px -10px rgba(52, 73, 94, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(52, 73, 94, 0.2);
+}
+
+ul.listgroup {
+  margin: 0;
+  padding: 0;
+}
+
+ul.listgroup li {
+  list-style: none;
+  border-bottom: 1px solid #ced7df;
+  padding: 0.5rem 0.75rem;
+}
+
+ul.listgroup li:last-child {
+  border-bottom: none;
+}
+
+ul.listgroup li:hover {
+  background-color: #ced7df;
 }
 
 .thumbnail {
@@ -1214,56 +1248,112 @@ input[type=checkbox]:checked ~ .custom-checkbox:after {
   background-color: #fdce04;
 }
 
+.text-primary {
+  color: #fdce04;
+}
+
 .bg-secundary {
   background-color: #562382;
+}
+
+.text-secundary {
+  color: #562382;
 }
 
 .bg-tertiary {
   background-color: #ec3853;
 }
 
+.text-tertiary {
+  color: #ec3853;
+}
+
 .bg-dark {
   background-color: #231f20;
+}
+
+.text-dark {
+  color: #231f20;
 }
 
 .bg-white {
   background-color: #ffffff;
 }
 
+.text-white {
+  color: #ffffff;
+}
+
 .bg-black {
   background-color: #000000;
+}
+
+.text-black {
+  color: #000000;
 }
 
 .bg-border {
   background-color: #ced7df;
 }
 
+.text-border {
+  color: #ced7df;
+}
+
 .bg-heading {
   background-color: #323b43;
+}
+
+.text-heading {
+  color: #323b43;
 }
 
 .bg-body {
   background-color: #59626a;
 }
 
+.text-body {
+  color: #59626a;
+}
+
 .bg-subtle {
   background-color: #a0a098;
+}
+
+.text-subtle {
+  color: #a0a098;
 }
 
 .bg-success {
   background-color: #27ae60;
 }
 
+.text-success {
+  color: #27ae60;
+}
+
 .bg-warning {
   background-color: #f39c12;
+}
+
+.text-warning {
+  color: #f39c12;
 }
 
 .bg-error {
   background-color: #c0392b;
 }
 
+.text-error {
+  color: #c0392b;
+}
+
 .bg-information {
   background-color: #34495e;
+}
+
+.text-information {
+  color: #34495e;
 }
 
 /* Mobile means everything smaller than desktop */

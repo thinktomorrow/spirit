@@ -18,11 +18,11 @@
     <input id="text" class="input inset-s" placeholder="Text input" type="text" required>
     <small class="caption">Note about this field</small>
   </div>
-  <h2>Prepend with fas</h2>
+  <h2>Prepend with icons</h2>
   <div class="input-group stack">
     <label for="text">Text Input</label>
     <div class="input-group-prefix">
-      <span class="input-prefix"><i class="fa fa-envelope-o"></i></span>
+      <span class="input-prefix"><i class="icon icon-envelope-o"></i></span>
       <input id="text" class="input inset-s" placeholder="Text input" type="email" required>
     </div>
     <small class="caption">Note about this field</small>
@@ -30,7 +30,7 @@
   <div class="input-group stack valid">
     <label for="text">Valid Text Input</label>
     <div class="input-group-prefix ">
-      <span class="input-prefix"><i class="fa fa-envelope-o"></i></span>
+      <span class="input-prefix"><i class="icon icon-envelope-o"></i></span>
       <input id="text" class="input inset-s" placeholder="Text input" type="email" required>
     </div>
     <small class="caption">Note about this field</small>
@@ -38,7 +38,7 @@
   <div class="input-group stack error">
     <label for="text">Error Text Input</label>
     <div class="input-group-prefix">
-      <span class="input-prefix"><i class="fa fa-envelope-o"></i></span>
+      <span class="input-prefix"><i class="icon icon-envelope-o"></i></span>
       <input id="text" class="input inset-s" placeholder="Text input" type="email" required>
     </div>
     <small class="caption">Note about this field</small>

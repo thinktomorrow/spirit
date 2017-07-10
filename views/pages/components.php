@@ -36,7 +36,7 @@
     <a href="#navbar">Navigation</a>
   </div>
 </nav>
-<article class="s-column-12 m-column-10 l-column-12 center">
+<article class="s-column-12 m-column-10 l-column-8 center">
   <?php
   include('views/components/colorscheme.php');
   include('views/components/typography.php');
@@ -45,6 +45,7 @@
   include('views/components/forms.php');
   include('views/components/checkboxes.php');
   include('views/components/panels.php');
+  include('views/components/listgroups.php');
   include('views/components/thumbnails.php');
   include('views/components/tables.php');
   include('views/components/navbar.php');
@@ -68,9 +69,11 @@ $(function() {
 });
 // STICKY
 var stickable = $(".nav-bar-top");
+var windowHeight = $( window ).height() - 85;
 
 $(document).on( 'scroll', function(){
-    if ($(this).scrollTop() > 500) {
+
+    if ($(this).scrollTop() > windowHeight ) {
         stickable.addClass("sticky");
     } else {
         stickable.removeClass("sticky");
