@@ -33,7 +33,7 @@
     <a href="#tables">Tables</a>
   </div>
   <div class="column nav__item inline-s">
-    <a href="#navbar">Navbar</a>
+    <a href="#navbar">Navigation</a>
   </div>
 </nav>
 <article class="column-8 center">
