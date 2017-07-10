@@ -19,11 +19,3 @@ $colors: $color-primary $color-secundary $color-tertiary $color-dark $color-whit
       background-color: $color;
     }
 }
-@each $block in $color-name{
-  $i: index($color-name, $block);
-  // GET YOUR COLOR FROM THE nth-PLACE ON THE LIST
-    $color: nth($colors, $i);
-    .#{$block}{
-      color: $color;
-    }
-}
