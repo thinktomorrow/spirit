@@ -82,10 +82,6 @@ a {
   color: #562382;
 }
 
-header {
-  background: #fdce04;
-}
-
 ::-moz-selection {
   background-color: #562382;
   color: #ffffff;
@@ -187,9 +183,8 @@ a.btn {
 }
 
 .btn-o-primary:hover, .btn-o-primary:focus, .btn-o-primary:active, .btn-o-primary.active {
-  background-color: transparent !important;
-  color: #fdce04;
-  border: 1px solid #fdce04;
+  background-color: #cca602;
+  border: 1px solid #cca602;
   box-shadow: 0 14px 26px -12px rgba(253, 206, 4, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(253, 206, 4, 0.2);
 }
 
@@ -213,9 +208,8 @@ a.btn {
 }
 
 .btn-o-secundary:hover, .btn-o-secundary:focus, .btn-o-secundary:active, .btn-o-secundary.active {
-  background-color: transparent !important;
-  color: #562382;
-  border: 1px solid #562382;
+  background-color: #3b185a;
+  border: 1px solid #3b185a;
   box-shadow: 0 14px 26px -12px rgba(86, 35, 130, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(86, 35, 130, 0.2);
 }
 
@@ -239,9 +233,8 @@ a.btn {
 }
 
 .btn-o-tertiary:hover, .btn-o-tertiary:focus, .btn-o-tertiary:active, .btn-o-tertiary.active {
-  background-color: transparent !important;
-  color: #ec3853;
-  border: 1px solid #ec3853;
+  background-color: #dc1533;
+  border: 1px solid #dc1533;
   box-shadow: 0 14px 26px -12px rgba(236, 56, 83, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(236, 56, 83, 0.2);
 }
 
@@ -265,9 +258,8 @@ a.btn {
 }
 
 .btn-o-success:hover, .btn-o-success:focus, .btn-o-success:active, .btn-o-success.active {
-  background-color: transparent !important;
-  color: #27ae60;
-  border: 1px solid #27ae60;
+  background-color: #1e8449;
+  border: 1px solid #1e8449;
   box-shadow: 0 14px 26px -12px rgba(39, 174, 96, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(39, 174, 96, 0.2);
 }
 
@@ -291,9 +283,8 @@ a.btn {
 }
 
 .btn-o-error:hover, .btn-o-error:focus, .btn-o-error:active, .btn-o-error.active {
-  background-color: transparent !important;
-  color: #c0392b;
-  border: 1px solid #c0392b;
+  background-color: #962d22;
+  border: 1px solid #962d22;
   box-shadow: 0 14px 26px -12px rgba(192, 57, 43, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(192, 57, 43, 0.2);
 }
 
@@ -317,9 +308,8 @@ a.btn {
 }
 
 .btn-o-warning:hover, .btn-o-warning:focus, .btn-o-warning:active, .btn-o-warning.active {
-  background-color: transparent !important;
-  color: #f39c12;
-  border: 1px solid #f39c12;
+  background-color: #c87f0a;
+  border: 1px solid #c87f0a;
   box-shadow: 0 14px 26px -12px rgba(243, 156, 18, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(243, 156, 18, 0.2);
 }
 
@@ -343,9 +333,8 @@ a.btn {
 }
 
 .btn-o-information:hover, .btn-o-information:focus, .btn-o-information:active, .btn-o-information.active {
-  background-color: transparent !important;
-  color: #34495e;
-  border: 1px solid #34495e;
+  background-color: #22303d;
+  border: 1px solid #22303d;
   box-shadow: 0 14px 26px -12px rgba(52, 73, 94, 0.42), 0 4px 23px 0px rgba(35, 31, 32, 0.12), 0 8px 10px -5px rgba(52, 73, 94, 0.2);
 }
 

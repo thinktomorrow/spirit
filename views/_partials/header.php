@@ -21,6 +21,7 @@
         <a href="?page=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
         <h1 class="title">SPIRIT</h1>
         <p class="first">your frontend toolkit</p>
+        <a class="btn btn-o-secundary btn-round">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
       </div>
     </header>
   </div>
