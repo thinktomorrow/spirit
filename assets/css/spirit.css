@@ -1152,16 +1152,24 @@ input[type=checkbox] {
   opacity: 0.5;
 }
 
-input[type=radio]:checked ~ .custom-radiobutton,
-input[type=checkbox]:checked ~ .custom-checkbox {
-  background-color: #fdce04;
-  border: 2px solid #fdce04;
-  box-shadow: inset 0 0 0 2px white;
+input[type=radio]:checked ~ .custom-radiobutton:after {
+  font-family: 'spirit';
+  content: "\e021";
+  color: #fdce04;
+  font-size: 0.5rem;
 }
 
-input[type=radio]:checked ~ .custom-radiobutton:after,
 input[type=checkbox]:checked ~ .custom-checkbox:after {
-  background: white;
+  font-family: 'spirit';
+  content: "\e012";
+  color: #fdce04;
+  font-size: 0.5rem;
+}
+
+input[type=radio]:checked ~ .custom-radiobutton,
+input[type=checkbox]:checked ~ .custom-checkbox {
+  background-color: #ffffff;
+  border: 1px solid #fdce04;
 }
 
 .custom-checkbox,
@@ -1176,22 +1184,23 @@ input[type=checkbox]:checked ~ .custom-checkbox:after {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  background-color: #ddd;
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 50% 50%;
+  border: 1px solid #ced7df;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .custom-checkbox::after,
 .custom-radiobutton::after {
   content: '';
   display: block;
-  width: 25%;
-  height: 25%;
+  width: 100%;
+  height: 100%;
   background: transparent;
-  margin: 50% 0 0 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  font-size: 0rem;
+  text-align: center;
+  line-height: 1rem;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 
 .custom-radiobutton {
