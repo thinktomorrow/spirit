@@ -3,7 +3,7 @@
   <hr>
 
   <h2>Input fields</h2>
-  <div class="input-group stack">
+  <div class="input-group stack" id="clone-12">
     <label for="text">Text Input</label>
     <input id="text" class="input inset-s" placeholder="Text input" type="text" required>
     <small class="caption">Note about this field</small>
@@ -18,8 +18,10 @@
     <input id="text" class="input inset-s" placeholder="Text input" type="text" required>
     <small class="caption">Note about this field</small>
   </div>
+  <pre class="row code-box" id="code-12"></pre>
+
   <h2>Prepend with icons</h2>
-  <div class="input-group stack">
+  <div class="input-group stack" id="clone-13">
     <label for="text">Text Input</label>
     <div class="input-group-prefix">
       <span class="input-prefix"><i class="icon icon-envelope-o"></i></span>
@@ -43,6 +45,8 @@
     </div>
     <small class="caption">Note about this field</small>
   </div>
+  <pre class="row code-box" id="code-13"></pre>
+
 
   <h2>Other Form Elements</h2>
   <div class="input-group stack">

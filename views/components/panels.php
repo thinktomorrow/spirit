@@ -1,7 +1,7 @@
 <section class="stack-l panels" id="panels">
   <h1>Panels</h1>
   <hr>
-<div class="row gutter">
+<div class="row gutter" id="clone-8">
   <div class="column">
     <h2>Default panel</h2>
     <div class="panel panel-default">
@@ -23,6 +23,7 @@
     </div>
   </div>
   </div>
+  <pre class="row code-box" id="code-8"></pre>
 
   <h2>Basic panel</h2>
   <div class="row gutter">

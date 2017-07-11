@@ -13,14 +13,14 @@
       <?php
       // include('views/components/colorscheme.php');
       // include('views/components/typography.php');
-      // include('views/components/components.php');
       // include('views/components/iconography.php');
-      // include('views/components/forms.php');
-      // include('views/components/checkboxes.php');
-      // include('views/components/panels.php');
-      // include('views/components/listgroups.php');
-      // include('views/components/thumbnails.php');
-      // include('views/components/tables.php');
+      include('views/components/components.php');
+      include('views/components/forms.php');
+      include('views/components/checkboxes.php');
+      include('views/components/panels.php');
+      include('views/components/listgroups.php');
+      include('views/components/thumbnails.php');
+      include('views/components/tables.php');
       include('views/components/navbar.php');
       ?>
     </article>
@@ -43,11 +43,18 @@ $(function() {
   });
 
   // CLONE YOUR HTML
-  var getDiv = $('.clone').clone();
-  $('.code-box').html(getDiv);
-  alert(getDiv);
-});
 
+  for (var i = 0; i < 99; i++) {
+    var cloneDiv = $('#clone-'+ i).html();
+    var stripFromTag = cloneDiv.replace(/\/</,'&lt;',/\/>/,'&gt;');
+    $('#code-'+ i).text(stripFromTag);
+  }
+
+  // var cloneDiv = $('[id^="clone-"]').html();
+  // var stripFromTag = cloneDiv.replace(/\/</,'&lt;',/\/>/,'&gt;');
+  // $('[id^="code-"]').text(stripFromTag);
+
+});
 
 // STICKY
 var stickable = $("aside");

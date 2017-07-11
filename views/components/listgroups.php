@@ -2,20 +2,7 @@
   <h1>Listgroups</h1>
   <hr>
 <div class="row gutter">
-  <div class="column">
-    <div class="panel panel-default panel-list">
-      <div class="panel-body">
-        <ul class="listgroup gutter">
-          <li>List item</li>
-          <li>List item</li>
-          <li>List item</li>
-          <li>List item</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-
-  <div class="column">
+  <div class="column-6" id="clone-7">
     <div class="panel panel-default panel-list">
       <div class="panel-body">
         <ul class="listgroup gutter">
@@ -52,5 +39,6 @@
     </div>
   </div>
   </div>
+  <pre class="row code-box" id="code-7"></pre>
 
 </section>

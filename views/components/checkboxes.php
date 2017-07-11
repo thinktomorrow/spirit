@@ -3,11 +3,13 @@
 <div class="column">
   <h2>Checkboxes</h2>
   <div class="input-group stack row">
+    <div  id="clone-11">
     <label class="column-12 custom-indicators" for="check-one">
       <input value="checkbox" id="check-one" type="checkbox">
       <span class="custom-checkbox"></span>
       Checkbox
     </label>
+    </div>
     <label class="column-12 custom-indicators" for="check-two">
       <input value="checkbox" id="check-two" type="checkbox" checked>
       <span class="custom-checkbox"></span>
@@ -24,15 +26,19 @@
       Checkbox checked and disabled
     </label>
   </div>
+  <pre class="code-box" id="code-11"></pre>
+
 </div>
 <div class="column">
   <h2>Radio buttons</h2>
   <div class="input-group stack row">
+    <div  id="clone-10">
     <label class="column-12 custom-indicators" for="check-five">
       <input value="radio" name="radio" id="check-five" type="radio">
       <span class="custom-radiobutton"></span>
       Radio
     </label>
+  </div>
     <label class="column-12 custom-indicators" for="check-six">
       <input value="radio" name="radio" id="check-six" type="radio" checked>
       <span class="custom-radiobutton"></span>
@@ -49,31 +55,36 @@
       Radio selected en disabled
     </label>
   </div>
+  <pre class="row code-box" id="code-10"></pre>
+
 </div>
 <div class="column">
   <h2>Switches</h2>
   <div class="input-group stack">
-    <div class="row">
-      <div class="column-2">
+    <div class="row" >
+      <div class="switch-group" id="clone-9">
         <input class="switch switch-primary" id="switch-1" type="checkbox"/>
         <label class=" custom-switch switch-btn" for="switch-1"></label>
       </div>
       <span class="column">Primary</span>
     </div>
+
     <div class="row  stack-xs">
-      <div class="column-2">
+      <div class="switch-group">
         <input class="switch switch-secundary" id="switch-2" type="checkbox"/>
         <label class=" custom-switch switch-btn" for="switch-2"></label>
       </div>
       <span class="column">Secundary</span>
     </div>
     <div class="row">
-      <div class="column-2">
+      <div class="switch-group">
         <input class="switch switch-tertiary" id="switch-3" type="checkbox"/>
         <label class=" custom-switch switch-btn" for="switch-3"></label>
       </div>
       <span class="column">Secundary</span>
     </div>
   </div>
+  <pre class="row code-box" id="code-9"></pre>
+
 </div>
 </section>

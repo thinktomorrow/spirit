@@ -113,10 +113,13 @@
   </div>
   <h1 id="notifications">Notifications</h1>
   <hr>
+  <div id="clone-14">
   <div class="alert stack-s alert--success">
     <span class="alert__copy column-9">Succes: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
     <span class="alert__btn">Ok, got it</span>
   </div>
+</div>
+
   <div class="alert stack-s alert--warning">
     <span class="alert__copy column-9">Warning: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
     <span class="alert__btn">Ok, got it</span>
@@ -133,15 +136,25 @@
     <span class="alert__copy column-9">Primary: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
     <span class="alert__btn">Ok, got it</span>
   </div>
+  <pre class="code-box" id="code-14"></pre>
 
   <h1 id="badges">Badges</h1>
-  <div class="stack">
-    <p class="label label--primary"><span class="badge badge-left">4</span>Label with badge</p>
-    <p class="label label--primary">Label with badge <span class="badge badge-right">4</span></p>
+  <div class="stack" id="clone-13">
+    <div class="label label--primary">
+      <span class="badge badge-left">4</span>
+      Label with badge
+    </div>
+    <div class="label label--primary">
+      Label with badge
+      <span class="badge badge-right">4</span>
+    </div>
   </div>
-  <div class="stack">
+  <pre class="code-box" id="code-13"></pre>
+
+  <div class="stack" id="clone-12">
     <a class="btn btn-o-primary"><span class="badge badge-left">4</span>Button with badge</a>
     <a class="btn btn-o-secundary">Button with badge<span class="badge badge-right">4</span></a>
   </div>
+  <pre class="row code-box" id="code-12"></pre>
 
 </section>
