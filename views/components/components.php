@@ -113,7 +113,7 @@
   </div>
   <h1 id="notifications">Notifications</h1>
   <hr>
-  <div id="clone-14">
+  <div id="clone-16">
     <div class="alert stack-s alert--success">
       <span class="alert__copy column-9">Succes: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
       <span class="alert__btn">Ok, got it</span>
@@ -136,10 +136,10 @@
     <span class="alert__copy column-9">Primary: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
     <span class="alert__btn">Ok, got it</span>
   </div>
-  <pre class="code-box" id="code-14"></pre>
+  <pre class="code-box" id="code-16"></pre>
 
   <h1 id="badges">Badges</h1>
-  <div class="stack" id="clone-13">
+  <div class="stack" id="clone-15">
     <div class="label label--primary">
       <span class="badge badge-left">4</span>
       Label with badge
@@ -149,12 +149,12 @@
       <span class="badge badge-right">4</span>
     </div>
   </div>
-  <pre class="code-box" id="code-13"></pre>
+  <pre class="code-box" id="code-15"></pre>
 
-  <div class="stack" id="clone-12">
+  <div class="stack" id="clone-14">
     <a class="btn btn-o-primary"><span class="badge badge-left">4</span>Button with badge</a>
     <a class="btn btn-o-secundary">Button with badge<span class="badge badge-right">4</span></a>
   </div>
-  <pre class="row code-box" id="code-12"></pre>
+  <pre class="row code-box" id="code-14"></pre>
 
 </section>

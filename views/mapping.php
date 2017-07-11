@@ -4,11 +4,11 @@ switch ($page) {
     case 'home':
         include('views/pages/home.php');
         break;
-    case 'component':
+    case 'components':
         include('views/pages/components.php');
         break;
     default:
-        include('views/pages/components.php');
+        include('views/pages/home.php');
         break;
 }
 ?>
