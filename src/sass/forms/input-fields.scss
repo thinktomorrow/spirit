@@ -134,6 +134,79 @@ input[type=checkbox]:checked ~ .custom-checkbox{
   }
 }
 
+// SWITCHES
+
+.switch {
+	display: none;
+	// add default box-sizing for this scope
+  &:after,
+  &:before,
+	& + .switch-btn {
+		box-sizing: border-box;
+		&::selection {
+			background: none;
+		}
+	}
+	+ .switch-btn {
+		outline: 0;
+		display: block;
+		width: 1.75rem;
+		height: 1rem;
+		position: relative;
+		cursor: pointer;
+    user-select: none;
+		&:after,
+    &:before {
+			position: relative;
+			display: block;
+			content: "";
+			width: 50%;
+			height: 100%;
+		}
+
+		&:after {
+			left: 0;
+		}
+
+		&:before {
+			display: none;
+		}
+	}
+
+	&:checked + .switch-btn:after {
+		left: 50%;
+	}
+}
+
+.switch-primary,
+.switch-secundary,
+.switch-tertiary {
+	+ .switch-btn {
+		background: $color-body;
+		border-radius: 2em;
+		padding: 2px;
+		transition: all .4s ease;
+		&:after {
+			border-radius: 50%;
+			background: $color-white;
+			transition: all .2s ease;
+		}
+	}
+}
+
+$color-name: primary secundary tertiary;
+$colors: $color-primary $color-secundary $color-tertiary;
+
+@each $block in $color-name{
+  $i: index($color-name, $block);
+  // GET YOUR COLOR FROM THE nth-PLACE ON THE LIST
+    $color: nth($colors, $i);
+    .switch-#{$block}:checked + .switch-btn {
+      background: $color;
+    }
+}
+
+
 // ERRORS AND VALIDS
 .valid{
   color: $color-success;

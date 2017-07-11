@@ -79,7 +79,7 @@ code.sans-serif:after {
 }
 
 a {
-  color: #562382;
+  color: #231f20;
 }
 
 ::-moz-selection {
@@ -1209,6 +1209,89 @@ input[type=checkbox]:checked ~ .custom-checkbox {
 
 .custom-radiobutton::after {
   border-radius: 50%;
+}
+
+.switch {
+  display: none;
+}
+
+.switch:after, .switch:before,
+.switch + .switch-btn {
+  box-sizing: border-box;
+}
+
+.switch:after::-moz-selection, .switch:before::-moz-selection,
+.switch + .switch-btn::-moz-selection {
+  background: none;
+}
+
+.switch:after::selection, .switch:before::selection,
+.switch + .switch-btn::selection {
+  background: none;
+}
+
+.switch + .switch-btn {
+  outline: 0;
+  display: block;
+  width: 1.75rem;
+  height: 1rem;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.switch + .switch-btn:after, .switch + .switch-btn:before {
+  position: relative;
+  display: block;
+  content: "";
+  width: 50%;
+  height: 100%;
+}
+
+.switch + .switch-btn:after {
+  left: 0;
+}
+
+.switch + .switch-btn:before {
+  display: none;
+}
+
+.switch:checked + .switch-btn:after {
+  left: 50%;
+}
+
+.switch-primary + .switch-btn,
+.switch-secundary + .switch-btn,
+.switch-tertiary + .switch-btn {
+  background: #59626a;
+  border-radius: 2em;
+  padding: 2px;
+  -webkit-transition: all .4s ease;
+  transition: all .4s ease;
+}
+
+.switch-primary + .switch-btn:after,
+.switch-secundary + .switch-btn:after,
+.switch-tertiary + .switch-btn:after {
+  border-radius: 50%;
+  background: #ffffff;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+}
+
+.switch-primary:checked + .switch-btn {
+  background: #fdce04;
+}
+
+.switch-secundary:checked + .switch-btn {
+  background: #562382;
+}
+
+.switch-tertiary:checked + .switch-btn {
+  background: #ec3853;
 }
 
 .valid {

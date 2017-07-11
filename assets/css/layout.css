@@ -63,7 +63,7 @@ ul.glyphs{
     color:#bdc3c7;
   }
 .nav__item{
-  text-align: center;
+  text-align: left;
 }
 .nav__item a{
   text-decoration: none;
@@ -73,29 +73,30 @@ ul.glyphs{
 .nav__item a::after{
   content: '';
   transition: all 0.3s ease-in-out;
-}
-.nav__item a:hover::after{
-  content: '';
   display: block;
-  background-color: $color-primary;
-  height: 10px;
+  background-color: transparent;
+  height: 1px;
   width: 100%;
   position: absolute;
-  top: 10px;
+  top: 20px;
   z-index: -1;
   left: 50%;
   transform: translateX(-50%);
 }
+.nav__item a:hover::after{
+  content: '';
+  background-color: #fdce04;
+}
 .sticky{
-  position: fixed;
+  position: fixed!important;
+  margin-left: 60px;
+}
+aside{
+  position: absolute;
   top: 0;
-  margin: 0px 30px 0px;
-  width: calc(100% - 60px);
-  left: 30px;
-  background-color: #FFF;
-  border-bottom: 1px solid #ccc;
-  padding: 0.875rem 14%;
+  margin: 6rem 30px 0px;
   z-index: 10;
+  left: 75px;
 }
 footer{
   text-align: center;

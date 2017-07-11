@@ -50,4 +50,30 @@
     </label>
   </div>
 </div>
+<div class="column">
+  <h2>Switches</h2>
+  <div class="input-group stack">
+    <div class="row">
+      <div class="column-2">
+        <input class="switch switch-primary" id="switch-1" type="checkbox"/>
+        <label class=" custom-switch switch-btn" for="switch-1"></label>
+      </div>
+      <span class="column">Primary</span>
+    </div>
+    <div class="row  stack-xs">
+      <div class="column-2">
+        <input class="switch switch-secundary" id="switch-2" type="checkbox"/>
+        <label class=" custom-switch switch-btn" for="switch-2"></label>
+      </div>
+      <span class="column">Secundary</span>
+    </div>
+    <div class="row">
+      <div class="column-2">
+        <input class="switch switch-tertiary" id="switch-3" type="checkbox"/>
+        <label class=" custom-switch switch-btn" for="switch-3"></label>
+      </div>
+      <span class="column">Secundary</span>
+    </div>
+  </div>
+</div>
 </section>

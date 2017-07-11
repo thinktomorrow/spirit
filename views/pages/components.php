@@ -1,29 +1,30 @@
 <div class="row text-center" id="top">
   <header class="hero">
     <div class="absolute-center">
-      <a href="?page=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
+      <h1 class="title">Spirit Components</h1>
+      <p>Elements Documentation - v0.0.0</p>
     </div>
   </header>
 </div>
-  <main class="container row main--raised squished-xl">
-    <?php
-    include('views/_partials/components-nav.php');
-    ?>
-<article class="s-column-12 m-column-10 l-column-8 center">
-  <?php
-  include('views/components/colorscheme.php');
-  include('views/components/typography.php');
-  include('views/components/components.php');
-  include('views/components/iconography.php');
-  include('views/components/forms.php');
-  include('views/components/checkboxes.php');
-  include('views/components/panels.php');
-  include('views/components/listgroups.php');
-  include('views/components/thumbnails.php');
-  include('views/components/tables.php');
-  include('views/components/navbar.php');
-  ?>
-</article>
+  <main class="main--raised">
+    <?php include('views/_partials/components-nav.php'); ?>
+    <div class="container row">
+    <article class="column-10 stack-l">
+      <?php
+      // include('views/components/colorscheme.php');
+      // include('views/components/typography.php');
+      // include('views/components/components.php');
+      // include('views/components/iconography.php');
+      // include('views/components/forms.php');
+      // include('views/components/checkboxes.php');
+      // include('views/components/panels.php');
+      // include('views/components/listgroups.php');
+      // include('views/components/thumbnails.php');
+      // include('views/components/tables.php');
+      include('views/components/navbar.php');
+      ?>
+    </article>
+  </div>
 <script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script>
 $(function() {
@@ -44,15 +45,13 @@ $(function() {
   // CLONE YOUR HTML
   var getDiv = $('.clone').clone();
   $('.code-box').html(getDiv);
-
-  var stripFromTag = $('.code-box').html().replace(/</,'&lt;',/\/>/,'&gt;');
-  $('.code-box2').html(stripFromTag);
+  alert(getDiv);
 });
 
 
 // STICKY
-var stickable = $(".nav-bar-top");
-var windowHeight = $('header' ).height() - 85;
+var stickable = $("aside");
+var windowHeight = $('header' ).height() - 60;
 
 $(document).on( 'scroll', function(){
 
