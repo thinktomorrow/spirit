@@ -104,8 +104,8 @@
 				<li><a href="#">12</a></li>
       </ul>
     </div>
-    <div class="row">
-      <ul class="pagination pagination-secundary">
+    <div class="row ">
+      <ul class="pagination pagination-secundary clone">
 				<li><a href="#">1</a></li>
 				<li><a href="#">...</a></li>
 				<li><a href="#">5</a></li>
@@ -118,6 +118,5 @@
       </ul>
     </div>
 
-    <div class="row code-box squished">
-
-    </div>
+    <pre class="row code-box"></pre>
+    <pre class="row code-box2"></pre>

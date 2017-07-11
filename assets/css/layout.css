@@ -1,7 +1,14 @@
 header{
+  background: #fdce04;
+  position: relative;
+}
+.hero--large{
   width: 100%;
   height: 95vh;
-  background: #fdce04;
+}
+.hero{
+  width: 100%;
+  height: 50vh;
 }
 header img {
   width: 200px;

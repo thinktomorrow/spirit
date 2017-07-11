@@ -1,41 +1,14 @@
-<nav class="nav-bar-top row center">
-  <div class="column nav__item inline-s">
-    <a href="#top">Overview</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#colorscheme">Colors</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#typography">Typography</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#buttons">Buttons</a>
-  </div> <!-- Buttons and Labels -->
-  <div class="column nav__item inline-s">
-    <a href="#labels">Labels</a>
-  </div> <!-- Buttons and Labels -->
-  <div class="column nav__item inline-s">
-    <a href="#notifications">Notifications</a>
-  </div> <!-- pusher.github.io/chameleon -->
-  <div class="column nav__item inline-s">
-    <a href="#iconography">Iconography</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#forms">Forms/inputs</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#panels">Panels</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#thumbnails">Thumbnails</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#tables">Tables</a>
-  </div>
-  <div class="column nav__item inline-s">
-    <a href="#navbar">Navigation</a>
-  </div>
-</nav>
+<div class="row text-center" id="top">
+  <header class="hero">
+    <div class="absolute-center">
+      <a href="?page=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
+    </div>
+  </header>
+</div>
+  <main class="container row main--raised squished-xl">
+    <?php
+    include('views/_partials/components-nav.php');
+    ?>
 <article class="s-column-12 m-column-10 l-column-8 center">
   <?php
   include('views/components/colorscheme.php');
@@ -51,9 +24,10 @@
   include('views/components/navbar.php');
   ?>
 </article>
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
 <script>
 $(function() {
+  // SCROLL TO ID
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -66,10 +40,19 @@ $(function() {
       }
     }
   });
+
+  // CLONE YOUR HTML
+  var getDiv = $('.clone').clone();
+  $('.code-box').html(getDiv);
+
+  var stripFromTag = $('.code-box').html().replace(/</,'&lt;',/\/>/,'&gt;');
+  $('.code-box2').html(stripFromTag);
 });
+
+
 // STICKY
 var stickable = $(".nav-bar-top");
-var windowHeight = $( window ).height() - 85;
+var windowHeight = $('header' ).height() - 85;
 
 $(document).on( 'scroll', function(){
 
