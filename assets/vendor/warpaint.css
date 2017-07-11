@@ -500,7 +500,7 @@ html {
   }
 }
 
-li {
+ul li {
   list-style: circle;
 }
 
@@ -535,33 +535,33 @@ img {
 }
 
 .row {
-  display: block;
+  display: -webkit-box;
+  display: flex;
+  flex-flow: column wrap;
 }
 
 @media (min-width: 30em) {
   .row {
-    display: -webkit-box;
-    display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     /* Allow overflow to wrap to following line */
     -webkit-box-pack: justify;
     justify-content: space-between;
   }
-}
-
-.row.top {
-  -webkit-box-align: start;
-  align-items: flex-start;
-}
-
-.row.center {
-  -webkit-box-align: center;
-  align-items: center;
-}
-
-.row.bottom {
-  -webkit-box-align: end;
-  align-items: flex-end;
+  .row.top {
+    -webkit-box-align: start;
+    -ms-grid-row-align: flex-start;
+    align-items: flex-start;
+  }
+  .row.center {
+    -webkit-box-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+  }
+  .row.bottom {
+    -webkit-box-align: end;
+    -ms-grid-row-align: flex-end;
+    align-items: flex-end;
+  }
 }
 
 @media (min-width: 30em) {
@@ -1359,18 +1359,18 @@ h1, h2, h3, h4, h5, h6 {
 h1 {
   font-size: 1.925em;
   line-height: 1em;
-  margin-top: 2.8125rem;
+  margin-top: 3rem;
 }
 
 h2 {
   font-size: 1.575em;
   line-height: 1.25em;
-  margin-top: 2.8125rem;
+  margin-top: 3rem;
 }
 
 h3 {
   font-size: 1.225em;
-  margin-top: 2.1875rem;
+  margin-top: 3rem;
 }
 
 h4 {
@@ -1386,7 +1386,8 @@ h6 {
 }
 
 p {
-  margin: 1.5rem 0;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /**
@@ -1423,13 +1424,15 @@ p {
 }
 
 /**
- * Reset margin top to zero when it is the first element
- * in a column or container
- *
+ * All first elements have a collapsed top margin by default. This ensures a better
+ * expected behaviour out of the box. 
  */
-.container h1:first-child,
+h1:first-child,
 h2:first-child,
 h3:first-child,
+h4:first-child,
+h5:first-child,
+h6:first-child,
 p:first-child {
   margin-top: 0;
 }
@@ -1545,32 +1548,72 @@ p:first-child {
 /**
  * Inline
   *
-  * Arrange object inline. For pills, tags, breadrumbs
-  *
+  * Arrange object inline. Ideal for pills, tags, breadrumbs
   */
 .inline-xs {
-  margin-left: 0.375rem;
   margin-right: 0.375rem;
 }
 
 .inline-s {
-  margin-left: 0.75rem;
   margin-right: 0.75rem;
 }
 
 .inline-m, .inline {
-  margin-left: 1.5rem;
   margin-right: 1.5rem;
 }
 
 .inline-l {
-  margin-left: 3rem;
   margin-right: 3rem;
 }
 
 .inline-xl {
-  margin-left: 6rem;
   margin-right: 6rem;
+}
+
+/**
+ * Inline-group
+  */
+.inline-group-xs > * {
+  margin-right: 0.375rem;
+}
+
+.inline-group-s > * {
+  margin-right: 0.75rem;
+}
+
+.inline-group-m > *, .inline-group > * {
+  margin-right: 1.5rem;
+}
+
+.inline-group-l > * {
+  margin-right: 3rem;
+}
+
+.inline-group-xl > * {
+  margin-right: 6rem;
+}
+
+/**
+ * last element of inline-group needs to be properly aligned
+ */
+.inline-group-xs > *:last-child {
+  margin-right: 0;
+}
+
+.inline-group-s > *:last-child {
+  margin-right: 0;
+}
+
+.inline-group-m > *:last-child, .inline-group > *:last-child {
+  margin-right: 0;
+}
+
+.inline-group-l > *:last-child {
+  margin-right: 0;
+}
+
+.inline-group-xl > *:last-child {
+  margin-right: 0;
 }
 
 @media (min-width: 20em) {
