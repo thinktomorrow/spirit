@@ -3,22 +3,22 @@
   <hr>
 <div class="row gutter">
   <div class="column">
-    <a href="#" class="thumbnail raised">
+    <a href="#" class="thumbnail">
       <img src="https://placehold.it/300x300" alt="">
     </a>
   </div>
   <div class="column">
-    <div class="thumbnail">
+    <div class="thumbnail --rounded">
       <img src="https://placehold.it/300x300" alt="">
     </div>
   </div>
   <div class="column">
-    <div class="thumbnail">
+    <div class="thumbnail --raised">
       <img src="https://placehold.it/300x300" alt="">
     </div>
   </div>
   <div class="column">
-    <div class="thumbnail">
+    <div class="thumbnail --rounded --raised">
       <img src="https://placehold.it/300x300" alt="">
     </div>
   </div>
