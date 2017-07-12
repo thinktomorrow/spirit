@@ -25,15 +25,14 @@ $(function() {
 
   // CLONE YOUR HTML
 
-  for (var i = 0; i < 99; i++) {
+function cloneHtml(){
+  $('[id^=clone-]').each(function (i) {
     var cloneDiv = $('#clone-'+ i).html();
     var stripFromTag = cloneDiv.replace(/\/</,'&lt;',/\/>/,'&gt;');
     $('#code-'+ i).text(stripFromTag);
-  }
-
-  // var cloneDiv = $('[id^="clone-"]').html();
-  // var stripFromTag = cloneDiv.replace(/\/</,'&lt;',/\/>/,'&gt;');
-  // $('[id^="code-"]').text(stripFromTag);
+  })
+}
+cloneHtml();
 
 });
 
