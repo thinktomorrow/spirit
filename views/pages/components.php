@@ -7,16 +7,13 @@
   </header>
 </div>
   <main class="main--raised">
-    <?php include('views/_partials/components-nav.php'); ?>
+    <?php include('views/_partials/sidebar.php'); ?>
     <div class="container row">
     <article class="column-10 stack-l">
       <?php
-      include('views/components/colorscheme.php');
-      include('views/components/typography.php');
-      include('views/components/iconography.php');
       include('views/components/components.php');
-      include('views/components/forms.php');
-      include('views/components/checkboxes.php');
+      include('views/components/inputs.php');
+      include('views/components/toggles.php');
       include('views/components/panels.php');
       include('views/components/listgroups.php');
       include('views/components/thumbnails.php');

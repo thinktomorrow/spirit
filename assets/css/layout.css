@@ -27,6 +27,7 @@ main{
   position: relative;
   background-color: #FFF;
   z-index: 1;
+  overflow-y: hidden;
 }
 main.main--raised{
 margin: -60px 30px 0px;
@@ -103,14 +104,6 @@ footer{
   text-align: center;
 }
 
-code{
-  color: #562382;
-  padding: 1px 5px;
-}
-code:after{
-  content: '';
-  display: inline-block;
-}
 hr{
   position: relative;
 }

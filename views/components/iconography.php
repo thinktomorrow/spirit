@@ -1,7 +1,7 @@
 <section class="stack-l iconography" id="iconography">
   <h1>Iconography</h1>
   <hr>
-  <h2>Fontawesome font</h2>
+  <h2><strike>Spirit</strike> Fontawesome font</h2>
   <ul class="row glyphs css-mapping">
       <li>
         <i class="icon icon-500px"></i>

@@ -1,4 +1,8 @@
-<section class="stack-l row forms" id="checkboxes">
+<section class="stack-l row" id="toggles">
+  <div class="column-12">
+  <h1>Toggles</h1>
+  <hr>
+</div>
 <!-- RADIO BUTTONS AND CHECKBOXES -->
 <div class="column">
   <h2>Checkboxes</h2>
