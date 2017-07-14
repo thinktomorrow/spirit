@@ -11,7 +11,7 @@
     <div class="container row">
     <article class="column-10 stack-l">
       <?php
-      include('views/components/iconography.php');
+      include('views/components/typography.php');
       ?>
     </article>
   </div>

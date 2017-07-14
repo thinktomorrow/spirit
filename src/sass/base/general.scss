@@ -5,6 +5,9 @@ code.serif:after{
 code.sans-serif:after{
   content:$font-family-sans-serif;
 }
+.hexCode:after{
+  content: #{$color-primary};
+}
 
 // LINK COLORS
 a{

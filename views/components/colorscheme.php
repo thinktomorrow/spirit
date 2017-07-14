@@ -3,13 +3,13 @@
   <hr>
   <h2>Brand colors</h2>
   <div class="row gutter">
-    <div class="column color-block box">
+    <div class="column color-block box color-primary">
       <div class="bg-primary inset-l"></div>
       <div class="content inset-s">
         <label class="font-xs subtle">SCSS</label>
         <span>$paint-primary<span>
         <label class="font-xs subtle">HEX</label>
-        <span>#fdce04</span>
+        <span class="hexCode"></span>
       </div>
     </div>
     <div class="column color-block box">
@@ -18,7 +18,7 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$paint-secundary</span>
         <label class="font-xs subtle">HEX</label>
-        <span>#39323a</span>
+        <span class="hexCode"></span>
       </div>
     </div>
     <div class="column color-block box">
@@ -27,7 +27,7 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$paint-tertiary</span>
         <label class="font-xs subtle">HEX</label>
-        <span>#ec3853</span>
+        <span class="hexCode"></span>
       </div>
     </div>
   </div>
@@ -40,7 +40,7 @@
         <label class="font-xs subtle">SCSS</label>
           <span>$heading</span>
           <label class="font-xs subtle">HEX</label>
-          <span>#aeaze</span>
+          <span class="hexCode"></span>
       </div>
     </div>
     <div class="column color-block box">
@@ -49,7 +49,7 @@
         <label class="font-xs subtle">SCSS</label>
           <span>$body</span>
           <label class="font-xs subtle">HEX</label>
-          <span>#aeaze</span>
+          <span class="hexCode"></span>
       </div>
     </div>
     <div class="column color-block box">
@@ -58,7 +58,7 @@
         <label class="font-xs subtle">SCSS</label>
           <span>$border</span>
           <label class="font-xs subtle">HEX</label>
-          <span>#aeaze</span>
+          <span class="hexCode"></span>
       </div>
     </div>
   </div>
@@ -71,7 +71,7 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$subtle</span>
             <label class="font-xs subtle">HEX</label>
-            <span>#aeaze</span>
+            <span class="hexCode"></span>
         </div>
         </div>
       <div class="column color-block box">
@@ -80,7 +80,7 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$dark</span>
             <label class="font-xs subtle">HEX</label>
-            <span>#aeaze</span>
+            <span class="hexCode"></span>
         </div>
         </div>
       <div class="column color-block box">
@@ -89,7 +89,7 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$white</span>
             <label class="font-xs subtle">HEX</label>
-            <span>#aeaze</span>
+            <span class="hexCode"></span>
         </div>
         </div>
       <div class="column color-block box">
@@ -98,7 +98,7 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$black</span>
             <label class="font-xs subtle">HEX</label>
-            <span>#aeaze</span>
+            <span class="hexCode"></span>
         </div>
         </div>
   </div>
@@ -111,7 +111,7 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$succes</span>
         <label class="font-xs subtle">HEX</label>
-        <span>#aeaze</span>
+        <span class="hexCode"></span>
     </div>
     </div>
     <div class="column color-block box">
@@ -120,7 +120,7 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$warning</span>
         <label class="font-xs subtle">HEX</label>
-        <span>#aeaze</span>
+        <span class="hexCode"></span>
     </div>
     </div>
     <div class="column color-block box">
@@ -129,7 +129,7 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$error</span>
         <label class="font-xs subtle">HEX</label>
-        <span>#aeaze</span>
+        <span class="hexCode"></span>
     </div>
     </div>
     <div class="column color-block box">
@@ -138,7 +138,7 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$information</span>
         <label class="font-xs subtle">HEX</label>
-        <span>#aeaze</span>
+        <span class="hexCode"></span>
     </div>
     </div>
   </div>

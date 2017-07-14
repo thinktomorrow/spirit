@@ -9,9 +9,6 @@
 <div class="nav__item stack-s">
   <a href="?summon=icons">Icons</a>
 </div>
-<div class="nav__item stack-s">
-  <a href="?summon=components">Components</a>
-</div>
 <!-- COMPONENTS -->
 <hr>
 <div class="nav__item stack-s">

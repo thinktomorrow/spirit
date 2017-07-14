@@ -1,6 +1,9 @@
 header{
-  background: #fdce04;
+  background: #56c560;
   position: relative;
+}
+header h1, header p{
+  color: #FFF;
 }
 .hero--large{
   width: 100%;
@@ -87,7 +90,7 @@ ul.glyphs{
 }
 .nav__item a:hover::after{
   content: '';
-  background-color: #fdce04;
+  background-color: #56c560;
 }
 .sticky{
   position: fixed!important;
