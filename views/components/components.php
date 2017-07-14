@@ -2,50 +2,63 @@
   <h1>Buttons</h1>
   <hr>
   <h2>Buttons</h2>
-  <div class="stack">
+  <div class="stack" id="clone-27">
     <a class="btn btn-primary">Button primary</a>
     <a class="btn btn-secundary">Button secundary</a>
     <a class="btn btn-tertiary">Button tertiary</a>
   </div>
-  <div class="stack">
+  <pre class="code-box" id="code-27"></pre>
+
+  <div class="stack" id="clone-26">
     <a class="btn btn-o-primary">Button primary</a>
     <a class="btn btn-o-secundary">Button secundary</a>
     <a class="btn btn-o-tertiary">Button tertiary</a>
   </div>
+  <pre class="code-box" id="code-26"></pre>
+
 
 
   <h2>Buttons styles</h2>
-  <div class="stack">
+  <div class="stack" id="clone-25">
     <a class="btn btn-primary">Button default</a>
     <a class="btn btn-primary btn-round">Button round</a>
     <a class="btn btn-primary btn-circle"><i class="icon icon-heart"></i></a>
   </div>
+  <pre class="code-box" id="code-25"></pre>
+
 
   <h2>Large Buttons</h2>
-  <div class="stack">
+  <div class="stack" id="clone-24">
     <a class="btn btn-lg btn-primary">Button primary</a>
-    <a class="btn btn-lg btn-secundary">Button secundary</a>
+    <a class="btn btn-lg btn-secundary btn-round">Button secundary</a>
   </div>
   <div class="stack">
-    <a class="btn btn-lg btn-o-primary">Button primary</a>
+    <a class="btn btn-lg btn-o-primary btn-round">Button primary</a>
     <a class="btn btn-lg btn-o-secundary">Button secundary</a>
   </div>
+  <pre class="code-box" id="code-24"></pre>
+
 
   <h2>Super Large Buttons</h2>
-  <div class="stack">
-    <a class="btn btn-xl btn-primary">Button primary</a>
+  <div class="stack" id="clone-23">
+    <a class="btn btn-xl btn-primary btn-round">Button round primary</a>
     <a class="btn btn-xl btn-secundary">Button secundary</a>
   </div>
   <div class="stack">
     <a class="btn btn-xl btn-o-primary">Button primary</a>
-    <a class="btn btn-xl btn-o-secundary">Button secundary</a>
+    <a class="btn btn-xl btn-o-secundary btn-round">Button round secundary</a>
   </div>
+  <pre class="code-box" id="code-23"></pre>
+
   <h2>Link buttons</h2>
-  <a class="btn btn-link">Button link</a>
-  <a class="btn btn-link btn-secondary">Button link</a>
+  <div class="stack" id="clone-22">
+    <a class="btn btn-link">Button link</a>
+    <a class="btn btn-link btn-secondary">Button link</a>
+  </div>
+  <pre class="code-box" id="code-22"></pre>
 
   <h2>Icon buttons</h2>
-  <div class="stack">
+  <div class="stack" id="clone-21">
     <a class="btn btn-action">
       <i class="icon icon-pen"></i>
     </a>
@@ -68,7 +81,7 @@
       <i class="icon icon-pen"></i>
     </a>
   </div>
-  <div class="stack">
+  <div class="stack" id="clone-20">
     <a class="btn btn-action btn-circle">
       <i class="icon icon-pen"></i>
     </a>
@@ -93,24 +106,30 @@
   </div>
   <h1 id="labels">Labels</h1>
   <hr>
-  <div class="stack">
+  <div class="stack" id="clone-19">
     <label class="label label--success">Collaborator label</label>
     <label class="label label--warning">Connection timeout label</label>
     <label class="label label--error">Error label</label>
     <label class="label label--information">Information label</label>
     <label class="label label--primary">Primary label</label>
   </div>
-  <div class="stack">
+  <pre class="code-box" id="code-19"></pre>
+
+  <div class="stack" id="clone-18">
     <label class="label label-o--success">Collaborator label</label>
     <label class="label label-o--warning">Connection timeout label</label>
     <label class="label label-o--error">Error label</label>
     <label class="label label-o--information">Information label</label>
     <label class="label label-o--primary">Primary label</label>
   </div>
-  <div class="stack">
+  <pre class="code-box" id="code-18"></pre>
+
+  <div class="stack" id="clone-17">
     <label class="label label--right label--primary">Right label</label>
     <label class="label label--left label--primary">Left label</label>
   </div>
+  <pre class="code-box" id="code-17"></pre>
+
   <h1 id="notifications">Notifications</h1>
   <hr>
   <div id="clone-16">
