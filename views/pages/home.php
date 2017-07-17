@@ -4,7 +4,7 @@
       <a href="?page=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
       <h1 class="title">SPIRIT</h1>
       <p class="first">your frontend toolkit</p>
-      <a class="btn btn-o-tertiary btn-round" href="https://github.com/thinktomorrow/spirit.git">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
+      <a class="btn btn-o-tertiary btn-round stack" href="https://github.com/thinktomorrow/warpaint/archive/0.0.1.zip">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
     </div>
   </header>
 </div>

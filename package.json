@@ -1,4 +1,8 @@
 {
+  "name": "spirit",
+  "version": "0.0.1",
+  "description": "Your frontend toolkit",
+  "main": "gulpfile.js",
   "private": true,
   "devDependencies": {
     "browser-sync": "^2.12.3",
