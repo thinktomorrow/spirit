@@ -757,12 +757,15 @@ a.btn {
 ul.listgroup {
   margin: 0;
   padding: 0;
+  border: 1px solid #959eae;
 }
 
 ul.listgroup li {
   list-style: none;
   border-bottom: 1px solid #959eae;
   padding: 0.5rem 0.75rem;
+  -webkit-transition: all 0.15s ease-in-out;
+  transition: all 0.15s ease-in-out;
 }
 
 ul.listgroup li:last-child {
@@ -770,7 +773,9 @@ ul.listgroup li:last-child {
 }
 
 ul.listgroup li:hover {
+  color: #e9ebeb;
   background-color: #959eae;
+  padding-left: 1rem;
 }
 
 .thumbnail {
@@ -1076,6 +1081,64 @@ table .btn ~ .btn {
 
 .pagination-secundary li:hover a, .pagination-secundary li.active a {
   color: #ffffff;
+}
+
+/*----- Tabs -----*/
+.tabs {
+  width: 100%;
+  display: inline-block;
+}
+
+/*----- Tab Links -----*/
+/* Clearfix */
+.tab-links:after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+.tab-links li {
+  margin: 0px 5px;
+  float: left;
+  list-style: none;
+}
+
+.tab-links a {
+  padding: 9px 15px;
+  display: inline-block;
+  border-radius: 5px;
+  background: #56c560;
+  font-size: 16px;
+  font-weight: 600;
+  color: #97a0aa;
+  -webkit-transition: all linear 0.15s;
+  transition: all linear 0.15s;
+}
+
+.tab-links a:hover {
+  background: #a7cce5;
+  text-decoration: none;
+}
+
+li.active a, li.active a:hover {
+  background: #fff;
+  color: #4c4c4c;
+}
+
+/*----- Content of Tabs -----*/
+.tab-content {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+  background: #ffffff;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.active {
+  display: block;
 }
 
 textarea,
