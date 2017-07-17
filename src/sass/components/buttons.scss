@@ -30,6 +30,7 @@ a.btn{
   &:hover{
     color: $color-primary;
     text-decoration: underline;
+    text-decoration-skip: ink;
   }
 }
 .btn-round{
