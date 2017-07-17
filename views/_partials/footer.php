@@ -38,7 +38,7 @@ cloneHtml();
 
 // STICKY
 var stickable = $("aside");
-var windowHeight = $('header' ).height() - 60;
+var windowHeight = $('.hero' ).height() - 95;
 
 $(document).on( 'scroll', function(){
 

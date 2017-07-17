@@ -2,7 +2,7 @@
   <header class="hero">
     <div class="absolute-center">
       <h1 class="title">Spirit Components</h1>
-      <p>Elements Documentation - v0.0.0</p>
+      <p>Elements Documentation - v0.0.1</p>
     </div>
   </header>
 </div>
