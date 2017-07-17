@@ -1169,6 +1169,11 @@ input[type='file'] {
   padding-left: calc(0.75rem * 4);
 }
 
+input[type='search'] {
+  background: url("../img/icons/search.svg") no-repeat right center;
+  background-size: 10% 29%;
+}
+
 input[type=radio],
 input[type=checkbox] {
   position: absolute;

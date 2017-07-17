@@ -67,6 +67,11 @@ input[type='file']{
     padding-left: calc(0.75rem * 4);
   }
 }
+// SEARCH
+input[type='search']{
+  background: url('../img/icons/search.svg') no-repeat right center;
+  background-size: 10% 29%;
+}
 
 // RADIOS AND CHECKBOXES
 

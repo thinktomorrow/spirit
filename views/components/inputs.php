@@ -59,7 +59,7 @@
   </div>
   <div class="input-group stack">
     <label for="search">Search</label>
-    <input id="search" class="input inset-s" placeholder="Search" type="search" required>
+    <input id="search" class="input inset-s" placeholder="Search" type="search" data-icon="icon-search" required>
   </div>
   <div class="input-group stack">
     <label for="email">Email Address</label>
