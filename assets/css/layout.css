@@ -104,7 +104,7 @@ ul.glyphs{
 }
 .nav__item a::after{
   content: '';
-  transition: all 0.3s ease-in-out;
+  transition: all 0.15s ease-in-out;
   display: block;
   background-color: transparent;
   height: 1px;
