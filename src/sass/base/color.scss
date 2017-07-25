@@ -1,16 +1,20 @@
-$color-primary:       #56c560 !default;
-$color-secundary:     #46b5b8 !default;
-$color-tertiary:      #d81b60 !default;
+$color-primary:       #56c560;
+$color-secundary:     #46b5b8;
+$color-tertiary:      #d81b60;
 
-$color-heading:       #212631 !default; // Used for titles
-$color-font:          #97a0aa !default; // Used for paragraph text
-$color-body:          #f7f8f9 !default; // Used for body
-$color-border:        #959eae !default; // Used for borders
+$color-heading:       #212631; // Used for titles
+$color-font:          #97a0aa; // Used for paragraph text
+$color-body:          #f7f8f9; // Used for body
+$color-border:        #959eae; // Used for borders
 
-$color-subtle:        #e9ebeb !default;
-$color-dark:          #4f5164 !default;
-$color-white:         #ffffff !default;
-$color-black:         #000000 !default;
+$color-tab-body:      #f7f8f9;
+$color-tab-dark:      #4f5164;
+$color-tab-border:    darken($color-tab-body, 10%);
+
+$color-subtle:        #e9ebeb;
+$color-dark:          #4f5164;
+$color-white:         #ffffff;
+$color-black:         #000000;
 
 $color-success:       #52bb52;
 $color-warning:       #ffa726;

@@ -1,56 +1,54 @@
-<section class="stack-l panels" id="panels">
+<section class="stack-l tabs" id="tabs">
   <h1>Tabs</h1>
   <hr>
   <div class="row gutter">
-    <div class="column-12">
-      <!-- TABS IS USED FOR THE GENERAL LAYOUT -->
-      <div class="tabs">
-        <nav class="panel-tab panel-tab-round panel-tab-right">
-          <ul class="">
-            <li class="active"><a href="#tab1">Tab #1</a></li>
-            <li><a href="#tab2">Tab #2</a></li>
-            <li><a href="#tab3">Tab #3</a></li>
-            <li><a href="#tab4">Tab #4</a></li>
+    <div class="column-6" id="clone-28">
+      <div class="tabs" id="example">
+        <nav class="panel-tabs panel-tabs-left">
+          <ul>
+            <li class="inset-s active" data-tab="tab-1">Tab #1</li>
+            <li class="inset-s" data-tab="tab-2">Tab #2</li>
+            <li class="inset-s" data-tab="tab-3">Tab #3</li>
+            <li class="inset-s" data-tab="tab-4">Tab #4</li>
           </ul>
         </nav>
         <div class="clearfix"></div>
         <div class="tab-content inset">
-          <div id="tab1" class="tab active">
-            <p>Tab #1 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>
+          <div id="tab-1" class="tab active">
+            <span>Tabs on the left</span>
+            <p>.panel-tabs-round .panel-tabs-right</p>
           </div>
-
-          <div id="tab2" class="tab">
-            <p>Tab #2 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+          <div id="tab-2" class="tab">
+            <span>Tab #2 content goes here!</span>
           </div>
-
-          <div id="tab3" class="tab">
-            <p>Tab #3 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum ri.</p>
+          <div id="tab-3" class="tab">
+            <span>Tab #3 content goes here!</span>
           </div>
-
-          <div id="tab4" class="tab">
-            <p>Tab #4 content goes here!</p>
-            <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis. In hac habitasse platea dictumst. Ut euismod tempus hendrerit. Morbi ut adipiscing nisi. Etiam rutrum sodales gravida! Aliquam tellus orci, iaculis vel.</p>
+          <div id="tab-4" class="tab">
+            <span>Tab #4 content goes here!</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="column-6">
+      <div class="tabs">
+        <nav class="panel-tabs panel-tabs-round panel-tabs-right">
+          <ul class="">
+            <li class="inset-s active">Tab #1</li>
+            <li class="inset-s">Tab #2</li>
+            <li class="inset-s">Tab #3</li>
+            <li class="inset-s">Tab #4</li>
+          </ul>
+        </nav>
+        <div class="clearfix"></div>
+        <div class="tab-content inset">
+          <div class="active">
+            <span>Rounded tabs on the right</span>
+            <p>.panel-tabs-round .panel-tabs-right</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+  <pre class="code-box" id="code-28"></pre>
 </section>
-<script>
-$(function() {
-  jQuery('.tabs .tab-links a').on('click', function(e)  {
-    var currentAttrValue = jQuery(this).attr('href');
-
-    // Show/Hide Tabs
-    jQuery('.tabs ' + currentAttrValue).show().siblings().hide();
-
-    // Change/remove current tab to active
-    jQuery(this).parent('li').addClass('active').siblings().removeClass('active');
-
-    e.preventDefault();
-  });
-});
-</script>

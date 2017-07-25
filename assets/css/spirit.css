@@ -1093,83 +1093,79 @@ table .btn ~ .btn {
   display: table;
 }
 
-.panel-tab:after {
+.panel-tabs:after {
   display: table;
   clear: both;
   content: '';
 }
 
-.panel-tab ul {
+.panel-tabs ul {
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
-.panel-tab ul li {
+.panel-tabs ul li {
   float: left;
   list-style: none;
+  cursor: pointer;
   margin-bottom: -1px;
-}
-
-.panel-tab ul a {
-  padding: 9px 15px;
   display: inline-block;
   border-radius: none;
   background: #4f5164;
+  border-top: 1px solid #dadfe3;
+  border-left: 1px solid #dadfe3;
+  border-right: 1px solid #dadfe3;
   color: #ffffff;
-  -webkit-transition: all linear 0.15s;
-  transition: all linear 0.15s;
+  -webkit-transition: all 0.05s linear;
+  transition: all 0.05s linear;
   text-decoration: none;
 }
 
-.panel-tab ul a:hover {
+.panel-tabs ul li:hover {
   background: #383a48;
-  color: #ffffff;
+  color: #f7f8f9;
 }
 
-.panel-tab ul li.active a,
-.panel-tab ul li.active a:hover {
-  background: #ffffff;
-  color: #97a0aa;
-  border-top: 1px solid #959eae;
-  border-left: 1px solid #959eae;
-  border-right: 1px solid #959eae;
+.panel-tabs ul li.active,
+.panel-tabs ul li.active:hover {
+  background: #f7f8f9;
+  color: #4f5164;
+  border-top: 1px solid #dadfe3;
+  border-left: 1px solid #dadfe3;
+  border-right: 1px solid #dadfe3;
 }
 
-.panel-tab-right {
+.panel-tabs-right {
   float: right;
 }
 
-.panel-tab-right li:last-child {
+.panel-tabs-right li:last-child {
   margin-left: 0;
   margin-right: 0;
 }
 
-.panel-tab-right li:last-child a {
-  border-top-right-radius: 5px;
-}
-
-.panel-tab-left {
+.panel-tabs-left {
   float: left;
 }
 
-.panel-tab-left li:first-child {
+.panel-tabs-left li:first-child {
   margin-left: 0;
   margin-right: 0;
 }
 
-.panel-tab-round li:first-child a {
+.panel-tabs-round li:first-child {
   border-top-left-radius: 5px;
 }
 
-.panel-tab-round li:last-child a {
+.panel-tabs-round li:last-child {
   border-top-right-radius: 5px;
 }
 
 .tab-content {
   border-radius: none;
-  background-color: #ffffff;
-  border: 1px solid #959eae;
+  background-color: #f7f8f9;
+  border: 1px solid #dadfe3;
 }
 
 .tab {

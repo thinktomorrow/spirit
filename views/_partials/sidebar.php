@@ -47,4 +47,7 @@
 <div class="nav__item stack-s">
   <a href="#navbar">Navigation</a>
 </div>
+<div class="nav__item stack-s">
+  <a href="#tabs">Tabs</a>
+</div>
 </aside>
