@@ -1,56 +1,61 @@
-/*----- Tabs -----*/
+// Tabs
 .tabs {
-    width:100%;
-    display:inline-block;
+  width:100%;
+  display:inline-block;
+  background-color: $color-body;
+}
+.clearfix{
+  &:before,
+  &:after{
+    content: " ";
+    display: table;
+  }
 }
 
-    /*----- Tab Links -----*/
-    /* Clearfix */
-    .tab-links:after {
-        display:block;
-        clear:both;
-        content:'';
+// CLEAR FLOAT AFTER TAB NAVIGATION
+.tab-nav:after {
+  display:table;
+  clear:both;
+  content:'';
+}
+.tab-nav{
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  & li {
+    margin:0px 5px;
+    float:left;
+    list-style:none;
+  }
+  & a {
+    padding:9px 15px;
+    display:inline-block;
+    border-radius:$border-radius;
+    background:$color-subtle;
+    color:$color-white;
+    transition:all linear 0.15s;
+    text-decoration:none;
+    &:hover {
+      background:darken($color-subtle,10%);
+      color:$color-white;
     }
+  }
+  & li.active a,
+  li.active a:hover {
+    background:darken($color-subtle,10%);
+    color:$color-white;
+  }
+}
 
-    .tab-links li {
-        margin:0px 5px;
-        float:left;
-        list-style:none;
-    }
+// Content of Tabs
+.tab-content {
+  border-radius: $border-radius;
+}
 
-        .tab-links a {
-            padding:9px 15px;
-            display:inline-block;
-            border-radius:$border-radius;
-            background:$color-primary;
-            font-size:16px;
-            font-weight:600;
-            color:$color-font;
-            transition:all linear 0.15s;
-        }
+.tab {
+  display:none;
+}
 
-        .tab-links a:hover {
-            background:#a7cce5;
-            text-decoration:none;
-        }
-
-    li.active a, li.active a:hover {
-        background:#fff;
-        color:#4c4c4c;
-    }
-
-    /*----- Content of Tabs -----*/
-    .tab-content {
-        padding:15px;
-        border-radius:$border-radius;
-        box-shadow:-1px 1px 1px rgba(0,0,0,0.15);
-        background:$color-white;
-    }
-
-        .tab {
-            display:none;
-        }
-
-        .tab.active {
-            display:block;
-        }
+.tab.active {
+  display:block;
+}
