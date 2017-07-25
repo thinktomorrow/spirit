@@ -77,7 +77,6 @@ box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
 .box .content{
   border-top: 1px dotted #ccc;
 }
-.divider,
 hr{
   border: 0;
   height: 0;
@@ -135,11 +134,9 @@ footer{
   text-align: center;
 }
 
-.divider,
 hr{
   position: relative;
 }
-.divider::after,
 hr::after{
   display: block;
   content: "";

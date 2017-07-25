@@ -51,6 +51,7 @@ p {
 
 ul, ol {
   word-break: break-word;
+  padding-left: 0;
 }
 
 ol li {

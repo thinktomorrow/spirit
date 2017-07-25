@@ -50,13 +50,8 @@ $(function() {
   $('.color-block > [class^=bg-]').each(function (i,j) {
     var colorArray=[];
 
-    var injectRgbColor = $(this).closest('.hexCode');
-
     var rgb = $(this).css('background-color');
     var hex = rgb2hex($(this).css('background-color'));
-
-    console.log(rgb);
-
 
     colorArray.push($(j).text( hex + rgb));
 
