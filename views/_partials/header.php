@@ -18,12 +18,12 @@
   <header>
       <div class="container relative">
           <div class="header-logo">
-            <a href="/index.html"><img src="assets/svg/logo.svg" alt="Spirit"></a>
+            <a href="?summon=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
           </div>
           <nav class="header-navigation">
               <ul class="">
                   <li class="inline-s"><a href="?summon=home">Get started</a></li>
-                  <li class="inline-s"><a href="?summon=colors">Colors</a></li>
+                  <li class="inline-s"><a href="?summon=colors">Color-scheme</a></li>
                   <li class="inline-s"><a href="?summon=typography">Typography</a></li>
                   <li class="inline-s"><a href="?summon=components">Components</a></li>
                   <li class="inline-s"><a target="_blank" href="https://github.com/thinktomorrow/spirit">Github</a></li>

@@ -4,22 +4,49 @@
       <a href="?page=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
       <div class="stack">
         <h1 class="title">SPIRIT</h1>
-        <p class="first">your frontend toolkit</p>
+        <p>Your frontend toolkit </p>
       </div>
-      <a class="btn btn-o-tertiary btn-round --raised" href="https://github.com/thinktomorrow/spirit/archive/master.zip">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
+      <a class="btn btn-o-tertiary btn-round --raised" href="https://github.com/thinktomorrow/spirit/archive/master.zip" target="_blank">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
+      <div><em>Current version 0.0.1</em></div>
     </div>
   </header>
 </div>
-  <main class="container row main--raised squished-xl">
-    <article class="column-6 stack-l">
-      <h1>What is Spirit?</h1>
-      <p>Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia? De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.</P>
-      <a href="?summon=components" class="btn btn-solid btn-secundary">Check out our components</a>
-      <a href="?summon=colors" class="btn btn-solid btn-secundary">Check out our color-scheme</a>
-    </article>
-    <article class="column-6 stack-l">
-      <h1>Quickstart Spirit</h1>
-      <p>Zombies reversus ab inferno, nam malum cerebro. De carne animata corpora quaeritis. Summus sit​​, morbo vel maleficia? De Apocalypsi undead dictum mauris. Hi mortuis soulless creaturas, imo monstra adventus vultus comedat cerebella viventium. Qui offenderit rapto, terribilem incessu. The voodoo sacerdos suscitat mortuos comedere carnem. Search for solum oculi eorum defunctis cerebro. Nescio an Undead zombies. Sicut malus movie horror.</P>
-      <a class="btn btn-solid btn-secundary" href="https://github.com/thinktomorrow/spirit/archive/master.zip">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
-    </article>
+  <main class="main--raised inset-l">
+    <div class="container">
+    <div class="row">
+      <article class="squished-l">
+        <h1 class="text-center">What is Spirit?</h1>
+        <p>Spirit is a toolkit with several frontend components to build anything your heart desires. It started of as a style guide for your project, but it kinda grew into something more... Now it is a guide to bridge the gap between developers and designers.</p>
+        <p>Because with Spirit you can talk about the different components the design needs and how they look, instead of discussing the general design.</p>
+        <p>But keep in mind, that these components aren't written into stone, so you can create
+        a lot of extra components that the design needs.</p>
+        <p>Have a lot of fun!</p>
+      </article>
+    </div>
+    <div class="divider"></div>
+    </div>
+    <div class="container">
+      <article class="column-6 squished-l">
+        <div class="stack">
+          <h1>Different colors and components</h1>
+          <p>A toolbelt without tools is just a belt. Right?</p>
+          <code>.buttons, .badges, .labels, .listgroups, .nav-items, .tables, .tabs, .thumbnails, .checkboxes, .radiobuttons, .switches, .notifications, .inputs, .panels, ...</code>
+          <a href="?summon=components" class="btn btn-solid btn-secundary stack">Check out all the components <i class="icon icon-fw icon-code"></i></a>
+        </div>
+        <div class="stack">
+          <h1>Is it open  source?</h1>
+          <p>Yes, Spirit is open source! Time to give back to the community! It's hosted, developed, and maintained on GitHub by folks like you.</p>
+          <a class="btn btn-solid btn-secundary" href="https://github.com/thinktomorrow/spirit/archive/master.zip">View the GIT <i class="icon icon-fw icon-github"></i></a>
+        </div>
+      </article>
+      <article class="column-6 squished-l">
+        <div class="stack">
+          <h1>Quickstart</h1>
+          <p>To get started, download and include the `spirit.min.css` in the head of your html:</p>
+          <code> &lt;link rel="stylesheet" href="/spirit.min.css" type="text/css"&gt; </code>
+          <a class="btn btn-solid btn-secundary stack" href="https://github.com/thinktomorrow/spirit/archive/master.zip" target="_blank">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
+        </div>
+      </article>
+    </div>
+    <div class="container">
 
