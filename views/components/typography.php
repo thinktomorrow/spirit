@@ -2,8 +2,7 @@
   <h1>Typography</h1>
   <hr>
 
-  <h2>Headings</h2>
-  <p>Er zijn twee core fonts: <code class="sans-serif"></code> en <code class="serif"></code> </p>
+  <p>Er zijn twee core fonts: <span class="font-xl sans-serif"></span> en <span class="font-xl serif"></span> </p>
 
   <h1>H1.Heading level 1</h1>
   <h2>H2.Heading level 2</h2>

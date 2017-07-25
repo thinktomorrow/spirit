@@ -1,5 +1,5 @@
 header{
-  background: #56c560;
+  background: #13c6a6;
   position: relative;
 }
 header h1, header p{
@@ -41,7 +41,7 @@ header h1, header p{
   height: 30vh;
 }
 header img {
-  width: 200px;
+  width: 250px;
 }
 .absolute-center{
   position: absolute;
@@ -117,7 +117,7 @@ ul.glyphs{
 }
 .nav__item a:hover::after{
   content: '';
-  background-color: #56c560;
+  background-color: #13c6a6;
 }
 .sticky{
   position: fixed!important;

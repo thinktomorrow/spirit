@@ -16,7 +16,7 @@
         <div class="tab-content inset">
           <div id="tab-1" class="tab active">
             <span>Tabs on the left</span>
-            <p>.panel-tabs-round .panel-tabs-right</p>
+            <p>.panel-tabs .panel-tabs-left</p>
           </div>
           <div id="tab-2" class="tab">
             <span>Tab #2 content goes here!</span>
@@ -44,7 +44,7 @@
         <div class="tab-content inset">
           <div class="active">
             <span>Rounded tabs on the right</span>
-            <p>.panel-tabs-round .panel-tabs-right</p>
+            <p>.panel-tabs .panel-tabs-round .panel-tabs-right</p>
           </div>
         </div>
       </div>

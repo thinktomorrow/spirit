@@ -11,7 +11,10 @@
     <div class="container row">
     <article class="column-10 stack-l">
       <?php
-      include('views/components/components.php');
+      include('views/components/buttons.php');
+      include('views/components/badges.php');
+      include('views/components/labels.php');
+      include('views/components/notifications.php');
       include('views/components/inputs.php');
       include('views/components/toggles.php');
       include('views/components/panels.php');

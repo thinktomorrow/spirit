@@ -23,6 +23,8 @@
           <nav class="header-navigation">
               <ul class="">
                   <li class="inline-s"><a href="?summon=home">Get started</a></li>
+                  <li class="inline-s"><a href="?summon=colors">Colors</a></li>
+                  <li class="inline-s"><a href="?summon=typography">Typography</a></li>
                   <li class="inline-s"><a href="?summon=components">Components</a></li>
                   <li class="inline-s"><a target="_blank" href="https://github.com/thinktomorrow/spirit">Github</a></li>
               </ul>
