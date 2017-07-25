@@ -36,20 +36,51 @@ $(function() {
   }
   cloneHtml();
 
+  // BRING IN THE COLORS
 
-// TABS
-$('#example .panel-tabs li').click(function(){
-  var nav_tabs = $('#example .panel-tabs li');
-  var panel_tabs = $('.tab');
-  var tab_id = $(this).attr('data-tab');
+  // Function to turn rgb to hex
+  function rgb2hex(orig){
+   var rgb = orig.replace(/\s/g,'').match(/^rgba?\((\d+),(\d+),(\d+)/i);
+   return (rgb && rgb.length === 4) ? "#" +
+    ("0" + parseInt(rgb[1],10).toString(16)).slice(-2) +
+    ("0" + parseInt(rgb[2],10).toString(16)).slice(-2) +
+    ("0" + parseInt(rgb[3],10).toString(16)).slice(-2) : orig;
+  };
 
-  nav_tabs.removeClass('active');
-  panel_tabs.removeClass('active');
+  $('.color-block > [class^=bg-]').each(function (i,j) {
+    var colorArray=[];
+
+    var injectRgbColor = $(this).closest('.hexCode');
+
+    var rgb = $(this).css('background-color');
+    var hex = rgb2hex($(this).css('background-color'));
+
+    console.log(rgb);
 
 
-  $(this).addClass('active');
-  $("#"+tab_id).toggleClass('active');
-})
+    colorArray.push($(j).text( hex + rgb));
+
+    $('.hexCode').text( rgb );
+    $('.rgbCode').text( hex );
+
+  });
+
+
+
+
+  // TABS
+  $('#example .panel-tabs li').click(function(){
+    var nav_tabs = $('#example .panel-tabs li');
+    var panel_tabs = $('.tab');
+    var tab_id = $(this).attr('data-tab');
+
+    nav_tabs.removeClass('active');
+    panel_tabs.removeClass('active');
+
+
+    $(this).addClass('active');
+    $("#"+tab_id).toggleClass('active');
+  })
 
 });
 

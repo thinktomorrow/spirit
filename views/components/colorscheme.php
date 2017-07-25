@@ -9,7 +9,9 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$paint-primary<span>
         <label class="font-xs subtle">HEX</label>
-        <span class="hexCode"></span>
+        <div class="hexCode"></div>
+        <label class="font-xs subtle">RGB</label>
+        <div class="rgbCode"></div>
       </div>
     </div>
     <div class="column color-block box">
@@ -18,7 +20,9 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$paint-secundary</span>
         <label class="font-xs subtle">HEX</label>
-        <span class="hexCode"></span>
+        <div class="hexCode"></div>
+        <label class="font-xs subtle">RGB</label>
+        <div class="rgbCode"></div>
       </div>
     </div>
     <div class="column color-block box">
@@ -27,7 +31,9 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$paint-tertiary</span>
         <label class="font-xs subtle">HEX</label>
-        <span class="hexCode"></span>
+        <div class="hexCode"></div>
+        <label class="font-xs subtle">RGB</label>
+        <div class="rgbCode"></div>
       </div>
     </div>
   </div>
@@ -40,7 +46,9 @@
         <label class="font-xs subtle">SCSS</label>
           <span>$heading</span>
           <label class="font-xs subtle">HEX</label>
-          <span class="hexCode"></span>
+          <div class="hexCode"></div>
+          <label class="font-xs subtle">RGB</label>
+          <div class="rgbCode"></div>
       </div>
     </div>
     <div class="column color-block box">
@@ -49,7 +57,9 @@
         <label class="font-xs subtle">SCSS</label>
           <span>$body</span>
           <label class="font-xs subtle">HEX</label>
-          <span class="hexCode"></span>
+          <div class="hexCode"></div>
+          <label class="font-xs subtle">RGB</label>
+          <div class="rgbCode"></div>
       </div>
     </div>
     <div class="column color-block box">
@@ -58,7 +68,9 @@
         <label class="font-xs subtle">SCSS</label>
           <span>$border</span>
           <label class="font-xs subtle">HEX</label>
-          <span class="hexCode"></span>
+          <div class="hexCode"></div>
+          <label class="font-xs subtle">RGB</label>
+          <div class="rgbCode"></div>
       </div>
     </div>
   </div>
@@ -71,7 +83,9 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$subtle</span>
             <label class="font-xs subtle">HEX</label>
-            <span class="hexCode"></span>
+            <div class="hexCode"></div>
+            <label class="font-xs subtle">RGB</label>
+            <div class="rgbCode"></div>
         </div>
         </div>
       <div class="column color-block box">
@@ -80,7 +94,9 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$dark</span>
             <label class="font-xs subtle">HEX</label>
-            <span class="hexCode"></span>
+            <div class="hexCode"></div>
+            <label class="font-xs subtle">RGB</label>
+            <div class="rgbCode"></div>
         </div>
         </div>
       <div class="column color-block box">
@@ -89,7 +105,9 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$white</span>
             <label class="font-xs subtle">HEX</label>
-            <span class="hexCode"></span>
+            <div class="hexCode"></div>
+            <label class="font-xs subtle">RGB</label>
+            <div class="rgbCode"></div>
         </div>
         </div>
       <div class="column color-block box">
@@ -98,7 +116,9 @@
           <label class="font-xs subtle">SCSS</label>
             <span>$black</span>
             <label class="font-xs subtle">HEX</label>
-            <span class="hexCode"></span>
+            <div class="hexCode"></div>
+            <label class="font-xs subtle">RGB</label>
+            <div class="rgbCode"></div>
         </div>
         </div>
   </div>
@@ -111,7 +131,9 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$succes</span>
         <label class="font-xs subtle">HEX</label>
-        <span class="hexCode"></span>
+        <div class="hexCode"></div>
+        <label class="font-xs subtle">RGB</label>
+        <div class="rgbCode"></div>
     </div>
     </div>
     <div class="column color-block box">
@@ -120,7 +142,9 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$warning</span>
         <label class="font-xs subtle">HEX</label>
-        <span class="hexCode"></span>
+        <div class="hexCode"></div>
+        <label class="font-xs subtle">RGB</label>
+        <div class="rgbCode"></div>
     </div>
     </div>
     <div class="column color-block box">
@@ -129,7 +153,9 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$error</span>
         <label class="font-xs subtle">HEX</label>
-        <span class="hexCode"></span>
+        <div class="hexCode"></div>
+        <label class="font-xs subtle">RGB</label>
+        <div class="rgbCode"></div>
     </div>
     </div>
     <div class="column color-block box">
@@ -138,7 +164,9 @@
         <label class="font-xs subtle">SCSS</label>
         <span>$information</span>
         <label class="font-xs subtle">HEX</label>
-        <span class="hexCode"></span>
+        <div class="hexCode"></div>
+        <label class="font-xs subtle">RGB</label>
+        <div class="rgbCode"></div>
     </div>
     </div>
   </div>
