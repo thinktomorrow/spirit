@@ -3,9 +3,10 @@
   <hr>
   <div class="row gutter">
     <div class="column-12">
-      <div class="tabs inset">
-        <nav class="pull-right">
-          <ul class="tab-nav">
+      <!-- TABS IS USED FOR THE GENERAL LAYOUT -->
+      <div class="tabs">
+        <nav class="panel-tab panel-tab-round panel-tab-right">
+          <ul class="">
             <li class="active"><a href="#tab1">Tab #1</a></li>
             <li><a href="#tab2">Tab #2</a></li>
             <li><a href="#tab3">Tab #3</a></li>
@@ -13,7 +14,7 @@
           </ul>
         </nav>
         <div class="clearfix"></div>
-        <div class="tab-content">
+        <div class="tab-content inset">
           <div id="tab1" class="tab active">
             <p>Tab #1 content goes here!</p>
             <p>Donec pulvinar neque sed semper lacinia. Curabitur lacinia ullamcorper nibh; quis imperdiet velit eleifend ac. Donec blandit mauris eget aliquet lacinia! Donec pulvinar massa interdum risus ornare mollis.</p>

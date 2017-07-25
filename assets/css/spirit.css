@@ -1086,7 +1086,6 @@ table .btn ~ .btn {
 .tabs {
   width: 100%;
   display: inline-block;
-  background-color: #f7f8f9;
 }
 
 .clearfix:before, .clearfix:after {
@@ -1094,48 +1093,83 @@ table .btn ~ .btn {
   display: table;
 }
 
-.tab-nav:after {
+.panel-tab:after {
   display: table;
   clear: both;
   content: '';
 }
 
-.tab-nav {
+.panel-tab ul {
   padding: 0;
   margin: 0;
   width: 100%;
 }
 
-.tab-nav li {
-  margin: 0px 5px;
+.panel-tab ul li {
   float: left;
   list-style: none;
+  margin-bottom: -1px;
 }
 
-.tab-nav a {
+.panel-tab ul a {
   padding: 9px 15px;
   display: inline-block;
-  border-radius: 5px;
-  background: #e9ebeb;
+  border-radius: none;
+  background: #4f5164;
   color: #ffffff;
   -webkit-transition: all linear 0.15s;
   transition: all linear 0.15s;
   text-decoration: none;
 }
 
-.tab-nav a:hover {
-  background: #ced3d3;
+.panel-tab ul a:hover {
+  background: #383a48;
   color: #ffffff;
 }
 
-.tab-nav li.active a,
-.tab-nav li.active a:hover {
-  background: #ced3d3;
-  color: #ffffff;
+.panel-tab ul li.active a,
+.panel-tab ul li.active a:hover {
+  background: #ffffff;
+  color: #97a0aa;
+  border-top: 1px solid #959eae;
+  border-left: 1px solid #959eae;
+  border-right: 1px solid #959eae;
+}
+
+.panel-tab-right {
+  float: right;
+}
+
+.panel-tab-right li:last-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.panel-tab-right li:last-child a {
+  border-top-right-radius: 5px;
+}
+
+.panel-tab-left {
+  float: left;
+}
+
+.panel-tab-left li:first-child {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.panel-tab-round li:first-child a {
+  border-top-left-radius: 5px;
+}
+
+.panel-tab-round li:last-child a {
+  border-top-right-radius: 5px;
 }
 
 .tab-content {
-  border-radius: 5px;
+  border-radius: none;
+  background-color: #ffffff;
+  border: 1px solid #959eae;
 }
 
 .tab {

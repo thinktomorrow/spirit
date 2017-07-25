@@ -2,7 +2,6 @@
 .tabs {
   width:100%;
   display:inline-block;
-  background-color: $color-body;
 }
 .clearfix{
   &:before,
@@ -13,43 +12,78 @@
 }
 
 // CLEAR FLOAT AFTER TAB NAVIGATION
-.tab-nav:after {
+.panel-tab:after {
   display:table;
   clear:both;
   content:'';
 }
-.tab-nav{
-  padding: 0;
-  margin: 0;
-  width: 100%;
-  & li {
-    margin:0px 5px;
-    float:left;
-    list-style:none;
-  }
-  & a {
-    padding:9px 15px;
-    display:inline-block;
-    border-radius:$border-radius;
-    background:$color-subtle;
-    color:$color-white;
-    transition:all linear 0.15s;
-    text-decoration:none;
-    &:hover {
-      background:darken($color-subtle,10%);
-      color:$color-white;
+.panel-tab{
+  ul{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+      & li {
+        float:left;
+        list-style:none;
+        margin-bottom: -1px;
+      }
+      & a {
+        padding:9px 15px;
+        display:inline-block;
+        border-radius:none;
+        background:$color-dark;
+        color:$color-white;
+        transition:all linear 0.15s;
+        text-decoration:none;
+        &:hover {
+          background:darken($color-dark,10%);
+          color:$color-white;
+        }
+      }
+      & li.active a,
+      li.active a:hover {
+        background:$color-white;
+        color:$color-font;
+        border-top: 1px solid $color-border;
+        border-left: 1px solid $color-border;
+        border-right: 1px solid $color-border;
+      }
+    }
+}
+
+.panel-tab-right{
+  float: right;
+  li:last-child{
+    margin-left:0;
+    margin-right:0;
+    a{
+      border-top-right-radius: $border-radius;
     }
   }
-  & li.active a,
-  li.active a:hover {
-    background:darken($color-subtle,10%);
-    color:$color-white;
+}
+
+.panel-tab-left{
+  float: left;
+  li:first-child{
+    margin-left:0;
+    margin-right:0;
+  }
+}
+
+.panel-tab-round{
+  li:first-child a{
+    border-top-left-radius: $border-radius;
+  }
+  li:last-child a{
+    border-top-right-radius: $border-radius;
   }
 }
 
 // Content of Tabs
 .tab-content {
-  border-radius: $border-radius;
+  border-radius: none;
+  background-color: $color-white;
+  border: 1px solid $color-border;
 }
 
 .tab {
