@@ -6,7 +6,7 @@
         <h1 class="title">SPIRIT</h1>
         <p>Your frontend toolkit </p>
       </div>
-      <a class="btn btn-o-tertiary btn-round --raised" href="https://github.com/thinktomorrow/spirit/archive/master.zip" target="_blank">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
+      <a class="btn btn-o-tertiary btn-round --raised" href="https://github.com/thinktomorrow/spirit/archive/master.zip">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
       <div><em>Current version 0.0.1</em></div>
     </div>
   </header>
@@ -44,7 +44,7 @@
           <h1>Quickstart</h1>
           <p>To get started, download and include the `spirit.min.css` in the head of your html:</p>
           <code> &lt;link rel="stylesheet" href="/spirit.min.css" type="text/css"&gt; </code>
-          <a class="btn btn-solid btn-secundary stack" href="https://github.com/thinktomorrow/spirit/archive/master.zip" target="_blank">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
+          <a class="btn btn-solid btn-secundary stack" href="https://github.com/thinktomorrow/spirit/archive/master.zip">SUMMON SPIRIT <i class="icon icon-fw icon-download"></i></a>
         </div>
       </article>
     </div>
