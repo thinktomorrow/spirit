@@ -47,18 +47,19 @@ $(function() {
     ("0" + parseInt(rgb[3],10).toString(16)).slice(-2) : orig;
   };
 
+
+
+  var colorArray=[];
+
   $('.color-block > [class^=bg-]').each(function (i,j) {
-    var colorArray=[];
+      var rgb = $(this).css('background-color');
+      var hex = rgb2hex($(this).css('background-color'));
 
-    var rgb = $(this).css('background-color');
-    var hex = rgb2hex($(this).css('background-color'));
-
-    colorArray.push($(j).text( hex + rgb));
-
-    $('.hexCode').text( rgb );
-    $('.rgbCode').text( hex );
+      $('.rgbCode-'+i).text( rgb );
+      $('.hexCode-'+i).text( hex );
 
   });
+
 
 
 
