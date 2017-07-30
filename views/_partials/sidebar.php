@@ -15,39 +15,39 @@
 <!-- COMPONENTS -->
 <hr>
 <div class="nav__item stack-s">
-  <a href="#buttons">Buttons</a>
+  <a href="?summon=components#buttons">Buttons</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#labels">Labels</a>
+  <a href="?summon=components#labels">Labels</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#notifications">Notifications</a>
+  <a href="?summon=components#notifications">Notifications</a>
 </div> <!-- pusher.github.io/chameleon -->
 <div class="nav__item stack-s">
-  <a href="#badges">Badges</a>
+  <a href="?summon=components#badges">Badges</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#forms">Forms/inputs</a>
+  <a href="?summon=components#forms">Forms/inputs</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#toggles">Toggles</a>
+  <a href="?summon=components#toggles">Toggles</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#panels">Panels</a>
+  <a href="?summon=components#panels">Panels</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#listgroups">Listgroups</a>
+  <a href="?summon=components#listgroups">Listgroups</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#thumbnails">Thumbnails</a>
+  <a href="?summon=components#thumbnails">Thumbnails</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#tables">Tables</a>
+  <a href="?summon=components#tables">Tables</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#navbar">Navigation</a>
+  <a href="?summon=components#navbar">Navigation</a>
 </div>
 <div class="nav__item stack-s">
-  <a href="#tabs">Tabs</a>
+  <a href="?summon=components#tabs">Tabs</a>
 </div>
 </aside>
