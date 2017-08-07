@@ -184,7 +184,7 @@ input[type=checkbox]:checked ~ .custom-checkbox{
 }
 
 .switch-primary,
-.switch-secundary,
+.switch-secondary,
 .switch-tertiary {
 	+ .switch-btn {
 		background: $color-body;
@@ -199,8 +199,8 @@ input[type=checkbox]:checked ~ .custom-checkbox{
 	}
 }
 
-$color-name: primary secundary tertiary;
-$colors: $color-primary $color-secundary $color-tertiary;
+$color-name: primary secondary tertiary;
+$colors: $color-primary $color-secondary $color-tertiary;
 
 @each $block in $color-name{
   $i: index($color-name, $block);

@@ -48,8 +48,8 @@
 }
 
 
-$label-name: primary secundary success warning error information;
-$colors: $color-primary $color-secundary $color-success $color-warning $color-error $color-information;;
+$label-name: primary secondary success warning error information;
+$colors: $color-primary $color-secondary $color-success $color-warning $color-error $color-information;;
 
 @each $label in $label-name{
   $i: index($label-name, $label);

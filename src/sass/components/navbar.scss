@@ -17,15 +17,15 @@
     background-color: lighten($color-primary, 5%);
   }
 }
-.nav-pills-secundary li{
-  background-color: $color-secundary;
+.nav-pills-secondary li{
+  background-color: $color-secondary;
   &:hover{
-    background-color: lighten($color-secundary, 5%);
+    background-color: lighten($color-secondary, 5%);
   }
 }
 
 .nav-pills-primary li,
-.nav-pills-secundary li{
+.nav-pills-secondary li{
   border-radius: $border-radius;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
@@ -131,8 +131,8 @@
   }
 }
 
-$pagination-name: default primary secundary;
-$colors: $color-subtle $color-primary $color-secundary;
+$pagination-name: default primary secondary;
+$colors: $color-subtle $color-primary $color-secondary;
 
 @each $pagination in $pagination-name{
   $i: index($pagination-name, $pagination);

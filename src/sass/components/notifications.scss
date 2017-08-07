@@ -21,8 +21,8 @@
 }
 
 
-$alert-name: primary secundary success warning error information;
-$colors: $color-primary $color-secundary $color-success $color-warning $color-error $color-information;
+$alert-name: primary secondary success warning error information;
+$colors: $color-primary $color-secondary $color-success $color-warning $color-error $color-information;
 
 @each $alert in $alert-name{
   $i: index($alert-name, $alert);
