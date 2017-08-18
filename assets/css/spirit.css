@@ -102,7 +102,7 @@ a {
 }
 
 .raised, .nav-pills-primary li:hover,
-.nav-pills-secundary li:hover, .dropdown-menu li a:hover,
+.nav-pills-secondary li:hover, .dropdown-menu li a:hover,
 .--raised {
   box-shadow: 0 16px 38px -12px rgba(79, 81, 100, 0.36), 0 4px 25px 0px rgba(79, 81, 100, 0.08), 0 8px 10px -5px rgba(79, 81, 100, 0.08);
 }
@@ -199,26 +199,26 @@ a.btn {
   box-shadow: 0 14px 26px -12px rgba(19, 198, 166, 0.42), 0 4px 23px 0px rgba(79, 81, 100, 0.12), 0 8px 10px -5px rgba(19, 198, 166, 0.2);
 }
 
-.btn-secundary {
+.btn-secondary {
   background-color: transparent;
   color: #4360a8;
   border: 1px solid #4360a8;
 }
 
-.btn-secundary:hover, .btn-secundary:focus, .btn-secundary:active, .btn-secundary.active {
+.btn-secondary:hover, .btn-secondary:focus, .btn-secondary:active, .btn-secondary.active {
   background-color: #4360a8 !important;
   color: white;
   border: 1px solid #4360a8;
   box-shadow: 0 14px 26px -12px rgba(67, 96, 168, 0.42), 0 4px 23px 0px rgba(79, 81, 100, 0.12), 0 8px 10px -5px rgba(67, 96, 168, 0.2);
 }
 
-.btn-o-secundary {
+.btn-o-secondary {
   background-color: #4360a8;
   color: #ffffff;
   border: 1px solid #4360a8;
 }
 
-.btn-o-secundary:hover, .btn-o-secundary:focus, .btn-o-secundary:active, .btn-o-secundary.active {
+.btn-o-secondary:hover, .btn-o-secondary:focus, .btn-o-secondary:active, .btn-o-secondary.active {
   background-color: #344b84;
   border: 1px solid #344b84;
   box-shadow: 0 14px 26px -12px rgba(67, 96, 168, 0.42), 0 4px 23px 0px rgba(79, 81, 100, 0.12), 0 8px 10px -5px rgba(67, 96, 168, 0.2);
@@ -444,17 +444,17 @@ a.btn {
   border: 1px solid #13c6a6;
 }
 
-.label--secundary {
+.label--secondary {
   background-color: #4360a8;
   color: #ffffff;
   border: 1px solid #4360a8;
 }
 
-.label--secundary::before {
+.label--secondary::before {
   border-color: transparent #4360a8 transparent transparent;
 }
 
-.label-o--secundary {
+.label-o--secondary {
   background-color: transparent;
   color: #4360a8;
   border: 1px solid #4360a8;
@@ -586,17 +586,17 @@ a.btn {
   background-color: white;
 }
 
-.alert--secundary {
+.alert--secondary {
   background-color: #4360a8;
   border: 1px solid #344b84;
 }
 
-.alert--secundary .alert__btn {
+.alert--secondary .alert__btn {
   color: #4360a8;
   background-color: rgba(79, 81, 100, 0.25);
 }
 
-.alert--secundary .alert__btn:hover {
+.alert--secondary .alert__btn:hover {
   background-color: white;
 }
 
@@ -689,17 +689,17 @@ a.btn {
   box-shadow: 0 16px 26px -10px rgba(19, 198, 166, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(19, 198, 166, 0.2);
 }
 
-.panel-secundary {
+.panel-secondary {
   border-color: rgba(67, 96, 168, 0.75);
 }
 
-.panel-secundary .panel-footer,
-.panel-secundary .panel-header {
+.panel-secondary .panel-footer,
+.panel-secondary .panel-header {
   background-color: rgba(67, 96, 168, 0.75);
   color: #ffffff;
 }
 
-.panel-secundary.panel--raised {
+.panel-secondary.panel--raised {
   box-shadow: 0 16px 26px -10px rgba(67, 96, 168, 0.56), 0 4px 25px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(67, 96, 168, 0.2);
 }
 
@@ -891,21 +891,21 @@ table .btn ~ .btn {
   cursor: pointer;
 }
 
-.table-striped-secundary tr:nth-child(odd) {
+.table-striped-secondary tr:nth-child(odd) {
   background-color: rgba(67, 96, 168, 0.2);
   color: #26365f;
 }
 
-.table-striped-secundary tr:nth-child(even) {
+.table-striped-secondary tr:nth-child(even) {
   color: #26365f;
 }
 
-.table-striped-secundary th,
-.table-striped-secundary td {
+.table-striped-secondary th,
+.table-striped-secondary td {
   border-bottom: 1px solid #4360a8;
 }
 
-.table-striped-secundary.table-hover tr:hover {
+.table-striped-secondary.table-hover tr:hover {
   background-color: rgba(67, 96, 168, 0.3);
   color: #17213b;
   cursor: pointer;
@@ -932,16 +932,16 @@ table .btn ~ .btn {
   background-color: #15ddba;
 }
 
-.nav-pills-secundary li {
+.nav-pills-secondary li {
   background-color: #4360a8;
 }
 
-.nav-pills-secundary li:hover {
+.nav-pills-secondary li:hover {
   background-color: #4d6bb8;
 }
 
 .nav-pills-primary li,
-.nav-pills-secundary li {
+.nav-pills-secondary li {
   border-radius: 5px;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -949,7 +949,7 @@ table .btn ~ .btn {
 }
 
 .nav-pills-primary li a,
-.nav-pills-secundary li a {
+.nav-pills-secondary li a {
   color: #ffffff;
   text-decoration: none;
 }
@@ -1076,15 +1076,15 @@ table .btn ~ .btn {
   color: #ffffff;
 }
 
-.pagination-secundary li a {
+.pagination-secondary li a {
   color: #4360a8;
 }
 
-.pagination-secundary li:hover, .pagination-secundary li.active {
+.pagination-secondary li:hover, .pagination-secondary li.active {
   background: #4360a8;
 }
 
-.pagination-secundary li:hover a, .pagination-secundary li.active a {
+.pagination-secondary li:hover a, .pagination-secondary li.active a {
   color: #ffffff;
 }
 
@@ -1402,7 +1402,7 @@ input[type=checkbox]:checked ~ .custom-checkbox {
 }
 
 .switch-primary + .switch-btn,
-.switch-secundary + .switch-btn,
+.switch-secondary + .switch-btn,
 .switch-tertiary + .switch-btn {
   background: #f7f8f9;
   border-radius: 2em;
@@ -1412,7 +1412,7 @@ input[type=checkbox]:checked ~ .custom-checkbox {
 }
 
 .switch-primary + .switch-btn:after,
-.switch-secundary + .switch-btn:after,
+.switch-secondary + .switch-btn:after,
 .switch-tertiary + .switch-btn:after {
   border-radius: 50%;
   background: #ffffff;
@@ -1424,7 +1424,7 @@ input[type=checkbox]:checked ~ .custom-checkbox {
   background: #13c6a6;
 }
 
-.switch-secundary:checked + .switch-btn {
+.switch-secondary:checked + .switch-btn {
   background: #4360a8;
 }
 
@@ -1482,11 +1482,11 @@ input[type=checkbox]:checked ~ .custom-checkbox {
   color: #13c6a6;
 }
 
-.bg-secundary {
+.bg-secondary {
   background-color: #4360a8;
 }
 
-.text-secundary {
+.text-secondary {
   color: #4360a8;
 }
 
