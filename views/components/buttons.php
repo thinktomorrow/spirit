@@ -43,10 +43,10 @@
     <div class="stack" id="clone-23">
         <a class="btn btn-primary btn-icon">
             <span class="">Volgende stap</span>
-            <icon class="icon-arrow-right"></icon>
+            <icon class="icon icon-arrow-right"></icon>
         </a>
         <a class="btn btn-secondary btn-icon">
-            <icon class="icon-arrow-left "></icon>
+            <icon class="icon icon-arrow-left "></icon>
             <span class="">Vorige stap</span>
         </a>
     </div>
@@ -67,48 +67,48 @@
     <h2>Icon buttons</h2>
     <div class="stack" id="clone-21">
         <a class="btn btn-action">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
         <a class="btn btn-primary btn-action">
             <i class="icon icon-eye"></i>
         </a>
         <a class="btn btn-secondary btn-action">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
         <a class="btn btn-warning btn-action">
             <i class="icon icon-eye"></i>
         </a>
         <a class="btn btn-success btn-action">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
         <a class="btn btn-error btn-action">
             <i class="icon icon-eye"></i>
         </a>
         <a class="btn btn-information btn-action">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
     </div>
     <div class="stack" id="clone-20">
         <a class="btn btn-action btn-circle">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
         <a class="btn btn-primary btn-action btn-circle">
             <i class="icon icon-eye"></i>
         </a>
         <a class="btn btn-secondary btn-action btn-circle">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
         <a class="btn btn-warning btn-action btn-circle">
             <i class="icon icon-eye"></i>
         </a>
         <a class="btn btn-success btn-action btn-circle">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
         <a class="btn btn-error btn-action btn-circle">
             <i class="icon icon-eye"></i>
         </a>
         <a class="btn btn-information btn-action btn-circle">
-            <i class="icon icon-pen"></i>
+            <i class="icon icon-pencil"></i>
         </a>
     </div>
 </section>

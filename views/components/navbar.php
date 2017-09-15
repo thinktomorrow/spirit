@@ -28,7 +28,7 @@
       <ul>
         <li class="squished inline-s">
           <a href="#">
-            <i class="icon icon-pencil"></i>
+            <i class="icon icon-pencilcil"></i>
             <span>Action</span>
           </a>
         </li>
@@ -46,7 +46,7 @@
       <ul>
         <li class="squished inline-s">
           <a href="#">
-            <i class="icon icon-pencil"></i>
+            <i class="icon icon-pencilcil"></i>
             <span>Action</span>
           </a>
         </li>
