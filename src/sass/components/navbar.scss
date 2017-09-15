@@ -53,7 +53,6 @@
     opacity: 0;
     visibility: hidden;
     display: block;
-    border-radius: $dropdown-border-radius;
     &.open{
       opacity: 1;
       visibility: visible;
@@ -80,7 +79,7 @@
   min-width: 160px;
   -webkit-background-clip: padding-box;
   border: 1px solid $color-border;
-  border-radius: $border-radius;
+  border-radius: $dropdown-border-radius;
   background-color: $color-white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   li{
@@ -102,7 +101,7 @@
       &:hover{
         background-color: $color-primary;
         color: darken($color-primary, 20%);
-        border-radius: $border-radius;
+        border-radius: $dropdown-border-radius;
         @extend .raised;
       }
     }

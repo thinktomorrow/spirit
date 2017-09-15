@@ -1,7 +1,7 @@
-@import "warpaint-fixes.scss";
 @import "settings.scss";
 
 @import "base/color.scss";
+
 @import "base/typography.scss";
 @import "base/general.scss";
 
@@ -16,8 +16,10 @@
 @import "components/tables.scss";
 @import "components/navbar.scss";
 @import "components/tabs.scss";
+@import "components/pagination.scss";
 
 @import "forms/input-fields.scss";
+@import "forms/toggles.scss";
 
 @import "elements/color-scheme.scss";
 

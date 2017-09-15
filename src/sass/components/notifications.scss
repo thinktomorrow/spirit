@@ -5,6 +5,7 @@
     border-radius: $notification-border-radius;
     position: relative;
     width: 100%;
+    @extend .raised;
     & .alert__copy{
       color: $color-white;
     }

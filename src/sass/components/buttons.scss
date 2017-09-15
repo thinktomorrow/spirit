@@ -6,47 +6,61 @@ a.btn{
 .btn{
     padding: 0.5rem 1rem;
     display: inline-block;
-    transition: all 0.2s ease-in-out;
+    transition: $transition;
     cursor: pointer;
     &.btn-lg{
       padding: 1rem 2rem;
     }
-    &.btn-xl{
-      padding: 2rem 4rem;
-    }
 }
 .btn-action{
   padding: 0.25em 0.5em;
-  line-height: .5em;
+  line-height: .5rem;
   font-size: 1rem;
   border-radius: $default-border-radius;
 }
-.btn ~ .btn{
-  margin-left: 1rem;
-}
 
 .btn-link{
-  color: $color-primary;
-  &:hover{
-    color: $color-primary;
-    text-decoration: underline;
-    text-decoration-skip: ink;
-  }
+    display: inline-block;
+    &:after{
+        content:'';
+        display: block;
+        height: 1px;
+        margin-top: 5px;
+        width: 0;
+        transition: $transition;
+    }
+    &:hover{
+        &:after{
+            width: 100%;
+        }
+    }
 }
+
 .btn-round{
   border-radius: 3rem;
 }
 .btn-circle{
-  text-align: center;
-  height: 2rem;
-  width: 2rem;
-  padding: 0;
-  border-radius: 50px;
-  & i{
-    line-height: 2.2rem;
-    font-size: 1rem;
-  }
+    height: calc(#{$circle-diameter} * 2);
+    width: calc(#{$circle-diameter} * 2);
+    padding: 0;
+    text-align: center;
+    min-width: auto;
+    border-radius: 50%;
+    line-height: calc(#{$circle-diameter} * 2);
+    & [class^="icon-"]{
+        line-height: calc(#{$circle-diameter} * 2 + 4px);
+    }
 }
+
+.btn-icon{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    & > *:first-child{
+        margin-right: 1rem;
+    }
+}
+
 $button-name: primary secondary tertiary white success error warning information;
 $colors: $color-primary $color-secondary $color-tertiary $color-white $color-success $color-error $color-warning $color-information;
 
@@ -77,6 +91,12 @@ $colors: $color-primary $color-secondary $color-tertiary $color-white $color-suc
           box-shadow: 0 14px 26px -12px rgba($color, 0.42),
                       0 4px 23px 0px rgba($color-dark, 0.12),
                       0 8px 10px -5px rgba($color, 0.2)
+        }
+    }
+
+    .btn-link.text-#{$button}{
+        &:after{
+            background-color: $color;
         }
     }
 }

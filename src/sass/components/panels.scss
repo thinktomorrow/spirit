@@ -2,6 +2,7 @@
 .panel{
   border:1px solid transparent;
   border-radius: $panel-border-radius;
+  overflow: hidden;
 }
 
 $panel-name: default primary secondary success warning error information;

@@ -35,7 +35,7 @@
         border-right: 1px solid $color-tab-border;
 
         color:$color-white;
-        transition: all 0.05s linear;
+        transition: $transition;
         text-decoration:none;
         &:hover {
           background:darken($color-tab-dark,10%);

@@ -7,7 +7,7 @@
  | Zo ben je zeker van een deftige font-rendering.
  |
  */
-    html{
+    html,body{
       font-size: 14px;
     }
 /*
@@ -31,7 +31,7 @@
  | een border radius van minder dan 15px zal op ieder element mooi gerenderd worden.
  |
  */
-    $default-border-radius: 30px;
+    $default-border-radius: 15px;
 
 
     $input-border-radius: $default-border-radius;
@@ -45,13 +45,11 @@
 
     $panel-border-radius: $default-border-radius;
 
-    $notifications-border-radius: 0;
+    $notification-border-radius: 0;
     $table-border-radius: $default-border-radius;
     $tab-border-radius: $default-border-radius;
     $thumbnail-border-radius: $default-border-radius;
     $pagination-border-radius: $default-border-radius;
-
-
 
 /*
  | ----------------------------------------------------------------
@@ -73,6 +71,8 @@
  */
     $btn-border-radius: 3rem;
     $circle-diameter: 1.5rem;
+    $dot-size: 5px;
+
 
 /*
  | ----------------------------------------------------------------
