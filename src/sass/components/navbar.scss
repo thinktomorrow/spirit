@@ -26,7 +26,7 @@
 
 .nav-pills-primary li,
 .nav-pills-secondary li{
-  border-radius: $border-radius;
+  border-radius: $navpills-border-radius;
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   a{
@@ -53,6 +53,7 @@
     opacity: 0;
     visibility: hidden;
     display: block;
+    border-radius: $dropdown-border-radius;
     &.open{
       opacity: 1;
       visibility: visible;

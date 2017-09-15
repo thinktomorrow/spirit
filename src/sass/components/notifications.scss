@@ -2,7 +2,7 @@
 .alert{
     padding: 0.5rem 1rem;
     display: inline-block;
-    border-radius: $border-radius;
+    border-radius: $notification-border-radius;
     position: relative;
     width: 100%;
     & .alert__copy{

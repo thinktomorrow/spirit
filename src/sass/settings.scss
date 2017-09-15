@@ -7,29 +7,79 @@
  | Zo ben je zeker van een deftige font-rendering.
  |
  */
-body{
-  font-size: 14px;
-}
- /*
-  | ----------------------------------------------------------------
-  | Typography
-  | ----------------------------------------------------------------
-  |
-  | Met google fonts kan je twee fonts inladen.
-  | Best is dat je een serif en sans-serif font kiest.
-  |
-  */
-@import "https://fonts.googleapis.com/css?family=Merriweather|Montserrat:300";
+    html{
+      font-size: 14px;
+    }
+/*
+ | ----------------------------------------------------------------
+ | Typography
+ | ----------------------------------------------------------------
+ |
+ | Met google fonts kan je twee fonts inladen.
+ | Best is dat je een serif en sans-serif font kiest.
+ |
+ */
+    @import "https://fonts.googleapis.com/css?family=Merriweather|Montserrat:300";
 
-$font-family-serif:        "Merriweather";
-$font-family-sans-serif:   "Montserrat";
+    $font-family-serif:        "Merriweather";
+    $font-family-sans-serif:   "Montserrat";
 /*
  | ----------------------------------------------------------------
  | Border Radius
  | ----------------------------------------------------------------
  |
- | ...
+ | een border radius van minder dan 15px zal op ieder element mooi gerenderd worden.
  |
  */
-$border-radius: 5px;
-$dot-size: 5px; // used with the label-tags
+    $default-border-radius: 30px;
+
+
+    $input-border-radius: $default-border-radius;
+
+    $panel-border-radius: $default-border-radius;
+    $label-border-radius: $default-border-radius;
+    $badge-border-radius: $default-border-radius;
+
+    $navpills-border-radius: $default-border-radius;
+    $dropdown-border-radius: $default-border-radius;
+
+    $panel-border-radius: $default-border-radius;
+
+    $notifications-border-radius: 0;
+    $table-border-radius: $default-border-radius;
+    $tab-border-radius: $default-border-radius;
+    $thumbnail-border-radius: $default-border-radius;
+    $pagination-border-radius: $default-border-radius;
+
+
+
+/*
+ | ----------------------------------------------------------------
+ | Icons
+ | ----------------------------------------------------------------
+ |
+ | Icon setup.
+ |
+ */
+    $base-icon-size: 24px;
+
+/*
+ | ----------------------------------------------------------------
+ | Btn Circular buttons
+ | ----------------------------------------------------------------
+ |
+ | Icon setup.
+ |
+ */
+    $btn-border-radius: 3rem;
+    $circle-diameter: 1.5rem;
+
+/*
+ | ----------------------------------------------------------------
+ | Smoothness
+ | ----------------------------------------------------------------
+ |
+ | Meestal gebruikt voor hover states e.d.
+ |
+ */
+  $transition: 0.3s ease-in-out all;

@@ -71,10 +71,10 @@
 
 .panel-tabs-round{
   li:first-child{
-    border-top-left-radius: $border-radius;
+    border-top-left-radius: $tab-border-radius;
   }
   li:last-child{
-    border-top-right-radius: $border-radius;
+    border-top-right-radius: $tab-border-radius;
   }
 }
 

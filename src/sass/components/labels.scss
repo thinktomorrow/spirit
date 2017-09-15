@@ -4,7 +4,7 @@
     display: inline-block;
     font-size: smaller;
     position: relative;
-    border-radius: $border-radius;
+    border-radius: $label-border-radius;
     &::before{
       border-style: solid;
       border-width: $dot-size*2 $dot-size*2 $dot-size*2 0;

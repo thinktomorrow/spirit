@@ -18,7 +18,7 @@
       </div>
     </div>
     <div class="column color-block box">
-      <div class="bg-secundary inset-l"></div>
+      <div class="bg-secondary inset-l"></div>
       <div class="content inset-s">
         <label class="font-xs subtle">SCSS</label>
         <div>$paint-secundary</div>
