@@ -1,145 +1,133 @@
 <section class="stack-l iconography" id="iconography">
   <h1>Iconography</h1>
   <hr>
-  <h2><strike>Spirit</strike> Fontawesome font</h2>
+  <h2>Linearicons-Free font</h2>
   <ul class="row glyphs css-mapping">
       <li>
-        <i class="icon icon-500px"></i>
+        <icon class="icon icon-home"></icon>
       </li>
       <li>
-        <i class="icon icon-adjust"></i>
+        <icon class="icon icon-pencil"></icon>
       </li>
       <li>
-        <i class="icon icon-adn"></i>
+        <icon class="icon icon-cog"></icon>
       </li>
       <li>
-        <i class="icon icon-align-center"></i>
+        <icon class="icon icon-trash"></icon>
       </li>
       <li>
-        <i class="icon icon-align-justify"></i>
+        <icon class="icon icon-lock"></icon>
       </li>
       <li>
-        <i class="icon icon-align-left"></i>
+        <icon class="icon icon-heart"></icon>
       </li>
       <li>
-        <i class="icon icon-align-right"></i>
+        <icon class="icon icon-envelope"></icon>
       </li>
       <li>
-        <i class="icon icon-amazon"></i>
+        <icon class="icon icon-exit"></icon>
       </li>
       <li>
-        <i class="icon icon-ambulance"></i>
+        <icon class="icon icon-users"></icon>
       </li>
       <li>
-        <i class="icon icon-anchor"></i>
+        <icon class="icon icon-tag"></icon>
       </li>
       <li>
-        <i class="icon icon-android"></i>
+        <icon class="icon icon-calendar-full"></icon>
       </li>
       <li>
-        <i class="icon icon-angellist"></i>
+        <icon class="icon icon-laptop"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-double-down"></i>
+        <icon class="icon icon-checkmark-circle"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-double-left"></i>
+        <icon class="icon icon-plus-circle"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-double-right"></i>
+        <icon class="icon icon-circle-minus"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-double-up"></i>
+        <icon class="icon icon-cross-circle"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-down"></i>
+        <icon class="icon icon-rocket"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-left"></i>
+        <icon class="icon icon-alarm"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-right"></i>
+        <icon class="icon icon-undo"></icon>
       </li>
       <li>
-        <i class="icon icon-angle-up"></i>
+        <icon class="icon icon-link"></icon>
       </li>
       <li>
-        <i class="icon icon-apple"></i>
+        <icon class="icon icon-cross"></icon>
       </li>
       <li>
-        <i class="icon icon-archive"></i>
+        <icon class="icon icon-menu"></icon>
       </li>
       <li>
-        <i class="icon icon-area-chart"></i>
+        <icon class="icon icon-magnifier"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-down"></i>
+        <icon class="icon icon-chevron-down"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-left"></i>
+        <icon class="icon icon-chevron-left"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-o-down"></i>
+        <icon class="icon icon-chevron-right"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-o-left"></i>
+        <icon class="icon icon-chevron-down"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-o-right"></i>
+        <icon class="icon icon-arrow-right"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-o-up"></i>
+        <icon class="icon icon-arrow-up"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-right"></i>
+        <icon class="icon icon-arrow-left"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-circle-up"></i>
+        <icon class="icon icon-arrow-down"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-down"></i>
+        <icon class="icon icon-arrow-down"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-left"></i>
+        <icon class="icon icon-arrow-left"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-right"></i>
+        <icon class="icon icon-arrow-right"></icon>
       </li>
       <li>
-        <i class="icon icon-arrow-up"></i>
+        <icon class="icon icon-arrow-up"></icon>
       </li>
       <li>
-        <i class="icon icon-arrows"></i>
+        <icon class="icon icon-arrows"></icon>
       </li>
       <li>
-        <i class="icon icon-arrows-alt"></i>
+        <icon class="icon icon-arrows-alt"></icon>
       </li>
       <li>
-        <i class="icon icon-arrows-h"></i>
+        <icon class="icon icon-arrows-h"></icon>
       </li>
       <li>
-        <i class="icon icon-arrows-v"></i>
+        <icon class="icon icon-arrows-v"></icon>
       </li>
       <li>
-        <i class="icon icon-asterisk"></i>
+        <icon class="icon icon-asterisk"></icon>
       </li>
       <li>
-        <i class="icon icon-at"></i>
-      </li>
-      <li>
-        <i class="icon icon-backward"></i>
-      </li>
-      <li>
-        <i class="icon icon-balance-scale"></i>
-      </li>
-      <li>
-        <i class="icon icon-ban"></i>
-      </li>
-      <li>
-        <i class="icon icon-ellipsis-h"></i>
+        <icon class="icon icon-at"></icon>
       </li>
     </ul>
     <div class="row center-center">
-      <a href="http://fontawesome.io/icons/" class="row btn btn-s btn-secondary btn-round" target="_blank">More fonts at Font Awesome</a>
+      <a href="https://linearicons.com/free" class="btn btn-s btn-secondary btn-round" target="_blank">More fonts at Linearicons</a>
     </div>
   </section>
