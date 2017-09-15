@@ -21,7 +21,7 @@
       <div class="bg-secondary inset-l"></div>
       <div class="content inset-s">
         <label class="font-xs subtle">SCSS</label>
-        <div>$paint-secundary</div>
+        <div>$paint-secondary</div>
         <label class="font-xs subtle">HEX</label>
         <div class="hexCode-<?php echo $i ?>"></div>
         <label class="font-xs subtle">RGB</label>

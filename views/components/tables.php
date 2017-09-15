@@ -96,7 +96,7 @@
     </tbody>
   </table>
 
-  <table class="stack table table-striped-secundary table-hover">
+  <table class="stack table table-striped-secondary table-hover">
     <thead>
       <tr>
         <th>#</th>

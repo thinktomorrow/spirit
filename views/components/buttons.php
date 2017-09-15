@@ -4,14 +4,14 @@
   <h2>Standard</h2>
   <div class="stack" id="clone-27">
     <a class="btn btn-primary">Button primary</a>
-    <a class="btn btn-secundary">Button secundary</a>
+    <a class="btn btn-secondary">Button secondary</a>
     <a class="btn btn-tertiary">Button tertiary</a>
   </div>
   <pre class="code-box" id="code-27"></pre>
 
   <div class="stack" id="clone-26">
     <a class="btn btn-o-primary">Button primary</a>
-    <a class="btn btn-o-secundary">Button secundary</a>
+    <a class="btn btn-o-secondary">Button secondary</a>
     <a class="btn btn-o-tertiary">Button tertiary</a>
   </div>
   <pre class="code-box" id="code-26"></pre>
@@ -30,11 +30,11 @@
   <h2>Large Buttons</h2>
   <div class="stack" id="clone-24">
     <a class="btn btn-lg btn-primary">Button primary</a>
-    <a class="btn btn-lg btn-secundary btn-round">Button secundary</a>
+    <a class="btn btn-lg btn-secondary btn-round">Button secondary</a>
   </div>
   <div class="stack">
     <a class="btn btn-lg btn-o-primary btn-round">Button primary</a>
-    <a class="btn btn-lg btn-o-secundary">Button secundary</a>
+    <a class="btn btn-lg btn-o-secondary">Button secondary</a>
   </div>
   <pre class="code-box" id="code-24"></pre>
 
@@ -42,11 +42,11 @@
   <h2>Super Large Buttons</h2>
   <div class="stack" id="clone-23">
     <a class="btn btn-xl btn-primary btn-round">Button round primary</a>
-    <a class="btn btn-xl btn-secundary">Button secundary</a>
+    <a class="btn btn-xl btn-secondary">Button secondary</a>
   </div>
   <div class="stack">
     <a class="btn btn-xl btn-o-primary">Button primary</a>
-    <a class="btn btn-xl btn-o-secundary btn-round">Button round secundary</a>
+    <a class="btn btn-xl btn-o-secondary btn-round">Button round secondary</a>
   </div>
   <pre class="code-box" id="code-23"></pre>
 
@@ -65,7 +65,7 @@
     <a class="btn btn-primary btn-action">
       <i class="icon icon-eye"></i>
     </a>
-    <a class="btn btn-secundary btn-action">
+    <a class="btn btn-secondary btn-action">
       <i class="icon icon-pen"></i>
     </a>
     <a class="btn btn-warning btn-action">
@@ -88,7 +88,7 @@
     <a class="btn btn-primary btn-action btn-circle">
       <i class="icon icon-eye"></i>
     </a>
-    <a class="btn btn-secundary btn-action btn-circle">
+    <a class="btn btn-secondary btn-action btn-circle">
       <i class="icon icon-pen"></i>
     </a>
     <a class="btn btn-warning btn-action btn-circle">

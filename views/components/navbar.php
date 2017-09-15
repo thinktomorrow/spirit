@@ -12,7 +12,7 @@
     </nav>
   </div>
   <div class="row">
-    <nav class="navbar nav-pills nav-pills-secundary">
+    <nav class="navbar nav-pills nav-pills-secondary">
       <ul>
         <li class="squished inline-s"><a href="#">Action</a></li>
         <li class="squished inline-s"><a href="#">Another action</a></li>
@@ -42,7 +42,7 @@
     </nav>
   <div>
   <div class="row" id="clone-2">
-    <nav class="navbar nav-pills nav-pills-secundary">
+    <nav class="navbar nav-pills nav-pills-secondary">
       <ul>
         <li class="squished inline-s">
           <a href="#">
@@ -114,7 +114,7 @@
     </ul>
   </div>
   <div class="row clone" id="clone-0">
-    <ul class="pagination pagination-secundary">
+    <ul class="pagination pagination-secondary">
       <li><a href="#">1</a></li>
       <li><a href="#">...</a></li>
       <li><a href="#">5</a></li>

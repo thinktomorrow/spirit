@@ -140,6 +140,6 @@
       </li>
     </ul>
     <div class="row center-center">
-      <a href="http://fontawesome.io/icons/" class="row btn btn-s btn-secundary btn-round" target="_blank">More fonts at Font Awesome</a>
+      <a href="http://fontawesome.io/icons/" class="row btn btn-s btn-secondary btn-round" target="_blank">More fonts at Font Awesome</a>
     </div>
   </section>

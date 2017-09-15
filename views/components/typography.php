@@ -42,7 +42,7 @@
   <h2>Text colors</h2>
 
   <p class="text-primary">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>
-  <p class="text-secundary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+  <p class="text-secondary">Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
   <p class="text-tertiary">Duis mollis, est non commodo luctus, nisi erat porttitor ligula.</p>
   <p class="text-dark">Ecenas sed diam eget risus varius blandit sit amet non magna.</p>
   <p class="text-black">Fusce dapibus, tellus ac cursus commodo, tortor mauris nibh.</p>

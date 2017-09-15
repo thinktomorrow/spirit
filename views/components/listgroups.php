@@ -9,28 +9,28 @@
           <li>
             <i class="icon icon-angle-right fa-fw"></i>
             List item
-            <span class="badge badge-secundary pull-right">
+            <span class="badge badge-secondary pull-right">
               4
             </span>
           </li>
           <li>
             <i class="icon icon-angle-right fa-fw"></i>
             List item
-            <span class="badge badge-secundary pull-right">
+            <span class="badge badge-secondary pull-right">
               4
             </span>
           </li>
           <li>
             <i class="icon icon-angle-right fa-fw"></i>
             List item
-            <span class="badge badge-secundary pull-right">
+            <span class="badge badge-secondary pull-right">
               4
             </span>
           </li>
           <li>
             <i class="icon icon-angle-right fa-fw"></i>
             List item
-            <span class="badge badge-secundary pull-right">
+            <span class="badge badge-secondary pull-right">
               4
             </span>
           </li>

@@ -15,7 +15,7 @@
 
   <div class="stack" id="clone-14">
     <a class="btn btn-o-primary"><span class="badge badge-left">4</span>Button with badge</a>
-    <a class="btn btn-o-secundary">Button with badge<span class="badge badge-right">4</span></a>
+    <a class="btn btn-o-secondary">Button with badge<span class="badge badge-right">4</span></a>
   </div>
   <pre class="row code-box" id="code-14"></pre>
 

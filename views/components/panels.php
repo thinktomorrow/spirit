@@ -35,10 +35,10 @@
     <div class="panel-footer squished-s">Panel footer</div>
   </div>
 
-  <div class="panel panel-secundary column">
+  <div class="panel panel-secondary column">
     <div class="panel-header squished-s">Panel header</div>
     <div class="panel-body inset-s">
-      Secundary Panel
+      secondary Panel
     </div>
     <div class="panel-footer squished-s">Panel footer</div>
   </div>

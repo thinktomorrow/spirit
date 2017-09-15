@@ -75,17 +75,17 @@
 
     <div class="row  stack-xs">
       <div class="switch-group">
-        <input class="switch switch-secundary" id="switch-2" type="checkbox"/>
+        <input class="switch switch-secondary" id="switch-2" type="checkbox"/>
         <label class=" custom-switch switch-btn" for="switch-2"></label>
       </div>
-      <span class="column">Secundary</span>
+      <span class="column">secondary</span>
     </div>
     <div class="row">
       <div class="switch-group">
         <input class="switch switch-tertiary" id="switch-3" type="checkbox"/>
         <label class=" custom-switch switch-btn" for="switch-3"></label>
       </div>
-      <span class="column">Secundary</span>
+      <span class="column">secondary</span>
     </div>
   </div>
   <pre class="row code-box" id="code-9"></pre>
