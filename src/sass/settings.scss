@@ -32,24 +32,28 @@
  |
  */
     $default-border-radius: 15px;
-
-
+    $btn-border-radius: 3rem;
     $input-border-radius: $default-border-radius;
-
     $panel-border-radius: $default-border-radius;
     $label-border-radius: $default-border-radius;
     $badge-border-radius: $default-border-radius;
-
     $navpills-border-radius: $default-border-radius;
     $dropdown-border-radius: $default-border-radius;
-
-    $panel-border-radius: $default-border-radius;
-
     $notification-border-radius: 0;
     $table-border-radius: $default-border-radius;
     $tab-border-radius: $default-border-radius;
     $thumbnail-border-radius: $default-border-radius;
     $pagination-border-radius: $default-border-radius;
+
+/*
+ | ----------------------------------------------------------------
+ | Spacing
+ | ----------------------------------------------------------------
+ |
+ | Icon setup.
+ |
+ */
+    $spacy: 0.75rem;
 
 /*
  | ----------------------------------------------------------------
@@ -66,13 +70,10 @@
  | Btn Circular buttons
  | ----------------------------------------------------------------
  |
- | Icon setup.
  |
  */
-    $btn-border-radius: 3rem;
     $circle-diameter: 1.5rem;
     $dot-size: 5px;
-
 
 /*
  | ----------------------------------------------------------------

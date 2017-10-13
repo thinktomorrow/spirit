@@ -1,5 +1,5 @@
 @font-face {
-	font-family: 'Linearicons-Free';
+	font-family: 'linearicons';
 	src:url('../fonts/Linearicons-Free.eot?w118d');
 	src:url('../fonts/Linearicons-Free.eot?#iefixw118d') format('embedded-opentype'),
 		url('../fonts/Linearicons-Free.woff2?w118d') format('woff2'),
@@ -11,8 +11,9 @@
 }
 
 .icon {
-	font-family: 'Linearicons-Free';
+	font-family: 'linearicons';
 	speak: none;
+	font-size: $base-icon-size;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;

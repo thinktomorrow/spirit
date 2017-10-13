@@ -1,5 +1,4 @@
 textarea,
-select,
 input[type='text'],
 input[type='email'],
 input[type='url'],
@@ -11,56 +10,13 @@ input[type='file'],
 .custom-file-input{
   width: 100%;
   border-radius: $input-border-radius;
-  border: 1px solid #ccc;
+  border: 1px solid $color-border;
   &:focus{
     box-shadow: 0 0 5px $color-subtle;
     border: 1px solid $color-subtle;
     outline: none;
   }
 }
-select{
-  padding: 0.75rem;
-  height: 2.5em;
-  background-color: white;
-}
-
-
-.custom-file{
-    position: relative;
-    width: 100%;
-    display: block;
-    &::after{
-        content:'';
-        display: block;
-        clear: both;
-    }
-}
-input[type='file']{
-    opacity: 0;
-    padding: 0.5rem 1rem;
-}
-.custom-file-input{
-    position: absolute;
-    width: 100%;
-    top: 0;
-    overflow: hidden;
-    padding: 0.5rem 1rem;
-    &::before{
-        content: 'Kies uw bestand';
-    }
-    &::after{
-        content: 'Browse';
-        position: absolute;
-        right: 0; top: 0;
-        height: 100%;
-        line-height: 1rem;
-        padding: 0.75rem;
-        border-left: 1px solid $color-subtle;
-        background-color: lighten($color-subtle, 30%);
-    }
-}
-
-
 
 .input-group-prefix{
   position: relative;
@@ -72,7 +28,7 @@ input[type='file']{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0.75rem;
+    padding: $spacy;
     border-top-left-radius: $input-border-radius;
     border-bottom-left-radius: $input-border-radius;
   }
@@ -81,9 +37,19 @@ input[type='file']{
   }
 }
 // SEARCH
-input[type='search']{
-  background: url('../img/icons/search.svg') no-repeat right center;
-  background-size: 10% 29%;
+.search-wrapper{
+    position: relative;
+    &:after{
+        display: block;
+        // Icon
+        font-family: 'linearicons';
+        content: '\e86f';
+        // Position
+        position: absolute;
+        right: $spacy;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 }
 
 

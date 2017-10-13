@@ -32,6 +32,14 @@ html, body {
  */
 /*
  | ----------------------------------------------------------------
+ | Spacing
+ | ----------------------------------------------------------------
+ |
+ | Icon setup.
+ |
+ */
+/*
+ | ----------------------------------------------------------------
  | Icons
  | ----------------------------------------------------------------
  |
@@ -43,7 +51,6 @@ html, body {
  | Btn Circular buttons
  | ----------------------------------------------------------------
  |
- | Icon setup.
  |
  */
 /*
@@ -1245,7 +1252,6 @@ table .btn ~ .btn {
 }
 
 textarea,
-select,
 input[type='text'],
 input[type='email'],
 input[type='url'],
@@ -1257,11 +1263,10 @@ input[type='file'],
 .custom-file-input {
   width: 100%;
   border-radius: 15px;
-  border: 1px solid #ccc;
+  border: 1px solid #959eae;
 }
 
 textarea:focus,
-select:focus,
 input[type='text']:focus,
 input[type='email']:focus,
 input[type='url']:focus,
@@ -1274,53 +1279,6 @@ input[type='file']:focus,
   box-shadow: 0 0 5px #959eae;
   border: 1px solid #959eae;
   outline: none;
-}
-
-select {
-  padding: 0.75rem;
-  height: 2.5em;
-  background-color: white;
-}
-
-.custom-file {
-  position: relative;
-  width: 100%;
-  display: block;
-}
-
-.custom-file::after {
-  content: '';
-  display: block;
-  clear: both;
-}
-
-input[type='file'] {
-  opacity: 0;
-  padding: 0.5rem 1rem;
-}
-
-.custom-file-input {
-  position: absolute;
-  width: 100%;
-  top: 0;
-  overflow: hidden;
-  padding: 0.5rem 1rem;
-}
-
-.custom-file-input::before {
-  content: 'Kies uw bestand';
-}
-
-.custom-file-input::after {
-  content: 'Browse';
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 100%;
-  line-height: 1rem;
-  padding: 0.75rem;
-  border-left: 1px solid #959eae;
-  background-color: #ecedf0;
 }
 
 .input-group-prefix {
@@ -1347,9 +1305,19 @@ input[type='file'] {
   padding-left: calc(0.75rem * 4);
 }
 
-input[type='search'] {
-  background: url("../img/icons/search.svg") no-repeat right center;
-  background-size: 10% 29%;
+.search-wrapper {
+  position: relative;
+}
+
+.search-wrapper:after {
+  display: block;
+  font-family: 'linearicons';
+  content: '\e86f';
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
 }
 
 .valid {
@@ -1384,6 +1352,50 @@ input[type='search'] {
 
 .error .input-prefix {
   color: #e03550;
+}
+
+.custom-file {
+  position: relative;
+  width: 100%;
+  display: block;
+  z-index: 1;
+  top: 0;
+}
+
+.custom-file::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+input[type='file'] {
+  opacity: 0;
+  padding: 0.5rem 1rem;
+  position: absolute;
+}
+
+.custom-file-input {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  overflow: hidden;
+  padding: 0.5rem 1rem;
+}
+
+.custom-file-input::before {
+  content: attr(data-title);
+}
+
+.custom-file-input::after {
+  content: attr(data-button);
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  line-height: 1rem;
+  padding: 0.75rem;
+  border-left: 1px solid #959eae;
+  background-color: #ecedf0;
 }
 
 .custom-checkbox,
@@ -1540,6 +1552,32 @@ input[type=checkbox]:checked ~ .custom-checkbox {
   background: #d81b60;
 }
 
+select {
+  padding: 0.75rem;
+  background: transparent;
+  border: 1px solid #959eae;
+  border-radius: 15px;
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.select-wrapper {
+  position: relative;
+}
+
+.select-wrapper:after {
+  display: block;
+  font-family: 'linearicons';
+  content: '\e874';
+  position: absolute;
+  right: 0.75rem;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
 .color-scheme .color-block {
   color: #4f5164;
 }
@@ -1661,7 +1699,7 @@ input[type=checkbox]:checked ~ .custom-checkbox {
 }
 
 @font-face {
-  font-family: 'Linearicons-Free';
+  font-family: 'linearicons';
   src: url("../fonts/Linearicons-Free.eot?w118d");
   src: url("../fonts/Linearicons-Free.eot?#iefixw118d") format("embedded-opentype"), url("../fonts/Linearicons-Free.woff2?w118d") format("woff2"), url("../fonts/Linearicons-Free.woff?w118d") format("woff"), url("../fonts/Linearicons-Free.ttf?w118d") format("truetype"), url("../fonts/Linearicons-Free.svg?w118d#Linearicons-Free") format("svg");
   font-weight: normal;
@@ -1669,8 +1707,9 @@ input[type=checkbox]:checked ~ .custom-checkbox {
 }
 
 .icon {
-  font-family: 'Linearicons-Free';
+  font-family: 'linearicons';
   speak: none;
+  font-size: 24px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
