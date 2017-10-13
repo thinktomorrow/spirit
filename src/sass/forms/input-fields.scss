@@ -8,33 +8,33 @@ input[type='phone'],
 input[type='password'],
 input[type='file'],
 .custom-file-input{
-  width: 100%;
-  border-radius: $input-border-radius;
-  border: 1px solid $color-border;
-  &:focus{
-    box-shadow: 0 0 5px $color-subtle;
-    border: 1px solid $color-subtle;
-    outline: none;
-  }
+    width: 100%;
+    border-radius: $input-border-radius;
+    border: 1px solid $color-border;
+    &:focus{
+        box-shadow: 0 0 5px $color-subtle;
+        border: 1px solid $color-subtle;
+        outline: none;
+    }
 }
 
 .input-group-prefix{
-  position: relative;
-  .input-prefix{
-    position: absolute;
-    height: 100%;
-    color: rgba($color-dark, 0.5);
-    color: $color-subtle;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: $spacy;
-    border-top-left-radius: $input-border-radius;
-    border-bottom-left-radius: $input-border-radius;
-  }
-  input{
-    padding-left: calc(0.75rem * 4);
-  }
+    position: relative;
+    .input-prefix{
+        position: absolute;
+        height: 100%;
+        color: rgba($color-dark, 0.5);
+        color: $color-subtle;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: $spacy;
+        border-top-left-radius: $input-border-radius;
+        border-bottom-left-radius: $input-border-radius;
+    }
+    input{
+        padding-left: calc(0.75rem * 4);
+    }
 }
 // SEARCH
 .search-wrapper{
@@ -55,30 +55,30 @@ input[type='file'],
 
 // ERRORS AND VALIDS
 .valid{
-  color: $color-success;
+    color: $color-success;
     textarea,
     input[type='text'],
     input[type='email'],
     input[type='url'],
     input[type='password']{
-    border: 1px solid $color-success;
-    color: $color-success;
-  }
-  .input-prefix{
-  color: $color-success;
-  }
+        border: 1px solid $color-success;
+        color: $color-success;
+    }
+    .input-prefix{
+        color: $color-success;
+    }
 }
 .error{
-  color: $color-error;
+    color: $color-error;
     textarea,
     input[type='text'],
     input[type='email'],
     input[type='url'],
     input[type='password']{
-    border: 1px solid $color-error;
-    color: $color-error;
-  }
-  .input-prefix{
-  color: $color-error;
-  }
+        border: 1px solid $color-error;
+        color: $color-error;
+    }
+    .input-prefix{
+        color: $color-error;
+    }
 }

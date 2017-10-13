@@ -27,7 +27,7 @@
 .nav-pills-primary li,
 .nav-pills-secondary li{
   border-radius: $navpills-border-radius;
-  transition: all 0.3s ease-in-out;
+  transition: $transition;
   cursor: pointer;
   a{
     color: $color-white;
@@ -40,8 +40,8 @@
 
 .nav-pills .icon {
   display: block;
-  font-size: 2em;
-  padding: 1rem 0;
+  font-size: $base-icon-size;
+  padding: $spacy 0;
 }
 
 .dropdown{

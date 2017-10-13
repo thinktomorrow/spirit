@@ -1,11 +1,11 @@
 select{
-  padding: $spacy;
-  background: transparent;
-  border: 1px solid $color-border;
-  border-radius: $input-border-radius;
-  width: 100%;
-  -webkit-appearance: none;
-  appearance: none;
+    padding: $spacy;
+    background: transparent;
+    border: 1px solid $color-border;
+    border-radius: $input-border-radius;
+    width: 100%;
+    -webkit-appearance: none;
+    appearance: none;
 }
 .select-wrapper{
     position: relative;

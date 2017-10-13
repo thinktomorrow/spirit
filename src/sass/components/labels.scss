@@ -1,6 +1,6 @@
 // LABELS
 .label{
-    padding: 0.25rem 0.5rem;
+    padding: $spacy / 2 $spacy;
     display: inline-block;
     font-size: smaller;
     position: relative;
@@ -13,11 +13,11 @@
       transform: translateY(-50%);
     }
     &::after{
-      position: absolute;
       width: $dot-size;
       height: $dot-size;
       border-radius: 50%;
       background-color: $color-white;
+      position: absolute;
       top: 50%;
       transform: translateY(-50%);
     }
@@ -44,7 +44,7 @@
   }
 }
 .label ~ .label{
-  margin-left: 1rem;
+  margin-left: $spacy;
 }
 
 
