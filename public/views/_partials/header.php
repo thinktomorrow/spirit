@@ -23,7 +23,7 @@
             <a href="?summon=home"><img src="assets/svg/logo.svg" alt="Spirit"></a>
           </div>
           <nav class="header-navigation">
-              <ul class="">
+              <ul class="stack">
                   <li class="inline-s"><a href="?summon=home">Get started</a></li>
                   <li class="inline-s"><a href="?summon=colors">Color-scheme</a></li>
                   <li class="inline-s"><a href="?summon=typography">Typography</a></li>

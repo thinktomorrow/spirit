@@ -31,8 +31,8 @@
  | een border radius van minder dan 15px zal op ieder element mooi gerenderd worden.
  |
  */
-    $default-border-radius: 15px;
-    $btn-border-radius: 3rem;
+    $default-border-radius: 5px;
+    $btn-border-radius: $default-border-radius;
     $input-border-radius: $default-border-radius;
     $panel-border-radius: $default-border-radius;
     $label-border-radius: $default-border-radius;
