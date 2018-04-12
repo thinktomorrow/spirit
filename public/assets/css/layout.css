@@ -19,12 +19,9 @@ header h1, header p{
     border-bottom: 1px solid var(--color-border);
 }
 .header-logo img{
-    height: 50px;
+    max-width: 75px;
 }
-.header-logo,
-header{
-    height: 100px;
-}
+
 hr{
     border: 0;
     height: 0;

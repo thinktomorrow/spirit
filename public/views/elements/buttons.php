@@ -65,29 +65,6 @@
     <pre class="code-box" id="code-22"></pre>
 
     <h2>Icon buttons</h2>
-    <div class="stack" id="clone-21">
-        <a class="btn btn-action">
-            <i class="icon icon-pencil"></i>
-        </a>
-        <a class="btn btn-primary btn-action">
-            <i class="icon icon-eye"></i>
-        </a>
-        <a class="btn btn-secondary btn-action">
-            <i class="icon icon-pencil"></i>
-        </a>
-        <a class="btn btn-warning btn-action">
-            <i class="icon icon-eye"></i>
-        </a>
-        <a class="btn btn-success btn-action">
-            <i class="icon icon-pencil"></i>
-        </a>
-        <a class="btn btn-error btn-action">
-            <i class="icon icon-eye"></i>
-        </a>
-        <a class="btn btn-information btn-action">
-            <i class="icon icon-pencil"></i>
-        </a>
-    </div>
     <div class="stack" id="clone-20">
         <a class="btn btn-action btn-circle">
             <i class="icon icon-pencil"></i>

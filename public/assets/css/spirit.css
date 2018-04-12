@@ -47,13 +47,6 @@ html, body {
  */
 /*
  | ----------------------------------------------------------------
- | Btn Circular buttons
- | ----------------------------------------------------------------
- |
- |
- */
-/*
- | ----------------------------------------------------------------
  | Smoothness
  | ----------------------------------------------------------------
  |
@@ -241,7 +234,7 @@ a {
 .icon {
   font-family: 'linearicons';
   speak: none;
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -948,13 +941,6 @@ a.btn {
   padding: 1rem 2rem;
 }
 
-.btn-action {
-  padding: 0.375rem 0.75rem;
-  line-height: .5rem;
-  font-size: 1rem;
-  border-radius: 5px;
-}
-
 .btn-link {
   display: inline-block;
 }
@@ -978,17 +964,17 @@ a.btn {
 }
 
 .btn-circle {
-  height: calc(1.5rem * 2);
-  width: calc(1.5rem * 2);
+  height: calc(16px * 2);
+  width: calc(16px * 2);
   padding: 0;
   text-align: center;
   min-width: auto;
   border-radius: 50%;
-  line-height: calc(1.5rem * 2);
+  line-height: calc(16px * 2);
 }
 
-.btn-circle [class^="icon-"] {
-  line-height: calc(1.5rem * 2 + 4px);
+.btn-circle .icon {
+  font-size: 16px;
 }
 
 .btn-icon {
@@ -1004,7 +990,7 @@ a.btn {
 }
 
 .btn-icon > *:first-child {
-  margin-right: 1rem;
+  margin-right: 1em;
 }
 
 .btn-primary {
@@ -1901,7 +1887,7 @@ table .btn ~ .btn {
 
 .nav-pills .icon {
   display: block;
-  font-size: 24px;
+  font-size: 16px;
   padding: 0.75rem 0;
 }
 

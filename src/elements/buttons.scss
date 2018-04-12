@@ -11,12 +11,6 @@ a.btn{
         padding: 1rem 2rem;
     }
 }
-.btn-action{
-    padding: $spacy / 2 $spacy;
-    line-height: .5rem;
-    font-size: 1rem;
-    border-radius: $default-border-radius;
-}
 
 .btn-link{
     display: inline-block;
@@ -39,15 +33,18 @@ a.btn{
     border-radius: 3rem;
 }
 .btn-circle{
-    height: calc(#{$circle-diameter} * 2);
-    width: calc(#{$circle-diameter} * 2);
+    height: calc(#{$base-icon-size} * 2);
+    width: calc(#{$base-icon-size} * 2);
     padding: 0;
     text-align: center;
     min-width: auto;
     border-radius: 50%;
-    line-height: calc(#{$circle-diameter} * 2);
-    & [class^="icon-"]{
-        line-height: calc(#{$circle-diameter} * 2 + 4px);
+    line-height: calc(#{$base-icon-size} * 2);
+    & .icon{
+        font-size: #{$base-icon-size};
+        // display: block;
+        // margin-top: 50%;
+        // transform: translateY(-50%);
     }
 }
 
@@ -56,7 +53,7 @@ a.btn{
     justify-content: center;
     align-items: center;
     & > *:first-child{
-        margin-right: 1rem;
+        margin-right: 1em;
     }
 }
 
