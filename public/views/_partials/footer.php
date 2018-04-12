@@ -1,7 +1,4 @@
 </main>
-<footer class="inset">
-    &copy; <?= date('Y') ?> - Spirit
-</footer>
 
 <script type="text/javascript" src="assets/js/jquery.3.2.1.min.js"></script>
 <script>
@@ -71,19 +68,6 @@ $(function() {
         $("#"+tab_id).toggleClass('active');
     })
 
-});
-
-// STICKY
-var stickable = $("aside");
-var windowHeight = $('.hero' ).height() - 95;
-
-$(document).on( 'scroll', function(){
-
-    if ($(this).scrollTop() > windowHeight ) {
-        stickable.addClass("sticky");
-    } else {
-        stickable.removeClass("sticky");
-    }
 });
 </script>
 

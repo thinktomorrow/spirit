@@ -13,3 +13,16 @@
 .pull-left{
   float: left;
 }
+
+
+blockquote{
+  padding: 1.2em;
+  background: lighten($color-subtle, 30%);
+  border-left: 2px solid lighten($color-secondary, 30%);
+}
+code{
+  display: inline-block;
+  background: lighten($color-subtle, 30%);
+  border: 1px solid $color-border;
+  padding: 1rem;
+}

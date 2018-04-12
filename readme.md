@@ -47,6 +47,7 @@ If you are having issues, please let us know through mail at: spirit@chief.be
 ## Creator
 
 - Berkmans Johnny <johnny@thinktomorrow.be>
+- Ben Cavens <ben@thinktomorrow.be>
 
 
 ## License

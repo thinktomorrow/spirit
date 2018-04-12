@@ -1,19 +1,11 @@
-<div class="row text-center" id="top">
-    <header class="hero">
-        <div class="absolute-center">
-            <h1 class="title">Spirit Components</h1>
-            <p>Color scheme</p>
-        </div>
+<article class="column-10">
+    <header class="hero squished-xl">
+        <h1 class="title ">Spirit Colors</h1>
     </header>
-</div>
-<main class="main--raised">
-    <?php include('views/_partials/sidebar.php'); ?>
-    <div class="container">
-        <div class="row center">
-            <article class="column-10 stack-l">
-                <?php
-                include('views/components/colorscheme.php');
-                ?>
-            </article>
-        </div>
+    <div class="squished-xl">
+        <?php
+        include('views/settings/colorscheme.php');
+        ?>
     </div>
+</article>
+</div>

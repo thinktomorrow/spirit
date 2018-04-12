@@ -4,6 +4,9 @@ switch ($page) {
     case 'home':
         include('views/pages/home.php');
         break;
+    case 'elements':
+        include('views/pages/elements.php');
+        break;
     case 'components':
         include('views/pages/components.php');
         break;
