@@ -1,9 +1,6 @@
 </main>
 <footer class="inset">
-    &copy; <?php
-    date_default_timezone_set('UTC');
-    echo date('Y')
-    ?> - Spirit
+    &copy; <?= date('Y') ?> - Spirit
 </footer>
 
 <script type="text/javascript" src="assets/js/jquery.3.2.1.min.js"></script>
