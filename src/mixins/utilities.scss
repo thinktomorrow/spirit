@@ -17,12 +17,12 @@
 
 blockquote{
   padding: 1.2em;
-  background: lighten($color-subtle, 30%);
+  background: $color-subtle;
   border-left: 2px solid lighten($color-secondary, 30%);
 }
 code{
   display: inline-block;
-  background: lighten($color-subtle, 30%);
-  border: 1px solid $color-border;
+  background: $color-subtle;
+  border: 1px solid darken($color-subtle, 0.3);
   padding: 1rem;
 }

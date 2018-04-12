@@ -2423,13 +2423,13 @@ select {
 
 blockquote {
   padding: 1.2em;
-  background: white;
+  background: #f4f6f9;
   border-left: 2px solid #a8b7dc;
 }
 
 code {
   display: inline-block;
-  background: white;
-  border: 1px solid #f4f6f9;
+  background: #f4f6f9;
+  border: 1px solid #f3f5f8;
   padding: 1rem;
 }
