@@ -21,6 +21,22 @@ a{
     }
 }
 
+hr{
+    border-top: none;
+}
+
+blockquote{
+  padding: 1.2em;
+  background: $color-subtle;
+  border-left: 2px solid lighten($color-secondary, 30%);
+}
+code{
+  display: inline-block;
+  background: $color-subtle;
+  border: 1px solid darken($color-subtle, 0.3);
+  padding: 1rem;
+}
+
 // SELECTION COLORS
 ::selection{
     background-color: $color-secondary;

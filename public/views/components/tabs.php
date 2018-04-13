@@ -1,54 +1,43 @@
-<section class="stack-l tabs" id="tabs">
-  <h1>Tabs</h1>
-  <hr>
-  <div class="row gutter">
-    <div class="column-6" id="clone-28">
-      <div class="tabs" id="example">
-        <nav class="panel-tabs panel-tabs-left">
-          <ul>
-            <li class="inset-s active" data-tab="tab-1">Tab #1</li>
-            <li class="inset-s" data-tab="tab-2">Tab #2</li>
-            <li class="inset-s" data-tab="tab-3">Tab #3</li>
-            <li class="inset-s" data-tab="tab-4">Tab #4</li>
-          </ul>
-        </nav>
-        <div class="clearfix"></div>
-        <div class="tab-content inset">
-          <div id="tab-1" class="tab active">
-            <span>Tabs on the left</span>
-            <p>.panel-tabs .panel-tabs-left</p>
-          </div>
-          <div id="tab-2" class="tab">
-            <span>Tab #2 content goes here!</span>
-          </div>
-          <div id="tab-3" class="tab">
-            <span>Tab #3 content goes here!</span>
-          </div>
-          <div id="tab-4" class="tab">
-            <span>Tab #4 content goes here!</span>
-          </div>
+<section class="stack-l" id="tabs">
+    <h1>Tabs</h1>
+    <hr>
+    <div class="row gutter">
+        <div class="column-6" id="clone-28">
+            <div class="panel --raised tabs" id="tabs">
+                <ul role="tablist" class="tabs-nav">
+                    <li role="presentation"><a href="#first" aria-controls="#first" aria-selected="true" role="tab" class="--bottomline squished active">first</a></li>
+                    <li role="presentation"><a href="#second" aria-controls="#second" role="tab" class="--bottomline squished">second</a></li>
+                    <li role="presentation"><a href="#third" aria-controls="#third" role="tab" class="--bottomline squished">third</a></li>
+                </ul>
+                <div class="tab-content inset clearfix">
+                    <div role="tabpanel" class="active" data-tab="first">
+                        <p>Sed fringilla placerat velit vel congue. Aliquam erat volutpat. Suspendisse tempus commodo ex vitae eleifend. Praesent finibus ullamcorper cursus. Morbi et nunc sit amet lacus luctus accumsan.</p>
+                    </div>
+                    <div role="tabpanel" data-tab="second">
+                        <p>Ut elementum lorem vel urna convallis dictum. Nullam porttitor posuere tellus eu congue.</p>
+                    </div>
+                    <div role="tabpanel" data-tab="third">
+                        <p>Suspendisse varius augue et felis pellentesque, feugiat hendrerit erat finibus. Aenean neque leo, egestas nec mi vitae, efficitur auctor nisl. Vivamus pulvinar dolor ex, eu consectetur justo pretium eget.</p>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-    <div class="column-6">
-      <div class="tabs">
-        <nav class="panel-tabs panel-tabs-round panel-tabs-right">
-          <ul class="">
-            <li class="inset-s active">Tab #1</li>
-            <li class="inset-s">Tab #2</li>
-            <li class="inset-s">Tab #3</li>
-            <li class="inset-s">Tab #4</li>
-          </ul>
-        </nav>
-        <div class="clearfix"></div>
-        <div class="tab-content inset">
-          <div class="active">
-            <span>Rounded tabs on the right</span>
-            <p>.panel-tabs .panel-tabs-round .panel-tabs-right</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <pre class="code-box" id="code-28"></pre>
+    <pre class="code-box" id="code-28"></pre>
 </section>
+
+<script>
+    $function(){
+        // TABS
+        $('#tabs .tabs-nav li').click(function(){
+            var nav_tabs = $('#tabs .tabs-nav li');
+            var panel_tabs = $('.tab');
+            var tab_id = $(this).attr('data-tab');
+
+            nav_tabs.removeClass('active');
+            panel_tabs.removeClass('active');
+
+            $(this).addClass('active');
+        })
+    }
+</script>

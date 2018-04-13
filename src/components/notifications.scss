@@ -35,7 +35,7 @@ $colors: $color-primary $color-secondary $color-success $color-warning $color-er
       border: 1px solid darken($color, 10%);
       .alert__btn{
         color:  $color;
-        background-color: rgba($color-dark, 0.25);
+        background-color: rgba($color-emphasis, 0.25);
         &:hover{
           background-color: rgba($color-white,1);
         }

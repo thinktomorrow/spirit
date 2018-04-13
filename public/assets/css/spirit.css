@@ -26,7 +26,7 @@ html, body {
  | Border Radius
  | ----------------------------------------------------------------
  |
- | een border radius van minder dan 15px zal op ieder element mooi gerenderd worden.
+ | een border radius van minder dan 15px zal op ieder element mooi tonen.
  |
  */
 /*
@@ -91,6 +91,23 @@ span.sans-serif:after {
 
 a {
   color: #212631;
+}
+
+hr {
+  border-top: none;
+}
+
+blockquote {
+  padding: 1.2em;
+  background: #f4f6f9;
+  border-left: 2px solid #a8b7dc;
+}
+
+code {
+  display: inline-block;
+  background: #f4f6f9;
+  border: 1px solid #f3f5f8;
+  padding: 1rem;
 }
 
 ::-moz-selection {
@@ -1972,95 +1989,28 @@ table .btn ~ .btn {
 }
 
 .tabs {
-  width: 100%;
+  border: 1px solid #f4f6f9;
+}
+
+.tabs li, .tabs a {
   display: inline-block;
-}
-
-.clearfix:before, .clearfix:after {
-  content: " ";
-  display: table;
-}
-
-.panel-tabs:after {
-  display: table;
-  clear: both;
-  content: '';
-}
-
-.panel-tabs ul {
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
-.panel-tabs ul li {
-  float: left;
-  list-style: none;
-  cursor: pointer;
-  margin-bottom: -1px;
-  display: inline-block;
-  border-radius: none;
-  background: #4f5164;
-  border-top: 1px solid #dadfe3;
-  border-left: 1px solid #dadfe3;
-  border-right: 1px solid #dadfe3;
-  color: #ffffff;
-  -webkit-transition: 0.3s ease-in-out all;
-  transition: 0.3s ease-in-out all;
-  text-decoration: none;
-}
-
-.panel-tabs ul li:hover {
-  background: #383a48;
-  color: #f7f8f9;
-}
-
-.panel-tabs ul li.active,
-.panel-tabs ul li.active:hover {
-  background: #f7f8f9;
-  color: #4f5164;
-  border-top: 1px solid #dadfe3;
-  border-left: 1px solid #dadfe3;
-  border-right: 1px solid #dadfe3;
-}
-
-.panel-tabs-right {
-  float: right;
-}
-
-.panel-tabs-right li:last-child {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.panel-tabs-left {
-  float: left;
-}
-
-.panel-tabs-left li:first-child {
-  margin-left: 0;
-  margin-right: 0;
-}
-
-.panel-tabs-round li:first-child {
-  border-top-left-radius: 5px;
-}
-
-.panel-tabs-round li:last-child {
-  border-top-right-radius: 5px;
 }
 
 .tab-content {
-  border-radius: none;
-  background-color: #f7f8f9;
-  border: 1px solid #dadfe3;
+  border-radius: 0;
+  background-color: none;
+  border: none;
 }
 
-.tab {
+.tabs-nav {
+  border-bottom: 1px solid #f4f6f9;
+}
+
+.tab-content div {
   display: none;
 }
 
-.tab.active {
+.tab-content div.active {
   display: block;
 }
 
@@ -2369,8 +2319,8 @@ select {
 .raised, .alert, .nav-pills-primary li:hover,
 .nav-pills-secondary li:hover, .dropdown-menu li a:hover,
 .\--raised {
-  -webkit-box-shadow: 0 16px 38px -12px rgba(79, 81, 100, 0.36), 0 4px 25px 0px rgba(79, 81, 100, 0.08), 0 8px 10px -5px rgba(79, 81, 100, 0.08);
-          box-shadow: 0 16px 38px -12px rgba(79, 81, 100, 0.36), 0 4px 25px 0px rgba(79, 81, 100, 0.08), 0 8px 10px -5px rgba(79, 81, 100, 0.08);
+  -webkit-box-shadow: 0 16px 38px -12px rgba(244, 246, 249, 0.6), 0 4px 25px 0px rgba(244, 246, 249, 0.8), 0 8px 10px -5px rgba(244, 246, 249, 0.8);
+          box-shadow: 0 16px 38px -12px rgba(244, 246, 249, 0.6), 0 4px 25px 0px rgba(244, 246, 249, 0.8), 0 8px 10px -5px rgba(244, 246, 249, 0.8);
 }
 
 .pull-right {
@@ -2381,15 +2331,38 @@ select {
   float: left;
 }
 
-blockquote {
-  padding: 1.2em;
-  background: #f4f6f9;
-  border-left: 2px solid #a8b7dc;
+/* Nice bottom border hover effect; mostly used for navigation */
+.\--bottomline {
+  text-decoration: none;
+  position: relative;
+  -webkit-transition: 0.3s ease-in-out all;
+  transition: 0.3s ease-in-out all;
 }
 
-code {
-  display: inline-block;
-  background: #f4f6f9;
-  border: 1px solid #f3f5f8;
-  padding: 1rem;
+.\--bottomline:after {
+  -webkit-transition: 0.26s cubic-bezier(0.69, 0.14, 0.05, 1.31);
+  transition: 0.26s cubic-bezier(0.69, 0.14, 0.05, 1.31);
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  height: 0;
+  left: 0;
+  width: 0;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  background-color: #13c6a6;
+}
+
+.\--bottomline:hover,
+.\--bottomline.active {
+  color: #13c6a6;
+  text-decoration: none;
+}
+
+.\--bottomline:hover:after,
+.\--bottomline.active:after {
+  left: 50%;
+  width: 30%;
+  height: 2px;
 }

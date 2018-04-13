@@ -18,14 +18,13 @@ $(function() {
     });
 
     // Clone your html into a pre box
-    // !important: You can't skip a number because then the loop stops working.
+    // !important: You can't skip a number because the loop stops working.
     // and all the id's needs to be in the dom to be recognized by the function
     function cloneHtml(){
         $('[id^=clone-]').each(function (i) {
             var cloneDiv = $('#clone-'+ i).html();
             var stripFromTag = cloneDiv.replace(/\/</,'&lt;',/\/>/,'&gt;');
             $('#code-'+ i).text(cloneDiv);
-
         });
     }
     cloneHtml();
@@ -53,20 +52,6 @@ $(function() {
         $('.hexCode-'+i).text( hex );
 
     });
-
-    // TABS
-    $('#example .panel-tabs li').click(function(){
-        var nav_tabs = $('#example .panel-tabs li');
-        var panel_tabs = $('.tab');
-        var tab_id = $(this).attr('data-tab');
-
-        nav_tabs.removeClass('active');
-        panel_tabs.removeClass('active');
-
-
-        $(this).addClass('active');
-        $("#"+tab_id).toggleClass('active');
-    })
 
 });
 </script>
