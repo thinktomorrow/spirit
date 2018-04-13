@@ -25,6 +25,11 @@
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.icon-fw{
+	margin-left: $base-icon-size / 2;
+	margin-right: $base-icon-size / 2;
+}
+
 .icon-home:before {
 	content: "\e800";
 }

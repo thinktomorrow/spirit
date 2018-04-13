@@ -1,28 +1,52 @@
 <section class="stack-l notifications" id="notifications">
-  <h1>Notifications</h1>
-  <hr>
-  <div id="clone-16">
-    <div class="alert stack-s alert--success">
-      <span class="alert__copy column-9">Succes: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
-      <span class="alert__btn">Ok, got it</span>
+    <h1>Notifications</h1>
+    <hr>
+    <small>The class "peekaboo" makes it appear on the top right of your screen</small>
+    <div id="clone-16">
+        <div class="alert squished alert--success --raised stack-s">
+            <span class="icon icon-cart icon-fw"></span>
+            <span class="alert__copy column">Success: Artikelname is verwijderd uit het winkelmandje</span>
+            <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+        </div>
+        <div class="alert squished alert-o--success --raised stack-s">
+            <span class="icon icon-cart icon-fw"></span>
+            <span class="alert__copy column">Success: Artikelname is verwijderd uit het winkelmandje</span>
+            <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+        </div>
     </div>
-  </div>
 
-  <div class="alert stack-s alert--warning">
-    <span class="alert__copy column-9">Warning: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
-    <span class="alert__btn">Ok, got it</span>
-  </div>
-  <div class="alert stack-s alert--error">
-    <span class="alert__copy column-9">Error: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
-    <span class="alert__btn">Ok, got it</span>
-  </div>
-  <div class="alert stack-s alert--information">
-    <span class="alert__copy column-9">Information: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
-    <span class="alert__btn">Ok, got it</span>
-  </div>
-  <div class="alert stack-s alert--primary">
-    <span class="alert__copy column-9">Primary: phasellus sit amet mi nec odio posuere imperdiet ut a dui. Ut vitae risus ante. Proin varius ex in lorem maximus ullamcorper. Sed dictum ex sed sem semper, pellentesque posuere sem sagittis.</span>
-    <span class="alert__btn">Ok, got it</span>
-  </div>
-  <pre class="code-box" id="code-16"></pre>
+    <div class="alert squished alert--warning --raised stack-s">
+        <span class="icon icon-construction icon-fw"></span>
+        <span class="alert__copy column">Warning: Product is verwijderd uit het winkelmandje</span>
+        <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+    </div>
+    <div class="alert squished alert-o--warning --raised stack-s">
+        <span class="icon icon-construction icon-fw"></span>
+        <span class="alert__copy column">Warning: Product is verwijderd uit het winkelmandje</span>
+        <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+    </div>
+
+    <div class="alert squished alert--error --raised stack-s">
+        <span class="icon icon-warning icon-fw"></span>
+        <span class="alert__copy column">Error: Je doet iets fout</span>
+        <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+    </div>
+    <div class="alert squished alert-o--error --raised stack-s">
+        <span class="icon icon-warning icon-fw"></span>
+        <span class="alert__copy column">Error: Je doet iets fout</span>
+        <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+    </div>
+
+    <div class="alert squished alert--information --raised stack-s">
+        <span class="icon icon-rocket icon-fw"></span>
+        <span class="alert__copy column">Info: Marsmannetjes bestaan niet</span>
+        <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+    </div>
+    <div class="alert squished alert-o--information --raised stack-s">
+        <span class="icon icon-rocket icon-fw"></span>
+        <span class="alert__copy column">Info: Marsmannetjes bestaan niet</span>
+        <span class="alert__btn center-center"><i class="icon icon-cross icon-fw"></i></span>
+    </div>
+
+    <pre class="code-box" id="code-16"></pre>
 </section>
