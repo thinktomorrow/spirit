@@ -1,10 +1,11 @@
 // NOTIFICATIONS
 .alert{
     padding: $spacy $spacy * 1.5;
-    display: inline-block;
+    display: flex;
     border-radius: $notification-border-radius;
     position: relative;
     width: 100%;
+    justify-content: space-between;
     @extend .raised;
     & .alert__copy{
       color: $color-white;

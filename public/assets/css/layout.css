@@ -1,7 +1,7 @@
 :root{
     --color-primary : #13c6a6;
     --color-subtle  : #f4f6f9;
-    --color-border   : #e1e2e8;
+    --color-darker  : #e1e2e8;
 }
 header{
     background: var(--color-primary);
@@ -12,52 +12,38 @@ header h1, header p{
     padding: 0;
     margin: 0;
 }
-.relative{
-    position: relative;
-}
+
 .header-logo{
-    border-bottom: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-darker);
 }
 .header-logo img{
     max-width: 75px;
 }
 
-hr{
-    border: 0;
-    height: 0;
-    border-top: 1px dotted rgba(0, 0, 0, 0.2);
+.nav__group{
     border-bottom: 1px dotted rgba(255, 255, 255, 0.5);
 }
 
+.nav__head{
+    text-transform: uppercase;
+    font-size: smaller;
+    color: var(--color-darker);
+}
 .nav__item{
-    text-align: left;
+    list-style: none;
+    padding: 0.5rem;
 }
 .nav__item a{
     text-decoration: none;
-    position: relative;
-    width: 0;
 }
-.nav__item a::after{
-    content: '';
-    transition: all 0.15s ease-in-out;
-    display: block;
-    background-color: transparent;
-    height: 1px;
-    width: 100%;
-    position: absolute;
-    top: 20px;
-    z-index: -1;
-    left: 50%;
-    transform: translateX(-50%);
+.nav__item a:hover{
+    color: var(--color-primary);
 }
-.nav__item a:hover::after{
-    content: '';
-    background-color: var(--color-primary);
-}
+
 
 aside{
     background-color: var(--color-subtle);
-    border-right: 1px solid var(--color-border);
+    border-right: 1px solid var(--color-darker);
 }
 
 /*ICONS*/

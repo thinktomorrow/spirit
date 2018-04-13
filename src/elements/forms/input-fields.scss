@@ -9,7 +9,7 @@ input[type='password'],
 input[type='file'],
 .custom-file-input{
     width: 100%;
-    border-radius: $input-border-radius;
+    border-radius: $default-border-radius;
     border: 1px solid $color-border;
     &:focus{
         box-shadow: 0 0 5px $color-subtle;
@@ -18,24 +18,6 @@ input[type='file'],
     }
 }
 
-.input-group-prefix{
-    position: relative;
-    .input-prefix{
-        position: absolute;
-        height: 100%;
-        color: rgba($color-dark, 0.5);
-        color: $color-subtle;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: $spacy;
-        border-top-left-radius: $input-border-radius;
-        border-bottom-left-radius: $input-border-radius;
-    }
-    input{
-        padding-left: calc(0.75rem * 4);
-    }
-}
 // SEARCH
 .search-wrapper{
     position: relative;
@@ -62,9 +44,6 @@ input[type='file'],
     input[type='url'],
     input[type='password']{
         border: 1px solid $color-success;
-        color: $color-success;
-    }
-    .input-prefix{
         color: $color-success;
     }
 }
