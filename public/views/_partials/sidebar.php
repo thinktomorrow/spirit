@@ -32,7 +32,6 @@
                 <li class="nav__item"> <a href="?summon=elements#navbar">Navigation</a></li>
                 <li class="nav__item"> <a href="?summon=elements#thumbnails">Thumbnails</a></li>
                 <li class="nav__item"> <a href="?summon=elements#panels">Panels</a></li>
-                <li class="nav__item"> <a href="?summon=elements#listgroups">Listgroups</a></li>
             </ul>
         </div>
         <div class="nav__group stack-s">

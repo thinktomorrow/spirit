@@ -1,12 +1,12 @@
 // TYPOGRAPHY
 h1,h2,h3,h4,h5{
   font-family: $font-family-serif;
-  color: $color-heading
+  color: $c-heading
 }
 body,
 p{
   font-family: $font-family-sans-serif;
-  color: $color-font;
+  color: $c-font;
 }
 ul, ol{
   word-break: break-word;

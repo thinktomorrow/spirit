@@ -1,18 +1,18 @@
 // COLOR SCHEME
 .color-scheme{
   .color-block{
-    color: $color-emphasis;
+    color: $c-emphasis;
     span{
       display: block;
     }
   }
 }
 
-$color-name: primary secondary tertiary dark white black border heading font subtle success warning error information;
-$colors: $color-primary $color-secondary $color-tertiary $color-emphasis $color-white $color-black $color-border $color-heading  $color-font  $color-subtle $color-success $color-warning $color-error $color-information;
+$c-name: primary secondary tertiary dark white black border heading font subtle success warning error information;
+$colors: $c-primary $c-secondary $c-tertiary $c-emphasis $c-white $c-black $c-border $c-heading  $c-font  $c-subtle $c-success $c-warning $c-error $c-information;
 
-@each $block in $color-name{
-  $i: index($color-name, $block);
+@each $block in $c-name{
+  $i: index($c-name, $block);
   // GET YOUR COLOR FROM THE nth-PLACE ON THE LIST
     $color: nth($colors, $i);
     .bg-#{$block}{

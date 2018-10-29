@@ -1,9 +1,9 @@
 // GOOGLE MATERIAL EFFECT
 .raised,
 .--raised {
-    box-shadow: 0 16px 38px -12px rgba($color-subtle, 0.6),
-                0 4px 25px 0px rgba($color-subtle, 0.8),
-                0 8px 10px -5px rgba($color-subtle, 0.8);
+    box-shadow: 0 16px 38px -12px rgba($c-subtle, 0.6),
+                0 4px 25px 0px rgba($c-subtle, 0.8),
+                0 8px 10px -5px rgba($c-subtle, 0.8);
 }
 
 // MEDIA ELEMENTS ALIGNMENT
@@ -30,14 +30,14 @@
     left: 0;
     width: 0;
     transform: translateX(-50%);
-    background-color: $color-primary;
+    background-color: $c-primary;
   }
 }
 
 
 .--bottomline:hover,
 .--bottomline.active{
-  color: $color-primary;
+  color: $c-primary;
   text-decoration: none;
 }
 

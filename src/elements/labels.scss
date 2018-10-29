@@ -19,7 +19,7 @@ $dot-size: 5px;
       width: $dot-size;
       height: $dot-size;
       border-radius: 50%;
-      background-color: $color-white;
+      background-color: $c-white;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -52,7 +52,7 @@ $dot-size: 5px;
 
 
 $label-name: primary secondary success warning error information;
-$colors: $color-primary $color-secondary $color-success $color-warning $color-error $color-information;;
+$colors: $c-primary $c-secondary $c-success $c-warning $c-error $c-information;;
 
 @each $label in $label-name{
   $i: index($label-name, $label);
@@ -60,7 +60,7 @@ $colors: $color-primary $color-secondary $color-success $color-warning $color-er
     $color: nth($colors, $i);
     .label--#{$label}{
       background-color: $color;
-      color: $color-white;
+      color: $c-white;
       border: 1px solid $color;
       &::before{
         border-color: transparent $color transparent transparent;

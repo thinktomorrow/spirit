@@ -1,5 +1,5 @@
 .tabs{
-    border: 1px solid $color-subtle;
+    border: 1px solid $c-subtle;
     li, a{
         display: inline-block;
     }
@@ -12,7 +12,7 @@
     border: none;
 }
 .tabs-nav{
-    border-bottom: 1px solid $color-subtle;
+    border-bottom: 1px solid $c-subtle;
 }
 
 .tab-content div {

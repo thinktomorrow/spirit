@@ -17,7 +17,7 @@
 }
 
 $block-name: default primary secondary;
-$colors: $color-font $color-primary $color-secondary;
+$colors: $c-font $c-primary $c-secondary;
 
 @each $block in $block-name{
     $i: index($block-name, $block);
@@ -32,7 +32,7 @@ $colors: $color-font $color-primary $color-secondary;
             &.active{
                 background: $color;
                 span, a{
-                    color: $color-white;
+                    color: $c-white;
                 }
             }
         }
