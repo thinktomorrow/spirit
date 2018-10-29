@@ -8,13 +8,13 @@ table{
         text-align: left;
         tr{
             background-color: transparent!important;
-            color: $color-body!important;
+            color: $c-body!important;
         }
     }
     .table-hover{
         tr:hover{
-            background-color: rgba($color-table, 0.30);
-            color: darken($color-table,30%);
+            background-color: rgba($c-table, 0.30);
+            color: darken($c-table,30%);
             cursor: pointer;
         }
     }
@@ -22,11 +22,11 @@ table{
     td{
         padding: $spacy / 2 $spacy; //same padding as squished
         text-align: left;
-        border-bottom: 1px solid $color-table;
+        border-bottom: 1px solid $c-table;
     }
     a.btn{
         transform: scale(0.75);
-        background-color: $color-white;
+        background-color: $c-white;
     }
     .btn~.btn{
         margin-left: 0;
@@ -34,7 +34,7 @@ table{
 }
 
 $table-name: default primary secondary;
-$colors: $color-table $color-primary $color-secondary;
+$colors: $c-table $c-primary $c-secondary;
 
 @each $table in $table-name{
     $i: index($table-name, $table);

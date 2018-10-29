@@ -6,7 +6,7 @@
 }
 
 $panel-name: default primary secondary success warning error information;
-$colors: $color-subtle $color-primary $color-secondary $color-success $color-warning $color-error $color-information;
+$colors: $c-subtle $c-primary $c-secondary $c-success $c-warning $c-error $c-information;
 
 @each $panel in $panel-name{
     $i: index($panel-name, $panel);
@@ -17,11 +17,11 @@ $colors: $color-subtle $color-primary $color-secondary $color-success $color-war
         .panel-footer,
         .panel-header{
             background-color: rgba($color, 0.75);
-            color: $color-white;
+            color: $c-white;
         }
         &.panel--raised{
             box-shadow: 0 16px 26px -10px rgba($color, 0.56),
-            0 4px 25px 0px rgba($color-black, 0.12),
+            0 4px 25px 0px rgba($c-black, 0.12),
             0 8px 10px -5px rgba($color, 0.2)
         }
     }

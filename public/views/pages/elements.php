@@ -10,7 +10,6 @@
         include('views/elements/inputs.php');
         include('views/elements/toggles.php');
         include('views/elements/panels.php');
-        include('views/elements/listgroups.php');
         include('views/elements/thumbnails.php');
         include('views/elements/tables.php');
         include('views/elements/navbar.php');

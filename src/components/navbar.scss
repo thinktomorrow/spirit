@@ -12,15 +12,15 @@
   text-align: center;
 }
 .nav-pills-primary li{
-  background-color: $color-primary;
+  background-color: $c-primary;
   &:hover{
-    background-color: lighten($color-primary, 5%);
+    background-color: lighten($c-primary, 5%);
   }
 }
 .nav-pills-secondary li{
-  background-color: $color-secondary;
+  background-color: $c-secondary;
   &:hover{
-    background-color: lighten($color-secondary, 5%);
+    background-color: lighten($c-secondary, 5%);
   }
 }
 
@@ -30,7 +30,7 @@
   transition: $transition;
   cursor: pointer;
   a{
-    color: $color-white;
+    color: $c-white;
     text-decoration: none;
   }
   &:hover{
@@ -78,14 +78,14 @@
   float: left;
   min-width: 160px;
   -webkit-background-clip: padding-box;
-  border: 1px solid $color-border;
+  border: 1px solid $c-border;
   border-radius: $dropdown-border-radius;
-  background-color: $color-white;
+  background-color: $c-white;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
   li{
     width: 100%;
     &.dropdown-header{
-      color: $color-subtle;
+      color: $c-subtle;
       font-size: 0.750em;
       padding: 0.75em 2em;
     }
@@ -99,15 +99,15 @@
       color: #333;
       white-space: nowrap;
       &:hover{
-        background-color: $color-primary;
-        color: darken($color-primary, 20%);
+        background-color: $c-primary;
+        color: darken($c-primary, 20%);
         border-radius: $dropdown-border-radius;
         @extend .raised;
       }
     }
     &.divider{
       margin: 5px 0;
-      border-top: 1px dotted $color-subtle;
+      border-top: 1px dotted $c-subtle;
       width: 100%;
     }
   }
